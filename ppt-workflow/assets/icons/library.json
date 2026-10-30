@@ -1,0 +1,1037 @@
+{
+  "version": "icon-library/1",
+  "assets": [
+    {
+      "id": "tabler:school",
+      "title": "学校与教育",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/school.png",
+      "svg_path": "assets/icons/tabler-outline/school.svg",
+      "sha256": "4e5f51f60432b9fd4d2fb11a07c7c510f6e1bf3936c745413d4f2e8c9e25b22e",
+      "svg_sha256": "8817457400645445cc584dcb45315cc01c7bd0dd07e1ac9791fd176328d29edb",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-school",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "education",
+      "tags": [
+        "school",
+        "学校",
+        "教育",
+        "校园",
+        "学习"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/school.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:book",
+      "title": "书籍与阅读",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/book.png",
+      "svg_path": "assets/icons/tabler-outline/book.svg",
+      "sha256": "e7d7083ef0646db6aa48488ce57dbfd0f3bf478113eab6ee95189cd7ea4b0fb9",
+      "svg_sha256": "1f55b129a72746a98e1aaffc55ae7b43d004db036968afb022b3f9fbd7da87c9",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-book",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "education",
+      "tags": [
+        "book",
+        "书籍",
+        "阅读",
+        "学习",
+        "资料"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/book.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:microscope",
+      "title": "显微镜与研究",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/microscope.png",
+      "svg_path": "assets/icons/tabler-outline/microscope.svg",
+      "sha256": "70d275c9c9ef60b6c52eefc5598e40732b125b4e9730a7aec887699d32e4e82d",
+      "svg_sha256": "279fb1bd505b97a6b79514f890bdb6dac4783b06b4b1880ba31e36403bce1a66",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-microscope",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "research",
+      "tags": [
+        "microscope",
+        "实验",
+        "研究",
+        "科学",
+        "检验"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/microscope.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:flask",
+      "title": "烧瓶与实验",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/flask.png",
+      "svg_path": "assets/icons/tabler-outline/flask.svg",
+      "sha256": "ffcd52c464cc548741233c789146f92487f55a8fadcb5108a198edd08e9bc8e3",
+      "svg_sha256": "28459e1fcdf7e9d8b0664aa3fe350995c4df3dda6ee9823351df3ea0f5714d17",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-flask",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "research",
+      "tags": [
+        "flask",
+        "实验",
+        "研究",
+        "化学",
+        "试验"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/flask.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:users",
+      "title": "团队与协作",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/users.png",
+      "svg_path": "assets/icons/tabler-outline/users.svg",
+      "sha256": "861d206d6eaa1b340c29febda40435267be38a802d36fe22001d5a7791675ae8",
+      "svg_sha256": "a9892bcba1adad20184c0b50641b1a96a56fb9ef5135ff60462c664874021cc3",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-users",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "team",
+      "tags": [
+        "users",
+        "团队",
+        "协作",
+        "人员",
+        "合作"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/users.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:route",
+      "title": "路线与步骤",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/route.png",
+      "svg_path": "assets/icons/tabler-outline/route.svg",
+      "sha256": "e967ab9e39f3ed7dcf2c57ee3eb61928e638b6ec47351c06d9e18266868571cb",
+      "svg_sha256": "383e4d1290ea525748767973343b3f20ea979b3638f9b3896b417e032c6ebe6f",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-route",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "process",
+      "tags": [
+        "route",
+        "流程",
+        "路线",
+        "步骤",
+        "路径"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/route.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:target",
+      "title": "目标与任务",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/target.png",
+      "svg_path": "assets/icons/tabler-outline/target.svg",
+      "sha256": "628ed9a673088a82639c898c2dbc58e43a6cafe840d055aec28b2d092ffeacda",
+      "svg_sha256": "1874e1180c0fbe2a570c59986adfbed4e4eb9e839f7dd100bc871e08f5aabb1d",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-target",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "process",
+      "tags": [
+        "target",
+        "目标",
+        "任务",
+        "行动",
+        "规划"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/target.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:chart-bar",
+      "title": "柱图概念",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/chart-bar.png",
+      "svg_path": "assets/icons/tabler-outline/chart-bar.svg",
+      "sha256": "9c3047bc9cc099745599a41ff67d8a205ef8b986dc317f8fbeb69882f984ae9e",
+      "svg_sha256": "ca1d3717da5007a46a2cf7521f9df558fd6e159874696dd400626809ead41162",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-chart-bar",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "data",
+      "tags": [
+        "chart-bar",
+        "数据",
+        "柱图",
+        "统计",
+        "比较"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/chart-bar.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:chart-line",
+      "title": "趋势概念",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/chart-line.png",
+      "svg_path": "assets/icons/tabler-outline/chart-line.svg",
+      "sha256": "da81427042c471e3df475090c8c2c1acd487c1be2f963c4bedd706d0b6f99792",
+      "svg_sha256": "91ae4d96cfc8926df2c715438bd539da2703dc158828336c227ce23e62ca7cb4",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-chart-line",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "data",
+      "tags": [
+        "chart-line",
+        "数据",
+        "趋势",
+        "折线",
+        "增长"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/chart-line.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:chart-pie",
+      "title": "占比概念",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/chart-pie.png",
+      "svg_path": "assets/icons/tabler-outline/chart-pie.svg",
+      "sha256": "2ea821405a7e3a4258282b6f3c6658efbf4e20a9e0e84578ea11c75e1e4b400e",
+      "svg_sha256": "cf800f8dc1b3d6474dc79f6914c168b299e67752d1ff6e6bf653774d185e5f1f",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-chart-pie",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "data",
+      "tags": [
+        "chart-pie",
+        "数据",
+        "占比",
+        "结构",
+        "比例"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/chart-pie.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:database",
+      "title": "数据存储",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/database.png",
+      "svg_path": "assets/icons/tabler-outline/database.svg",
+      "sha256": "405d99fd035c0fd07d4b296086767960e67cd9aa763a2037c1578aab88960c15",
+      "svg_sha256": "7cdcca11c1555d48e19c2fcd2fce4420cbec734f3fa3d28274f8167a796ee0d6",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-database",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "data",
+      "tags": [
+        "database",
+        "数据",
+        "存储",
+        "数据库",
+        "资料"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/database.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:file-text",
+      "title": "文档与报告",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/file-text.png",
+      "svg_path": "assets/icons/tabler-outline/file-text.svg",
+      "sha256": "e5de9fa26a0f4eb5eb090e94fc6de047e551642f8e8b8f13e22175a911e14b33",
+      "svg_sha256": "afc807ae397fc2419ac5cbca6a1e085a5f761277397682cbad3d907ca78693f5",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-file-text",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "research",
+      "tags": [
+        "file-text",
+        "文档",
+        "报告",
+        "资料",
+        "整理"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/file-text.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:checklist",
+      "title": "清单与审核",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/checklist.png",
+      "svg_path": "assets/icons/tabler-outline/checklist.svg",
+      "sha256": "ea0775e75854d87f982991189a6f1ed536301602564b55f27acd807b50fd8407",
+      "svg_sha256": "7e6753a32e2207411201877467fb7b3c52645338a09c6612478e300d99ada973",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-checklist",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "process",
+      "tags": [
+        "checklist",
+        "清单",
+        "审核",
+        "检查",
+        "验收"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/checklist.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:calendar",
+      "title": "日历与计划",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/calendar.png",
+      "svg_path": "assets/icons/tabler-outline/calendar.svg",
+      "sha256": "0c090244415894af31d62d2c795a8299c698fde5d60b4efe20070e2e95ac2ff2",
+      "svg_sha256": "4861f170e9b1fa72eaa7cdefc3c7ca64ca6a10b9c2e3a13e1aceb4725f266d8d",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-calendar",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "process",
+      "tags": [
+        "calendar",
+        "日历",
+        "计划",
+        "时间",
+        "日期"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/calendar.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:clock",
+      "title": "时钟与时长",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/clock.png",
+      "svg_path": "assets/icons/tabler-outline/clock.svg",
+      "sha256": "d895e9c7dd8dd6890873d19c4a4e7299f4ff1c50aea36009855cfc80b5681fc4",
+      "svg_sha256": "971b0b2d3b5b17ae240cd3aac1a09710ab680d8c41900f1a37a0e430994d7fda",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-clock",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "process",
+      "tags": [
+        "clock",
+        "时间",
+        "时长",
+        "效率",
+        "进度"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/clock.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:tools",
+      "title": "工具与实施",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/tools.png",
+      "svg_path": "assets/icons/tabler-outline/tools.svg",
+      "sha256": "c8b45b5edd3e562158af61d298aff99b2566807a3886798d4d8431edd101bab6",
+      "svg_sha256": "d1acf22c4771a3ffd68791289c86ec8d78faac128d32cc72876693c3d32ea040",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-tools",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "tools",
+      "tags": [
+        "tools",
+        "工具",
+        "实施",
+        "建设",
+        "维护"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/tools.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:bulb",
+      "title": "想法与创新",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/bulb.png",
+      "svg_path": "assets/icons/tabler-outline/bulb.svg",
+      "sha256": "5212b79434720d3bbdc3afccdbf6198c8db2fb5587cdf19bd08d3eee0bb764a3",
+      "svg_sha256": "4f4688352f60a3d65ca9abb8cebc9fc3c3d3b9f2fbc47784b44b22008a69f0fc",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-bulb",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "tools",
+      "tags": [
+        "bulb",
+        "想法",
+        "创新",
+        "方案",
+        "思路"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/bulb.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:presentation",
+      "title": "演示与汇报",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/presentation.png",
+      "svg_path": "assets/icons/tabler-outline/presentation.svg",
+      "sha256": "f8da0fb6ce2e4b4f65d976c79f7f1ed07d56b7dac645bd586fc9e97953dc2c9e",
+      "svg_sha256": "076b83103b75ecfc5bb4cb441e16b610817d84a22a6adb1cefb7118b2e78db65",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-presentation",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "education",
+      "tags": [
+        "presentation",
+        "演示",
+        "汇报",
+        "讲解",
+        "课堂"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/presentation.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:search",
+      "title": "搜索与查找",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/search.png",
+      "svg_path": "assets/icons/tabler-outline/search.svg",
+      "sha256": "82dd3797d07f5b91e0b4ed378d0ace9d33f7d62bc79a6c81316c18b91489c2a3",
+      "svg_sha256": "3dd53b9606283dfa0adcb0b10a7d9a4432369d4bebcfacf67f80fbe358381c34",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-search",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "research",
+      "tags": [
+        "search",
+        "检索",
+        "搜索",
+        "查找",
+        "调研"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/search.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:shield-check",
+      "title": "安全与质量",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/shield-check.png",
+      "svg_path": "assets/icons/tabler-outline/shield-check.svg",
+      "sha256": "b4918a8468e7dfdce0912b11ed73898307d90771f3d6d6a7821cbed253dd0fd3",
+      "svg_sha256": "7d12a28bb5b8ba69445a94118aa96b57a513f8d45e23974665f25c597eaccc30",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-shield-check",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "process",
+      "tags": [
+        "shield-check",
+        "安全",
+        "质量",
+        "审核",
+        "保障"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/shield-check.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:leaf",
+      "title": "自然与绿色",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/leaf.png",
+      "svg_path": "assets/icons/tabler-outline/leaf.svg",
+      "sha256": "77e0bd873f51b1df062c72649ba31fc48737cdc9a9b5f9c6d38ced0059040b48",
+      "svg_sha256": "ca3b92ae35e9b8e7e94746cc4e51301ee2f85b4760a03a62250eb418f39a063a",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-leaf",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "environment",
+      "tags": [
+        "leaf",
+        "绿色",
+        "自然",
+        "环境",
+        "植物"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/leaf.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:heart-handshake",
+      "title": "互助与服务",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/heart-handshake.png",
+      "svg_path": "assets/icons/tabler-outline/heart-handshake.svg",
+      "sha256": "0287d58f0b97b935ac77c690ab79ea9fd9dc270eb6507033611ba0396ddd49f8",
+      "svg_sha256": "4e09c9d7f50207b355ce2d8c2ca9249d78a33baa18d213071ed85771705995a3",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-heart-handshake",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "team",
+      "tags": [
+        "heart-handshake",
+        "互助",
+        "服务",
+        "协作",
+        "公益"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/heart-handshake.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:arrow-right",
+      "title": "方向与连接",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/arrow-right.png",
+      "svg_path": "assets/icons/tabler-outline/arrow-right.svg",
+      "sha256": "ad78a0b339e4f964a916d4a99cf86bdc0f6b2f5923e6911c349b3d37ea81c467",
+      "svg_sha256": "7e602a26d53e78ceb788f38cb89ec1d1091130c56d7829ca294b7ed0642277c6",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-arrow-right",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "process",
+      "tags": [
+        "arrow-right",
+        "箭头",
+        "方向",
+        "连接",
+        "下一步"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/arrow-right.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    },
+    {
+      "id": "tabler:award",
+      "title": "成果与荣誉",
+      "type": "icon",
+      "path": "assets/icons/tabler-outline/award.png",
+      "svg_path": "assets/icons/tabler-outline/award.svg",
+      "sha256": "09c9edb6aed16944b527618274f7c978582ab6e54c7ae4e90a8d586ef61b6113",
+      "svg_sha256": "9ed9dfd4bb9c49a2ee011fd2900b316a87fd4fab648d7f03f51093113a106874",
+      "width_px": 256,
+      "height_px": 256,
+      "transparent": true,
+      "source_id": "tabler-award",
+      "license_note": "MIT; retain supplied Tabler copyright and license notice.",
+      "origin_record": "assets/icons/tabler-outline/provenance.json",
+      "style_family": "tabler-outline",
+      "category": "education",
+      "tags": [
+        "award",
+        "成果",
+        "荣誉",
+        "评价",
+        "奖励"
+      ],
+      "uses": [
+        "icon",
+        "concept",
+        "process"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "统一线性图标，用于解释概念或流程节点；以实际内容形成主视觉。",
+      "limitations": [
+        "图标不是统计数据或现场证据",
+        "PPT使用透明PNG，原始SVG另存；不声称已转成原生形状"
+      ],
+      "aliases": [],
+      "upstream_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons/outline/award.svg",
+      "upstream_commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d"
+    }
+  ]
+}

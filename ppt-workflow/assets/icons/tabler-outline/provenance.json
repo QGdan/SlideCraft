@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/tabler/tabler-icons",
+  "commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d",
+  "license_url": "https://raw.githubusercontent.com/tabler/tabler-icons/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/LICENSE",
+  "license_sha256": "b740a1d46122672da62833e97f7e7c8a13fa85cbc7445b584b297cc00dde93db",
+  "translation": "Project-curated Chinese titles and tags",
+  "preview": "256px transparent PNG rendered from original SVG with bundled sharp; no runtime sharp dependency",
+  "count": 24
+}

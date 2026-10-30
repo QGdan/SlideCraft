@@ -1,0 +1,5 @@
+interface:
+  display_name: "PPT 资料与大纲"
+  short_description: "整理、核对 PPT 资料和事实来源，设计叙事与逐页大纲；适用于已有需求后研究内容，不负责模板绘制或成品视觉审核"
+  default_prompt: "使用 $ppt-outline 完成本阶段工作，提交可审核产物后交接。"
+

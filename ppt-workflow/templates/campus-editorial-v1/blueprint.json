@@ -1,0 +1,290 @@
+{
+  "version": "template-blueprint/1",
+  "id": "campus-editorial-v1",
+  "name": "校园服务 · 编辑式场景模板",
+  "canvas": {
+    "width": 13.333333,
+    "height": 7.5,
+    "unit": "in"
+  },
+  "font": "Microsoft YaHei",
+  "typography": {
+    "cover": 42,
+    "title": 32,
+    "body": 22,
+    "diagram": 18,
+    "kicker": 14,
+    "footer": 11,
+    "metric": 32
+  },
+  "variants": {
+    "ivory": {
+      "background": "F6F2EA",
+      "ink": "183247",
+      "accent": "8C2633",
+      "muted": "5E6B75",
+      "chart_muted": "A2ADB3",
+      "light": "DDD5C9"
+    },
+    "ink": {
+      "background": "183247",
+      "ink": "F6F2EA",
+      "accent": "D6A978",
+      "muted": "BDCAD1",
+      "chart_muted": "718894",
+      "light": "38566A"
+    }
+  },
+  "layouts": {
+    "scene_cover": {
+      "carrier": "scene",
+      "required_fields": [
+        "title",
+        "subtitle",
+        "kicker",
+        "footer"
+      ],
+      "field_limits": {
+        "title": 28,
+        "subtitle": 54,
+        "kicker": 32,
+        "footer": 32
+      },
+      "image_required": true,
+      "regions": {
+        "title": [
+          0.8,
+          1.75,
+          5.35,
+          1.8
+        ],
+        "subtitle": [
+          0.83,
+          4.0,
+          4.9,
+          1.1
+        ],
+        "kicker": [
+          0.83,
+          0.88,
+          5.4,
+          0.4
+        ],
+        "image": [
+          0,
+          0,
+          13.333333,
+          7.5
+        ],
+        "footer": [
+          0.83,
+          6.92,
+          5.4,
+          0.27
+        ]
+      }
+    },
+    "evidence_focus": {
+      "carrier": "chart",
+      "required_fields": [
+        "title",
+        "subtitle",
+        "metric",
+        "body",
+        "footer"
+      ],
+      "field_limits": {
+        "title": 30,
+        "subtitle": 65,
+        "metric": 18,
+        "body": 48,
+        "footer": 65
+      },
+      "max_categories": 6,
+      "max_series": 2,
+      "regions": {
+        "title": [
+          0.8,
+          0.55,
+          11.7,
+          0.82
+        ],
+        "subtitle": [
+          0.83,
+          1.52,
+          11.5,
+          0.5
+        ],
+        "chart": [
+          0.55,
+          2.35,
+          8.4,
+          3.85
+        ],
+        "metric": [
+          9.4,
+          2.85,
+          3.1,
+          0.95
+        ],
+        "body": [
+          9.4,
+          4.16,
+          3.0,
+          1.55
+        ],
+        "footer": [
+          0.83,
+          6.92,
+          11.4,
+          0.27
+        ]
+      }
+    },
+    "comparison_focus": {
+      "carrier": "comparison",
+      "required_fields": [
+        "title",
+        "subtitle",
+        "body",
+        "footer"
+      ],
+      "field_limits": {
+        "title": 30,
+        "subtitle": 65,
+        "body": 48,
+        "footer": 65
+      },
+      "regions": {
+        "title": [
+          0.8,
+          0.55,
+          11.7,
+          0.82
+        ],
+        "subtitle": [
+          0.83,
+          1.52,
+          11.5,
+          0.5
+        ],
+        "exhibit": [
+          0.85,
+          2.65,
+          11.75,
+          2.55
+        ],
+        "body": [
+          0.85,
+          5.75,
+          11.7,
+          0.65
+        ],
+        "footer": [
+          0.83,
+          6.92,
+          11.4,
+          0.27
+        ]
+      }
+    },
+    "photo_process": {
+      "carrier": "action",
+      "required_fields": [
+        "title",
+        "subtitle",
+        "footer"
+      ],
+      "field_limits": {
+        "title": 27,
+        "subtitle": 58,
+        "footer": 65
+      },
+      "image_required": true,
+      "regions": {
+        "title": [
+          0.8,
+          0.9,
+          6.05,
+          1.25
+        ],
+        "subtitle": [
+          0.83,
+          2.35,
+          5.95,
+          1.0
+        ],
+        "image": [
+          7.55,
+          0.58,
+          4.95,
+          3.05
+        ],
+        "exhibit": [
+          0.85,
+          4.15,
+          11.75,
+          2.25
+        ],
+        "footer": [
+          0.83,
+          6.92,
+          11.4,
+          0.27
+        ]
+      }
+    },
+    "photo_process_side": {
+      "carrier": "action",
+      "required_fields": [
+        "title",
+        "subtitle",
+        "footer"
+      ],
+      "field_limits": {
+        "title": 27,
+        "subtitle": 58,
+        "footer": 65
+      },
+      "image_required": true,
+      "regions": {
+        "title": [
+          0.8,
+          0.65,
+          6.4,
+          1.25
+        ],
+        "subtitle": [
+          0.83,
+          2.0,
+          6.4,
+          1.1
+        ],
+        "image": [
+          7.75,
+          0.65,
+          4.75,
+          5.9
+        ],
+        "exhibit": [
+          0.85,
+          3.2,
+          6.55,
+          3.2
+        ],
+        "footer": [
+          0.83,
+          6.92,
+          11.4,
+          0.27
+        ]
+      },
+      "typography_overrides": {
+        "title": 30,
+        "body": 20
+      }
+    }
+  },
+  "asset_policy": "Scene images are replaceable raster layers; all actual text, chart data and process nodes stay native. AI scenes are hypothetical and labelled.",
+  "provenance": "Original blueprint; research methods only, no copied upstream template code or assets."
+}

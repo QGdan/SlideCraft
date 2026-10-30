@@ -1,0 +1,266 @@
+{
+  "version": "trend-annotation-request/1",
+  "chart_request": {
+    "version": "chart-style-request/1",
+    "style_id": "focus-trend",
+    "slide_id": "s3",
+    "element_id": "trend-notes",
+    "canvas": {
+      "width": 13.333,
+      "height": 7.5,
+      "unit": "in"
+    },
+    "rect": {
+      "x": 0.75,
+      "y": 2.3,
+      "w": 11.85,
+      "h": 4.3
+    },
+    "theme": {
+      "font": "Microsoft YaHei",
+      "colors": {
+        "ink": "183341",
+        "accent": "9B3045",
+        "muted": "657783",
+        "secondary": "8498A2",
+        "background": "F8F5EE"
+      }
+    },
+    "chart": {
+      "kind": "line",
+      "categories": [
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06"
+      ],
+      "series": [
+        {
+          "name": "方案甲",
+          "values": [
+            48,
+            52,
+            58,
+            63,
+            70,
+            78
+          ],
+          "fact_ids": [
+            "line-a-0",
+            "line-a-1",
+            "line-a-2",
+            "line-a-3",
+            "line-a-4",
+            "line-a-5"
+          ]
+        },
+        {
+          "name": "方案乙",
+          "values": [
+            45,
+            47,
+            50,
+            54,
+            58,
+            62
+          ],
+          "fact_ids": [
+            "line-b-0",
+            "line-b-1",
+            "line-b-2",
+            "line-b-3",
+            "line-b-4",
+            "line-b-5"
+          ]
+        }
+      ],
+      "unit": "份",
+      "semantics": {
+        "task": "trend",
+        "category_order": "chronological",
+        "reason": "有序月份的双系列示意趋势"
+      },
+      "options": {
+        "emphasize_series": [
+          "方案甲"
+        ]
+      }
+    },
+    "sources": [
+      {
+        "id": "chart_demo",
+        "kind": "demo",
+        "locator": "examples/chart-demo-source.json",
+        "is_demo": true
+      }
+    ],
+    "facts": [
+      {
+        "id": "line-a-0",
+        "source_id": "chart_demo",
+        "value": 48,
+        "unit": "份",
+        "scope": "月度示意记录",
+        "comparison_group": "line-months",
+        "period": "synthetic-2026",
+        "metric": "line-a-0",
+        "locator": "/facts/line-a-0",
+        "is_demo": true
+      },
+      {
+        "id": "line-a-1",
+        "source_id": "chart_demo",
+        "value": 52,
+        "unit": "份",
+        "scope": "月度示意记录",
+        "comparison_group": "line-months",
+        "period": "synthetic-2026",
+        "metric": "line-a-1",
+        "locator": "/facts/line-a-1",
+        "is_demo": true
+      },
+      {
+        "id": "line-a-2",
+        "source_id": "chart_demo",
+        "value": 58,
+        "unit": "份",
+        "scope": "月度示意记录",
+        "comparison_group": "line-months",
+        "period": "synthetic-2026",
+        "metric": "line-a-2",
+        "locator": "/facts/line-a-2",
+        "is_demo": true
+      },
+      {
+        "id": "line-a-3",
+        "source_id": "chart_demo",
+        "value": 63,
+        "unit": "份",
+        "scope": "月度示意记录",
+        "comparison_group": "line-months",
+        "period": "synthetic-2026",
+        "metric": "line-a-3",
+        "locator": "/facts/line-a-3",
+        "is_demo": true
+      },
+      {
+        "id": "line-a-4",
+        "source_id": "chart_demo",
+        "value": 70,
+        "unit": "份",
+        "scope": "月度示意记录",
+        "comparison_group": "line-months",
+        "period": "synthetic-2026",
+        "metric": "line-a-4",
+        "locator": "/facts/line-a-4",
+        "is_demo": true
+      },
+      {
+        "id": "line-a-5",
+        "source_id": "chart_demo",
+        "value": 78,
+        "unit": "份",
+        "scope": "月度示意记录",
+        "comparison_group": "line-months",
+        "period": "synthetic-2026",
+        "metric": "line-a-5",
+        "locator": "/facts/line-a-5",
+        "is_demo": true
+      },
+      {
+        "id": "line-b-0",
+        "source_id": "chart_demo",
+        "value": 45,
+        "unit": "份",
+        "scope": "月度示意记录",
+        "comparison_group": "line-months",
+        "period": "synthetic-2026",
+        "metric": "line-b-0",
+        "locator": "/facts/line-b-0",
+        "is_demo": true
+      },
+      {
+        "id": "line-b-1",
+        "source_id": "chart_demo",
+        "value": 47,
+        "unit": "份",
+        "scope": "月度示意记录",
+        "comparison_group": "line-months",
+        "period": "synthetic-2026",
+        "metric": "line-b-1",
+        "locator": "/facts/line-b-1",
+        "is_demo": true
+      },
+      {
+        "id": "line-b-2",
+        "source_id": "chart_demo",
+        "value": 50,
+        "unit": "份",
+        "scope": "月度示意记录",
+        "comparison_group": "line-months",
+        "period": "synthetic-2026",
+        "metric": "line-b-2",
+        "locator": "/facts/line-b-2",
+        "is_demo": true
+      },
+      {
+        "id": "line-b-3",
+        "source_id": "chart_demo",
+        "value": 54,
+        "unit": "份",
+        "scope": "月度示意记录",
+        "comparison_group": "line-months",
+        "period": "synthetic-2026",
+        "metric": "line-b-3",
+        "locator": "/facts/line-b-3",
+        "is_demo": true
+      },
+      {
+        "id": "line-b-4",
+        "source_id": "chart_demo",
+        "value": 58,
+        "unit": "份",
+        "scope": "月度示意记录",
+        "comparison_group": "line-months",
+        "period": "synthetic-2026",
+        "metric": "line-b-4",
+        "locator": "/facts/line-b-4",
+        "is_demo": true
+      },
+      {
+        "id": "line-b-5",
+        "source_id": "chart_demo",
+        "value": 62,
+        "unit": "份",
+        "scope": "月度示意记录",
+        "comparison_group": "line-months",
+        "period": "synthetic-2026",
+        "metric": "line-b-5",
+        "locator": "/facts/line-b-5",
+        "is_demo": true
+      }
+    ],
+    "source_refs": [
+      "chart_demo"
+    ],
+    "callout": {
+      "label": "六月 · 方案甲",
+      "value_template": "{fact:line-a-5}",
+      "body_template": "同期方案乙 {fact:line-b-5}\n趋势仅描述这组示意数据"
+    },
+    "source_note": "来源：内部合成验证数据，仅用于版式与绑定检查。",
+    "reason": "用合成月度记录展示关键月份说明，不推断真实设备或巡检效果。"
+  },
+  "annotations": [
+    {
+      "category": "2026-01",
+      "text_template": "方案甲 {fact:line-a-0}"
+    },
+    {
+      "category": "2026-06",
+      "text_template": "方案甲 {fact:line-a-5}"
+    }
+  ]
+}

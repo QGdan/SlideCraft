@@ -1,0 +1,5 @@
+{
+  "project_root": "../..",
+  "stage": "intake",
+  "binding": "project-local-runtime"
+}

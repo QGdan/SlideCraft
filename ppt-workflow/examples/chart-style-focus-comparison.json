@@ -1,0 +1,151 @@
+{
+  "version": "chart-style-request/1",
+  "style_id": "focus-comparison",
+  "slide_id": "s1",
+  "element_id": "s1-evidence",
+  "canvas": {
+    "width": 13.333,
+    "height": 7.5,
+    "unit": "in"
+  },
+  "rect": {
+    "x": 0.75,
+    "y": 2.3,
+    "w": 11.85,
+    "h": 4.3
+  },
+  "theme": {
+    "font": "Microsoft YaHei",
+    "colors": {
+      "ink": "162E3B",
+      "accent": "9B3045",
+      "muted": "5F6F78",
+      "secondary": "8498A2",
+      "background": "F8F5EE"
+    }
+  },
+  "chart": {
+    "kind": "bar",
+    "categories": [
+      "方案甲",
+      "方案乙",
+      "方案丙",
+      "方案丁"
+    ],
+    "series": [
+      {
+        "name": "选择率",
+        "values": [
+          68,
+          48,
+          35,
+          20
+        ],
+        "fact_ids": [
+          "bar-a",
+          "bar-b",
+          "bar-c",
+          "bar-d"
+        ]
+      }
+    ],
+    "unit": "%",
+    "semantics": {
+      "task": "comparison",
+      "category_order": "unordered",
+      "reason": "同题示意类别比较，原始顺序保持不变"
+    },
+    "options": {
+      "emphasize_categories": [
+        "方案甲"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "id": "chart_demo",
+      "kind": "demo",
+      "locator": "examples/chart-demo-source.json",
+      "is_demo": true
+    }
+  ],
+  "facts": [
+    {
+      "id": "bar-a",
+      "source_id": "chart_demo",
+      "value": 68,
+      "unit": "%",
+      "scope": "方案甲",
+      "comparison_group": "same-question",
+      "period": "synthetic-2026",
+      "metric": "bar-a",
+      "locator": "/facts/bar-a",
+      "is_demo": true
+    },
+    {
+      "id": "bar-b",
+      "source_id": "chart_demo",
+      "value": 48,
+      "unit": "%",
+      "scope": "方案乙",
+      "comparison_group": "same-question",
+      "period": "synthetic-2026",
+      "metric": "bar-b",
+      "locator": "/facts/bar-b",
+      "is_demo": true
+    },
+    {
+      "id": "bar-c",
+      "source_id": "chart_demo",
+      "value": 35,
+      "unit": "%",
+      "scope": "方案丙",
+      "comparison_group": "same-question",
+      "period": "synthetic-2026",
+      "metric": "bar-c",
+      "locator": "/facts/bar-c",
+      "is_demo": true
+    },
+    {
+      "id": "bar-d",
+      "source_id": "chart_demo",
+      "value": 20,
+      "unit": "%",
+      "scope": "方案丁",
+      "comparison_group": "same-question",
+      "period": "synthetic-2026",
+      "metric": "bar-d",
+      "locator": "/facts/bar-d",
+      "is_demo": true
+    },
+    {
+      "id": "bar-gap",
+      "source_id": "chart_demo",
+      "value": 20,
+      "unit": "百分点",
+      "scope": "甲乙同题比较",
+      "comparison_group": "same-question",
+      "period": "synthetic-2026",
+      "metric": "bar-gap",
+      "locator": "/facts/bar-gap",
+      "is_demo": true,
+      "formula": {
+        "op": "subtract",
+        "inputs": [
+          "bar-a",
+          "bar-b"
+        ]
+      }
+    }
+  ],
+  "source_refs": [
+    "chart_demo"
+  ],
+  "callout": {
+    "label": "甲乙选择率差值",
+    "value_template": "{fact:bar-gap}",
+    "body_template": "方案甲 {fact:bar-a}\n方案乙 {fact:bar-b}"
+  },
+  "source_note": "来源：内部合成验证数据，仅用于版式与绑定检查。",
+  "reason": "展示原生图表、事实模板结论与来源的共同排版；不作为业务证据"
+}

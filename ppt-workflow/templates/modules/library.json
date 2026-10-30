@@ -1,0 +1,86 @@
+{
+  "version": "native-modules/1",
+  "modules": [
+    {
+      "id": "native-process",
+      "kind": "process",
+      "title": "流程步骤",
+      "tags": [
+        "流程",
+        "步骤",
+        "方法",
+        "过程"
+      ],
+      "min_items": 2,
+      "max_items": 4,
+      "description": "按顺序展示步骤和说明，使用原生箭头连接。",
+      "preview_path": "templates/modules/previews/native-process.png",
+      "preview_sha256": "d1c958069aca08c9470232bd516626d39a0b10b88624f1c82c4810fefd7af2ce",
+      "preview_page": 1,
+      "preview_source_sha256": "07c2696977c44b60cd8c17c43e7cbea30021c88221a2af916d4f2f98b4906c17",
+      "example_request": "templates/modules/examples/native-process.json",
+      "preview_note": "实际PowerPoint整页技术样件；右侧人物为独立插画，不属于模块必需对象"
+    },
+    {
+      "id": "native-comparison",
+      "kind": "comparison",
+      "title": "双侧对比",
+      "tags": [
+        "对比",
+        "比较",
+        "方案",
+        "差异"
+      ],
+      "min_items": 2,
+      "max_items": 2,
+      "description": "同维度两侧对照；原生分隔线不暗示因果。",
+      "preview_path": "templates/modules/previews/native-comparison.png",
+      "preview_sha256": "dd2d184ac0680955f4eb39c70a805cec32b366d1706b00c2c6658bf8fcef5a4a",
+      "preview_page": 2,
+      "preview_source_sha256": "07c2696977c44b60cd8c17c43e7cbea30021c88221a2af916d4f2f98b4906c17",
+      "example_request": "templates/modules/examples/native-comparison.json",
+      "preview_note": "实际PowerPoint整页技术样件；右侧人物为独立插画，不属于模块必需对象"
+    },
+    {
+      "id": "native-action",
+      "kind": "action",
+      "title": "行动与产出",
+      "tags": [
+        "行动",
+        "任务",
+        "产出",
+        "实施"
+      ],
+      "min_items": 2,
+      "max_items": 4,
+      "description": "每一步保留可核对的产出，使用原生文本与箭头。",
+      "preview_path": "templates/modules/previews/native-action.png",
+      "preview_sha256": "9d0c0f6518394a13600257ecca11ce8e1de38cac2031e0f01c6bca545ebf71a1",
+      "preview_page": 3,
+      "preview_source_sha256": "07c2696977c44b60cd8c17c43e7cbea30021c88221a2af916d4f2f98b4906c17",
+      "example_request": "templates/modules/examples/native-action.json",
+      "preview_note": "实际PowerPoint整页技术样件；右侧人物为独立插画，不属于模块必需对象"
+    },
+    {
+      "id": "native-timeline",
+      "kind": "timeline",
+      "title": "里程碑时间线",
+      "tags": [
+        "时间线",
+        "进度",
+        "计划",
+        "日期",
+        "里程碑"
+      ],
+      "min_items": 2,
+      "max_items": 4,
+      "description": "ISO年月升序排列的里程碑；文字、时间轴及刻度均为原生对象。",
+      "preview_path": "templates/modules/previews/native-timeline.png",
+      "preview_sha256": "2c8557e2a78cc8deb2cdf981321ce4c516a22cddf80c544daba4829151a055e5",
+      "preview_page": 4,
+      "preview_source_sha256": "07c2696977c44b60cd8c17c43e7cbea30021c88221a2af916d4f2f98b4906c17",
+      "example_request": "templates/modules/examples/native-timeline.json",
+      "preview_note": "实际PowerPoint整页技术样件；右侧人物为独立插画，不属于模块必需对象"
+    }
+  ]
+}

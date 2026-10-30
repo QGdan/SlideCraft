@@ -1,0 +1,5 @@
+interface:
+  display_name: "PPT 模板选择与创建"
+  short_description: "按需求在 WPS 搜索筛选模板、检查原生编辑性，并制作整套一致的代表样页"
+  default_prompt: "使用 $ppt-template 按需求在 WPS 中寻找合适模板，检查后制作代表样页供我审核。"
+

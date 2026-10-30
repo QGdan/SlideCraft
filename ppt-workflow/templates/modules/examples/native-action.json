@@ -1,0 +1,41 @@
+{
+  "version": "module-request/1",
+  "module_id": "native-action",
+  "element_id": "s3-module",
+  "slide_id": "s3",
+  "rect": {
+    "x": 0.8,
+    "y": 2.8,
+    "w": 11.7,
+    "h": 3.2
+  },
+  "theme": {
+    "font": "Microsoft YaHei",
+    "colors": {
+      "ink": "162E3B",
+      "accent": "9B3045",
+      "muted": "5F6F78"
+    }
+  },
+  "items": [
+    {
+      "title": "列明需求",
+      "body": "确定本页图文任务",
+      "output": "需求清单"
+    },
+    {
+      "title": "筛选素材",
+      "body": "按主题与风格选图",
+      "output": "选材记录"
+    },
+    {
+      "title": "查看效果",
+      "body": "用真实导图检查",
+      "output": "修改记录"
+    }
+  ],
+  "source_refs": [
+    "workflow"
+  ],
+  "reason": "验证本模块原生编辑对象、内容对应与实际排版"
+}

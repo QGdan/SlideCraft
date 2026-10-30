@@ -1,0 +1,69 @@
+# Dependencies and local environments (keep on this machine)
+node_modules/
+.venv/
+.mcp-venv/
+venv/
+.npm-cache/
+.pip-cache/
+.npm/
+.tmp/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated jobs and machine-specific installation reports
+/dist/
+/[0-9][0-9]-*/
+/skill/
+/当前工作流.md
+/cleanup-deleted-20261031.json
+/github-upload-inventory-20261031.json
+/仓库整理说明-20261031.md
+/ppt-workflow/experiments/
+/ppt-workflow/assets/online-cache/
+/ppt-workflow/templates/imported/*
+!/ppt-workflow/templates/imported/README.md
+/ppt-workflow/runs/
+/ppt-workflow/*install-report.json
+/ppt-workflow/installation.json
+
+# Historical copies and downloaded upstream repositories
+installed-skills-before/
+修改前备份/
+source-before/
+upstreams/
+upstreams-host/
+/06-实施与阶段审核/**/snapshot/
+/06-实施与阶段审核/**/code-snapshot/
+
+# Locally packaged distributions; retain sources and license notices
+*.zip
+*.7z
+*.tar.gz
+*.tgz
+!/ppt-workflow/tests/fixtures/*.zip
+
+# Local credentials; sanitized examples may be committed
+.env
+.env.*
+!.env.example
+!.env.sample
+.npmrc
+.pypirc
+*.key
+*.pfx
+*.p12
+credentials.json
+
+# Editor, OS, and Office temporary files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.tmp
+*.swp

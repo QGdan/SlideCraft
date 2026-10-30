@@ -1,0 +1,185 @@
+{
+  "version": "visual-library/1",
+  "curation": "Manually viewed existing project assets; duplicate bytes represented as aliases, originals retained.",
+  "assets": [
+    {
+      "id": "campus-service",
+      "title": "校园协作服务场景",
+      "path": "assets/campus-editorial-v1/campus-service.png",
+      "sha256": "658a4ca792647976efc4551c287c99cbf7d64c3bd64ea7663697f2fdbe06f6aa",
+      "width_px": 1672,
+      "height_px": 941,
+      "transparent": false,
+      "source_id": "local-generated-campus-service",
+      "license_note": "Project-generated illustration according to retained host generation records; no exclusive-rights or universal commercial-clearance claim.",
+      "origin_record": "assets/campus-editorial-v1/provenance.json",
+      "style_family": "campus-editorial",
+      "tags": [
+        "校园",
+        "劳动",
+        "公共服务",
+        "协作"
+      ],
+      "uses": [
+        "cover",
+        "scene",
+        "process"
+      ],
+      "negative_space": "left",
+      "recommended_focus": {
+        "x": 0.9,
+        "y": 0.5
+      },
+      "preferred_fit": "cover",
+      "placement_note": "人物在右侧，左侧可放文字；竖裁切先看两人脸部与动作。",
+      "limitations": [
+        "示意图，不是实测或真实活动证据",
+        "位图内部像素不可原生编辑"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "report-ivory",
+      "title": "暖白报告与检视场景",
+      "path": "assets/unified-v3/hero.png",
+      "sha256": "0db030c4278c366653b702e73e2856b528d3c4746ec0282b60cadf46c6f4a85d",
+      "width_px": 1672,
+      "height_px": 941,
+      "transparent": false,
+      "source_id": "local-generated-report-ivory",
+      "license_note": "Project-generated illustration according to retained host generation records; no exclusive-rights or universal commercial-clearance claim.",
+      "origin_record": "assets/unified-v3/prompts.json",
+      "style_family": "ivory-teal",
+      "tags": [
+        "报告",
+        "审核",
+        "研究",
+        "资料"
+      ],
+      "uses": [
+        "cover",
+        "scene"
+      ],
+      "negative_space": "left",
+      "recommended_focus": {
+        "x": 0.85,
+        "y": 0.5
+      },
+      "preferred_fit": "cover",
+      "placement_note": "暖白底、青绿玻璃与少量金属；避免与酒红校园场景机械混搭。",
+      "limitations": [
+        "示意图，不是实测或真实活动证据",
+        "位图内部像素不可原生编辑"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "report-dark",
+      "title": "深蓝报告与检视场景",
+      "path": "assets/editorial-v2/hero.png",
+      "sha256": "9d0aa307f6b94e20f4367b2d503d5236032e21688ceaeb0b81f309fa65c6e33c",
+      "width_px": 1672,
+      "height_px": 941,
+      "transparent": false,
+      "source_id": "local-generated-report-dark",
+      "license_note": "Project-generated illustration according to retained host generation records; no exclusive-rights or universal commercial-clearance claim.",
+      "origin_record": "assets/editorial-v2/prompts.json",
+      "style_family": "navy-teal",
+      "tags": [
+        "报告",
+        "审核",
+        "研究",
+        "资料"
+      ],
+      "uses": [
+        "cover",
+        "scene"
+      ],
+      "negative_space": "left",
+      "recommended_focus": {
+        "x": 0.85,
+        "y": 0.5
+      },
+      "preferred_fit": "cover",
+      "placement_note": "暗色留白适合浅色标题；不要放在浅底模板中当无边界贴图。",
+      "limitations": [
+        "示意图，不是实测或真实活动证据",
+        "位图内部像素不可原生编辑"
+      ],
+      "aliases": []
+    },
+    {
+      "id": "paper-section",
+      "title": "资料到成果概念章节图",
+      "path": "assets/unified-v3/section.png",
+      "sha256": "e56ccf60643e5231f2e73ca60fe03fd1b5e48b28a3a9b03474d6692bfd2a9e06",
+      "width_px": 1672,
+      "height_px": 941,
+      "transparent": false,
+      "source_id": "local-generated-paper-section",
+      "license_note": "Project-generated illustration according to retained host generation records; no exclusive-rights or universal commercial-clearance claim.",
+      "origin_record": "assets/editorial-v2/prompts.json",
+      "style_family": "ivory-teal",
+      "tags": [
+        "资料",
+        "整理",
+        "成果",
+        "章节"
+      ],
+      "uses": [
+        "chapter",
+        "scene"
+      ],
+      "negative_space": "top",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.65
+      },
+      "preferred_fit": "cover",
+      "placement_note": "上方留白、下方物件；适合章节，不宜在底部覆盖长正文。",
+      "limitations": [
+        "示意图，不是实测或真实活动证据",
+        "位图内部像素不可原生编辑"
+      ],
+      "aliases": [
+        "assets/editorial-v2/section.png"
+      ]
+    },
+    {
+      "id": "report-cutout",
+      "title": "报告与放大镜透明主体",
+      "path": "assets/unified-v3/review.png",
+      "sha256": "8c9bd44bf46247a0f5a1efb49e4d272765c44ccbadfaeddb08ef9e5fc27ba671",
+      "width_px": 1254,
+      "height_px": 1254,
+      "transparent": true,
+      "source_id": "local-generated-report-cutout",
+      "license_note": "Project-generated illustration according to retained host generation records; no exclusive-rights or universal commercial-clearance claim.",
+      "origin_record": "assets/editorial-v2/prompts.json",
+      "style_family": "ivory-teal",
+      "tags": [
+        "报告",
+        "审核",
+        "检视",
+        "放大镜"
+      ],
+      "uses": [
+        "spot"
+      ],
+      "negative_space": "none",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "独立主体优先contain完整放置；图中的假柱形不是数据证据。",
+      "limitations": [
+        "示意图，不是实测或真实活动证据",
+        "位图内部像素不可原生编辑"
+      ],
+      "aliases": [
+        "assets/editorial-v2/review.png"
+      ]
+    }
+  ]
+}

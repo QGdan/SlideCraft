@@ -1,0 +1,64 @@
+{
+  "version": "relationship-request/1",
+  "slide_id": "s1",
+  "element_id": "relations1",
+  "rect": {
+    "x": 0.75,
+    "y": 2.38,
+    "w": 11.85,
+    "h": 4.35
+  },
+  "theme": {
+    "font": "Microsoft YaHei",
+    "colors": {
+      "ink": "183341",
+      "accent": "9B3045",
+      "muted": "657783",
+      "surface": "EDE5DF",
+      "background": "F8F5EE",
+      "line": "A6B2B6"
+    }
+  },
+  "relationship": {
+    "kind": "hierarchy",
+    "basis": "研究汇报可按问题、证据与结论边界归纳；以下是信息归属关系，不是时间顺序。",
+    "source_refs": [
+      "workflow"
+    ],
+    "nodes": [
+      {
+        "id": "report",
+        "label": "研究汇报"
+      },
+      {
+        "id": "question",
+        "label": "研究问题",
+        "body": "背景、目标与需要回答的问题"
+      },
+      {
+        "id": "evidence",
+        "label": "证据与结果",
+        "body": "方法、数据以及关键发现"
+      },
+      {
+        "id": "limits",
+        "label": "结论与边界",
+        "body": "证据支持什么、尚未解释什么"
+      }
+    ],
+    "edges": [
+      {
+        "from": "report",
+        "to": "question"
+      },
+      {
+        "from": "report",
+        "to": "evidence"
+      },
+      {
+        "from": "report",
+        "to": "limits"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "version": "chart-styles/1",
+  "styles": [
+    {
+      "id": "focus-comparison",
+      "title": "重点比较",
+      "tags": [
+        "比较",
+        "重点",
+        "横条",
+        "单系列"
+      ],
+      "kind": "bar",
+      "max_categories": 6,
+      "max_series": 1,
+      "description": "单系列横条，一项重点使用角色色，其余降为背景；右侧用绑定事实解释。",
+      "preview_path": "templates/chart-styles/previews/focus-comparison.png",
+      "preview_sha256": "294798b3ffef94d618a026fd1bc81e237bf3c5bf61e2029c251858cc3d4b1854",
+      "preview_source_sha256": "585fd3c4a89ba8fc00132753a74dce4d000de7c5f9d35bab6f1a69d17229d0d3",
+      "preview_page": 1,
+      "example_request": "examples/chart-style-focus-comparison.json",
+      "preview_note": "Actual PowerPoint render; synthetic data, not measured business results"
+    },
+    {
+      "id": "series-comparison",
+      "title": "双系列比较",
+      "tags": [
+        "比较",
+        "柱图",
+        "双系列",
+        "分组"
+      ],
+      "kind": "column",
+      "max_categories": 4,
+      "max_series": 2,
+      "description": "双系列分组柱图，共用零基线与图例；右侧说明选定事实。",
+      "preview_path": "templates/chart-styles/previews/series-comparison.png",
+      "preview_sha256": "bb445dffff41f94d97bc331f95c3ec7bdd59107eab11e0099269c743e4e9bcfd",
+      "preview_source_sha256": "585fd3c4a89ba8fc00132753a74dce4d000de7c5f9d35bab6f1a69d17229d0d3",
+      "preview_page": 2,
+      "example_request": "examples/chart-style-series-comparison.json",
+      "preview_note": "Actual PowerPoint render; synthetic data, not measured business results"
+    },
+    {
+      "id": "focus-trend",
+      "title": "月度趋势",
+      "tags": [
+        "趋势",
+        "折线",
+        "月度",
+        "时间"
+      ],
+      "kind": "line",
+      "max_categories": 8,
+      "max_series": 2,
+      "description": "按有效且升序的ISO年月组织折线；减少数据标签堆叠，右侧保留事实结论。",
+      "preview_path": "templates/chart-styles/previews/focus-trend.png",
+      "preview_sha256": "cb3130f97e6fa93216c9af34675759e64d2f6152d6520fc5b90f45d941a7110b",
+      "preview_source_sha256": "585fd3c4a89ba8fc00132753a74dce4d000de7c5f9d35bab6f1a69d17229d0d3",
+      "preview_page": 3,
+      "example_request": "examples/chart-style-focus-trend.json",
+      "preview_note": "Actual PowerPoint render; synthetic data, not measured business results"
+    }
+  ]
+}

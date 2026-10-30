@@ -1,0 +1,27 @@
+[
+  {
+    "file": "undeclared_axis_validator_probe.zip",
+    "source": "05-开源项目深度研究/本地核查证据/undeclared_axis_validator_probe.zip",
+    "sha256": "0510442faf8d2091391157cf7a2369df860937c955ccf43ad301ec2397a9b2ec"
+  },
+  {
+    "file": "nontext_offslide.pptx",
+    "source": "05-开源项目深度研究/本地核查证据/nontext_offslide.pptx",
+    "sha256": "f7a5abd6db55c3e8b3887b14e1ec6c195d818b3e1ab3e83c7c2a697dc0ace0e3"
+  },
+  {
+    "file": "group_offslide.pptx",
+    "source": "05-开源项目深度研究/本地核查证据/group_offslide.pptx",
+    "sha256": "2d89fbb0e5a2354950d828ca1b2e992bce2875b8e1cdf4e9f2ba80f742d4f476"
+  },
+  {
+    "file": "unbroken_long_word.pptx",
+    "source": "05-开源项目深度研究/本地核查证据/unbroken_long_word.pptx",
+    "sha256": "c9576467a6982b5d0344a6b3ad7ef5cd09a7c5dcfd959803991cb74a3e24dad6"
+  },
+  {
+    "file": "inherited_background.pptx",
+    "source": "05-开源项目深度研究/本地核查证据/inherited_background.pptx",
+    "sha256": "520dc7b703d686c6367838c648aad8798f25cd82f5c497e3552cc3a4b4593274"
+  }
+]

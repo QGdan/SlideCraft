@@ -1,0 +1,32 @@
+{
+  "version": "editorial-frame-request/1",
+  "slide_id": "section",
+  "element_id": "frame-section",
+  "theme": {
+    "font": "Microsoft YaHei",
+    "colors": {
+      "ink": "183341",
+      "accent": "9B3045",
+      "muted": "657783",
+      "background": "F8F5EE",
+      "surface": "EDE5DF",
+      "line": "A6B2B6",
+      "secondary": "8498A2"
+    }
+  },
+  "frame": {
+    "kind": "divider",
+    "kicker": "服务方案",
+    "footer": "来源：自撰方案组织示例。",
+    "section_label": "01"
+  },
+  "content": {
+    "title": "从服务场景，到可执行的安排",
+    "body_blocks": [
+      "先明确服务事项，再比较组织方式，最后整理能够核对的记录。"
+    ]
+  },
+  "source_refs": [
+    "campus-plan"
+  ]
+}

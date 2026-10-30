@@ -1,0 +1,55 @@
+{
+  "version": "relationship-request/1",
+  "slide_id": "s3",
+  "element_id": "relations3",
+  "rect": {
+    "x": 0.75,
+    "y": 2.38,
+    "w": 11.85,
+    "h": 4.35
+  },
+  "theme": {
+    "font": "Microsoft YaHei",
+    "colors": {
+      "ink": "183341",
+      "accent": "9B3045",
+      "muted": "657783",
+      "surface": "EDE5DF",
+      "background": "F8F5EE",
+      "line": "A6B2B6"
+    }
+  },
+  "relationship": {
+    "kind": "comparison",
+    "basis": "用相同的信息组织、主要元素、适用内容三个维度对照两类表达；不主张一类永远优于另一类。",
+    "source_refs": [
+      "workflow"
+    ],
+    "dimensions": [
+      "信息组织",
+      "主要元素",
+      "适用内容"
+    ],
+    "nodes": [
+      {
+        "id": "list",
+        "label": "文字列表",
+        "cells": {
+          "信息组织": "把并列要点组织为短句",
+          "主要元素": "标题、项目与简短解释",
+          "适用内容": "清单、注意事项与并列结论"
+        }
+      },
+      {
+        "id": "relation",
+        "label": "关系表达",
+        "cells": {
+          "信息组织": "用位置与连线呈现关系",
+          "主要元素": "节点、连接线与关系标签",
+          "适用内容": "顺序、层级与对应产出"
+        }
+      }
+    ],
+    "edges": []
+  }
+}

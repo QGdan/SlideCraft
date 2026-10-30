@@ -1,0 +1,59 @@
+{
+  "id": "editorial-wine-refine-20261021",
+  "font": "Microsoft YaHei",
+  "colors": {
+    "background": "F8F5EE",
+    "ink": "183341",
+    "navy": "142C38",
+    "wine": "9B3045",
+    "pink": "E69AA9",
+    "muted": "657783",
+    "light": "AEBCC4",
+    "blue": "8EA3AC",
+    "rule": "CFD6D5",
+    "soft": "E8DEDA",
+    "white": "FFFFFF"
+  },
+  "layouts": [
+    {
+      "key": "cover",
+      "name": "Editorial 1 cover",
+      "background_color": "142C38"
+    },
+    {
+      "key": "takeaway",
+      "name": "Editorial 2 takeaway",
+      "background_color": "F8F5EE"
+    },
+    {
+      "key": "kpi",
+      "name": "Editorial 3 kpi",
+      "background_color": "F8F5EE"
+    },
+    {
+      "key": "comparison",
+      "name": "Editorial 4 comparison",
+      "background_color": "F8F5EE"
+    },
+    {
+      "key": "chart_takeaway",
+      "name": "Editorial 5 chart_takeaway",
+      "background_color": "142C38"
+    },
+    {
+      "key": "process",
+      "name": "Editorial 6 process",
+      "background_color": "F8F5EE"
+    },
+    {
+      "key": "divider",
+      "name": "Editorial 7 divider",
+      "background_color": "F8F5EE"
+    },
+    {
+      "key": "closing",
+      "name": "Editorial 8 closing",
+      "background_color": "9B3045"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": "module-request/1",
+  "module_id": "native-process",
+  "element_id": "s1-module",
+  "slide_id": "s1",
+  "rect": {
+    "x": 0.8,
+    "y": 2.8,
+    "w": 8.1,
+    "h": 3.2
+  },
+  "theme": {
+    "font": "Microsoft YaHei",
+    "colors": {
+      "ink": "162E3B",
+      "accent": "9B3045",
+      "muted": "5F6F78"
+    }
+  },
+  "items": [
+    {
+      "title": "核对资料",
+      "body": "核实来源\n统一口径"
+    },
+    {
+      "title": "准备图表",
+      "body": "整理图片\n制作原生图表"
+    },
+    {
+      "title": "检查预览",
+      "body": "查看导图\n修订具体问题"
+    }
+  ],
+  "source_refs": [
+    "workflow"
+  ],
+  "reason": "验证本模块原生编辑对象、内容对应与实际排版"
+}

@@ -1,0 +1,164 @@
+{
+  "version": "quality-engine/2",
+  "chart_kinds": [
+    "bar",
+    "column",
+    "line"
+  ],
+  "max_categories": 12,
+  "max_series": 4,
+  "native_data": true,
+  "exhibit_components": [
+    "process",
+    "comparison",
+    "action"
+  ],
+  "exhibit_output": "editable text and lines via ppt_workflow.exhibits.compose_exhibit; target-render fit still requires review",
+  "verification": "Specified chart fixtures and campus blueprint pages rendered in PowerPoint; per-task render/edit review remains required.",
+  "legacy": {
+    "version": "0.1",
+    "chart": "bar",
+    "max_categories": 2,
+    "max_series": 1
+  },
+  "unsupported_chart_kinds": [
+    "pie",
+    "scatter",
+    "waterfall",
+    "map"
+  ],
+  "diagram_route": "native grouped process through existing Office adapter; arbitrary diagram layouts not supported",
+  "external_integrations": {
+    "wps": "runtime probe required; saved native chart copies require chart-preservation gate; this host lost embedded chart workbooks in three tested fixtures",
+    "figma": "host capability required",
+    "canva": "host capability required",
+    "image_generation": "host capability required; raster asset only"
+  },
+  "native_blueprints": {
+    "campus-editorial-v1": {
+      "variants": [
+        "ivory",
+        "ink"
+      ],
+      "layouts": [
+        "scene_cover",
+        "evidence_focus",
+        "comparison_focus",
+        "photo_process",
+        "photo_process_side"
+      ],
+      "route": "template-catalog and blueprint-build; not arbitrary imported-template conversion"
+    }
+  },
+  "raster_fit": {
+    "cover": "aspect preserved with explicit focal crop",
+    "contain": "aspect preserved and centered inside slot",
+    "raster_editability": "replaceable image; internal pixels are not native PPT objects"
+  },
+  "visual_library": {
+    "command": "asset-search",
+    "catalog": "assets/library.json",
+    "selection": "manual curation plus local tag/use/style filters; not aesthetic scoring",
+    "catalogs": [
+      "assets/library.json",
+      "assets/icons/library.json",
+      "assets/illustrations/library.json"
+    ],
+    "asset_types": [
+      "image",
+      "icon",
+      "illustration",
+      "all"
+    ],
+    "default_type": "image",
+    "icon_subset_count": 24,
+    "icon_family": "tabler-outline",
+    "prepare_command": "asset-prepare",
+    "runtime_network_required": false,
+    "icon_editability": "prepared transparent PNG; retained SVG source; no native shape conversion",
+    "illustration_subset_count": 2,
+    "illustration_family": "open-peeps",
+    "illustration_editability": "prepared transparent PNG; original SVG retained"
+  },
+  "native_module_library": {
+    "catalog": "templates/modules/library.json",
+    "search_command": "module-search",
+    "prepare_command": "module-prepare",
+    "module_ids": [
+      "native-process",
+      "native-comparison",
+      "native-action",
+      "native-timeline"
+    ],
+    "output": "native text and lines as deck elements fragment",
+    "review": "Actual four-page fixtures rendered in PowerPoint and WPS; task review still required"
+  },
+  "chart_style_library": {
+    "catalog": "templates/chart-styles/library.json",
+    "catalog_command": "chart-style-catalog",
+    "prepare_command": "chart-prepare",
+    "styles": [
+      "focus-comparison",
+      "series-comparison",
+      "focus-trend"
+    ],
+    "output": "native chart, fact-bound callout and source text; explicit opt-in, legacy defaults unchanged",
+    "verification": "Three synthetic fixtures rendered in PowerPoint and WPS. WPS saved copies lost all embedded workbooks and are rejected by preservation gate. Per-task visual review required."
+  },
+  "online_assets": {
+    "discover_command": "asset-discover",
+    "fetch_command": "asset-fetch",
+    "place_command": "asset-place",
+    "providers": {
+      "iconify": "Tabler only, outline candidates; live search/download/placement verified",
+      "commons": "CC0/CC BY raster candidates; live search/download/placement verified",
+      "openverse": "Adapter implemented; actual license-filtered searches timed out on this host; not stable verified",
+      "cache": "Selected assets can be searched offline"
+    },
+    "tabler_collection_total_reported": 6238,
+    "count_note": "Provider collection includes variants; not local downloaded count or all outline count",
+    "cache": "assets/online-cache; excluded from distributable archive",
+    "placement": "0.2 inch canvas; explicit slide/rect/fit/focus; visible CC BY credit, source notes, hash/bounds/PPI/overlap checks",
+    "verification": "Two-page 4-asset fixture rendered in PowerPoint; not all themes or WPS certification"
+  },
+  "outline_first_production": {
+    "mode": "outline-assets-template",
+    "brief": "production-brief/1; required for new mode, legacy unchanged",
+    "pack_command": "material-pack",
+    "manifest": "materials-pack/1; task-local files, hashes, per-page use",
+    "gates": [
+      "detailed brief matches approved outline",
+      "required materials prepared before template submission",
+      "template tracks final material pack",
+      "composition uses approved per-page images and visual origins"
+    ],
+    "review": "Content depth, native visual realization and aesthetic selection still require human/Skill review"
+  },
+  "editorial_builder": {
+    "command": "editorial-build",
+    "explicit_design": "Creates native named layouts from a supplied design system; not arbitrary imported-template reconstruction",
+    "normalization": "Keeps raw.pptx; applies existing narrow PptxGenJS export fixes; logs every edit; package/native checks required",
+    "release": "Actual rendering, review and editable roundtrip remain separate",
+    "unsupported_semantic_objects": "diagram/smartart placeholders rejected; use expanded relationship fragments or supported Office SmartArt route",
+    "shape_kinds": [
+      "rect",
+      "roundRect",
+      "ellipse",
+      "diamond",
+      "chevron",
+      "hexagon",
+      "parallelogram"
+    ]
+  },
+  "relationship_recipes": {
+    "prepare_command": "relationship-prepare",
+    "kinds": [
+      "process",
+      "hierarchy",
+      "comparison"
+    ],
+    "native_output": "declared scene elements, semantic groups, bound connectors via editorial-build",
+    "scope": "process up to four steps; one-root hierarchy up to four children; two-alternative comparison with 2–4 shared dimensions",
+    "geometry": "explicit finite region; Microsoft YaHei metrics; target render still required"
+  }
+}

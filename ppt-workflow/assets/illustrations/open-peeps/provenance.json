@@ -1,0 +1,11 @@
+{
+  "source_page": "https://www.openpeeps.com/",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en",
+  "license": "CC0-1.0",
+  "author": "Pablo Stanley",
+  "retrieved_on": "2026-10-19",
+  "source_page_sha256": "d1422aa39ff9ba28ae9c9ac483817dc90aa0624180457ee42a94257a60b5a343",
+  "license_sha256": "b43732f4c1463b087cf10d4daf8d8766514b2bf8f21bc5ef50905f95be227726",
+  "version": "No upstream version published for these website assets; original SVG SHA256 pins exact content",
+  "preview": "Original SVG rendered with bundled sharp, maximum 1024px; no runtime sharp dependency"
+}

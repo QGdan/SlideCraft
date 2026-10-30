@@ -1,0 +1,52 @@
+{
+  "version": "capacity-template/1",
+  "id": "content-editorial-v1",
+  "name": "内容驱动编辑风格",
+  "status": "candidate_pending_user_review",
+  "builder": "page-prepare + asset-place/chart-prepare + editorial-build",
+  "canvas": {
+    "width": 13.333,
+    "height": 7.5,
+    "unit": "in"
+  },
+  "font": "Microsoft YaHei",
+  "colors": {
+    "ink": "183341",
+    "accent": "9B3045",
+    "muted": "657783",
+    "background": "F8F5EE",
+    "surface": "EDE5DF",
+    "line": "A6B2B6"
+  },
+  "recipes": [
+    "text-wide",
+    "text-columns",
+    "image-led",
+    "image-balanced",
+    "chart-focus"
+  ],
+  "capacity_policy": "按微软雅黑实际字宽与实际文案测量，固定字号，超出拆页并保留原文；锁定页数时等待作者决定。长正文代表适用于阅读材料，现场演示宜由作者重写或拆分。",
+  "representatives": [
+    {
+      "layout": "text-columns",
+      "preview": "runs/layout-capacity-20261022-003/render/slides/slide-001.png",
+      "sha256": "24a6419885aa01b9fff81a4a9db6e5a29cccb0d4a3e5df6931a80a6175dcce12",
+      "request": "runs/layout-capacity-20261022-003/body-request.json"
+    },
+    {
+      "layout": "image-led",
+      "preview": "runs/layout-capacity-20261022-003/render/slides/slide-002.png",
+      "sha256": "8dda8e256ca563db4d52135d99f365d4a6a7ccface2e050f899e5259cd086c44",
+      "request": "runs/layout-capacity-20261022-003/photo-request.json"
+    },
+    {
+      "layout": "chart-focus",
+      "preview": "runs/layout-capacity-20261022-003/render/slides/slide-003.png",
+      "sha256": "91073054edc2603b7dbd446ff7181ca35c9028407b9ccc8bc7b6c5433592f938",
+      "request": "runs/layout-capacity-20261022-003/data-request.json"
+    }
+  ],
+  "documentation": "docs/内容驱动布局与中文容量.md",
+  "reference_deck": "runs/layout-capacity-20261022-003/build/candidate.pptx",
+  "design_system": "runs/layout-capacity-20261022-003/design-system.json"
+}

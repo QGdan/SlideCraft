@@ -1,0 +1,5 @@
+interface:
+  display_name: "PPT 需求访谈"
+  short_description: "通过提问澄清 PPT 的受众、目标、时长、材料、品牌和编辑要求；用于开始制作前收集需求，不负责研究大纲或设计页"
+  default_prompt: "使用 $ppt-intake 完成本阶段工作，提交可审核产物后交接。"
+

@@ -1,0 +1,5 @@
+{
+  "project_root": "../..",
+  "stage": "review",
+  "binding": "project-local-runtime"
+}

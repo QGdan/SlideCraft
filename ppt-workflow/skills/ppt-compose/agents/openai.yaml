@@ -1,0 +1,5 @@
+interface:
+  display_name: "PPT 制作与修改"
+  short_description: "根据已批准的大纲和模板制作或修改可编辑 PPT，并保留对象映射；适用于执行排版与内容修改，不负责访谈、模板选型"
+  default_prompt: "使用 $ppt-compose 完成本阶段工作，提交可审核产物后交接。"
+

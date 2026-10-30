@@ -1,0 +1,9 @@
+{
+  "name": "ppt-workflow-local",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local editable PPT workflow, staged implementation",
+  "dependencies": {
+    "pptxgenjs": "4.0.1"
+  }
+}

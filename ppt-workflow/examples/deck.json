@@ -1,0 +1,343 @@
+{
+  "schema_version": "0.1",
+  "job_id": "contract_demo",
+  "canvas": {
+    "width": 13.333,
+    "height": 7.5,
+    "unit": "in"
+  },
+  "theme": "academic",
+  "sources": [
+    {
+      "id": "demo_data",
+      "kind": "demo",
+      "locator": "合约示例：示意数据，不代表真实业务结果",
+      "is_demo": true
+    }
+  ],
+  "facts": [
+    {
+      "id": "manual_minutes",
+      "source_id": "demo_data",
+      "value": 40,
+      "unit": "分钟/份",
+      "scope": "端到端流程，示意",
+      "is_demo": true
+    },
+    {
+      "id": "platform_minutes",
+      "source_id": "demo_data",
+      "value": 1,
+      "unit": "分钟/份",
+      "scope": "端到端流程，示意",
+      "is_demo": true
+    }
+  ],
+  "slides": [
+    {
+      "id": "s1",
+      "title": "教学数据平台（示意）",
+      "message": "这是接口示例，所有数据为示意",
+      "layout": "cover",
+      "notes": "仅验证数据合同，不表示版式已实现。",
+      "source_refs": [
+        "demo_data"
+      ],
+      "elements": [
+        {
+          "id": "s1_title",
+          "type": "text",
+          "role": "title",
+          "rect": {
+            "x": 0.6,
+            "y": 0.6,
+            "w": 12,
+            "h": 0.8
+          },
+          "editability_requirement": "native",
+          "fact_refs": [],
+          "text": "教学数据平台（示意）",
+          "style": {
+            "font_face": "Microsoft YaHei",
+            "font_size_pt": 32
+          }
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "报告生成耗时对比（示意）",
+      "message": "这是接口示例，所有数据为示意",
+      "layout": "chart_takeaway",
+      "notes": "仅验证数据合同，不表示版式已实现。",
+      "source_refs": [
+        "demo_data"
+      ],
+      "elements": [
+        {
+          "id": "s2_title",
+          "type": "text",
+          "role": "title",
+          "rect": {
+            "x": 0.6,
+            "y": 0.6,
+            "w": 12,
+            "h": 0.8
+          },
+          "editability_requirement": "native",
+          "fact_refs": [],
+          "text": "报告生成耗时对比（示意）",
+          "style": {
+            "font_face": "Microsoft YaHei",
+            "font_size_pt": 32
+          }
+        },
+        {
+          "id": "s2_chart",
+          "type": "chart",
+          "role": "data",
+          "rect": {
+            "x": 0.8,
+            "y": 2,
+            "w": 9,
+            "h": 4
+          },
+          "editability_requirement": "native",
+          "fact_refs": [
+            "manual_minutes",
+            "platform_minutes"
+          ],
+          "chart": {
+            "kind": "column",
+            "categories": [
+              "手工流程",
+              "平台流程"
+            ],
+            "series": [
+              {
+                "name": "示意耗时",
+                "values": [
+                  40,
+                  1
+                ]
+              }
+            ],
+            "unit": "分钟/份"
+          }
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "报告生成记录（示意）",
+      "message": "这是接口示例，所有数据为示意",
+      "layout": "table",
+      "notes": "仅验证数据合同，不表示版式已实现。",
+      "source_refs": [
+        "demo_data"
+      ],
+      "elements": [
+        {
+          "id": "s3_title",
+          "type": "text",
+          "role": "title",
+          "rect": {
+            "x": 0.6,
+            "y": 0.6,
+            "w": 12,
+            "h": 0.8
+          },
+          "editability_requirement": "native",
+          "fact_refs": [],
+          "text": "报告生成记录（示意）",
+          "style": {
+            "font_face": "Microsoft YaHei",
+            "font_size_pt": 32
+          }
+        },
+        {
+          "id": "s3_table",
+          "type": "table",
+          "role": "data",
+          "rect": {
+            "x": 0.8,
+            "y": 2,
+            "w": 10,
+            "h": 3
+          },
+          "editability_requirement": "native",
+          "fact_refs": [
+            "manual_minutes",
+            "platform_minutes"
+          ],
+          "table": {
+            "columns": [
+              "流程（示意）",
+              "分钟/份"
+            ],
+            "rows": [
+              [
+                "手工",
+                40
+              ],
+              [
+                "平台",
+                1
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "数据口径说明",
+      "message": "这是接口示例，所有数据为示意",
+      "layout": "takeaway",
+      "notes": "仅验证数据合同，不表示版式已实现。",
+      "source_refs": [
+        "demo_data"
+      ],
+      "elements": [
+        {
+          "id": "s4_title",
+          "type": "text",
+          "role": "title",
+          "rect": {
+            "x": 0.6,
+            "y": 0.6,
+            "w": 12,
+            "h": 0.8
+          },
+          "editability_requirement": "native",
+          "fact_refs": [],
+          "text": "数据口径说明",
+          "style": {
+            "font_face": "Microsoft YaHei",
+            "font_size_pt": 32
+          }
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "处理流程",
+      "message": "这是接口示例，所有数据为示意",
+      "layout": "process",
+      "notes": "仅验证数据合同，不表示版式已实现。",
+      "source_refs": [
+        "demo_data"
+      ],
+      "elements": [
+        {
+          "id": "s5_title",
+          "type": "text",
+          "role": "title",
+          "rect": {
+            "x": 0.6,
+            "y": 0.6,
+            "w": 12,
+            "h": 0.8
+          },
+          "editability_requirement": "native",
+          "fact_refs": [],
+          "text": "处理流程",
+          "style": {
+            "font_face": "Microsoft YaHei",
+            "font_size_pt": 32
+          }
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "实施排期",
+      "message": "这是接口示例，所有数据为示意",
+      "layout": "timeline",
+      "notes": "仅验证数据合同，不表示版式已实现。",
+      "source_refs": [
+        "demo_data"
+      ],
+      "elements": [
+        {
+          "id": "s6_title",
+          "type": "text",
+          "role": "title",
+          "rect": {
+            "x": 0.6,
+            "y": 0.6,
+            "w": 12,
+            "h": 0.8
+          },
+          "editability_requirement": "native",
+          "fact_refs": [],
+          "text": "实施排期",
+          "style": {
+            "font_face": "Microsoft YaHei",
+            "font_size_pt": 32
+          }
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "验证范围",
+      "message": "这是接口示例，所有数据为示意",
+      "layout": "takeaway",
+      "notes": "仅验证数据合同，不表示版式已实现。",
+      "source_refs": [
+        "demo_data"
+      ],
+      "elements": [
+        {
+          "id": "s7_title",
+          "type": "text",
+          "role": "title",
+          "rect": {
+            "x": 0.6,
+            "y": 0.6,
+            "w": 12,
+            "h": 0.8
+          },
+          "editability_requirement": "native",
+          "fact_refs": [],
+          "text": "验证范围",
+          "style": {
+            "font_face": "Microsoft YaHei",
+            "font_size_pt": 32
+          }
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "待审核事项",
+      "message": "这是接口示例，所有数据为示意",
+      "layout": "closing",
+      "notes": "仅验证数据合同，不表示版式已实现。",
+      "source_refs": [
+        "demo_data"
+      ],
+      "elements": [
+        {
+          "id": "s8_title",
+          "type": "text",
+          "role": "title",
+          "rect": {
+            "x": 0.6,
+            "y": 0.6,
+            "w": 12,
+            "h": 0.8
+          },
+          "editability_requirement": "native",
+          "fact_refs": [],
+          "text": "待审核事项",
+          "style": {
+            "font_face": "Microsoft YaHei",
+            "font_size_pt": 32
+          }
+        }
+      ]
+    }
+  ]
+}

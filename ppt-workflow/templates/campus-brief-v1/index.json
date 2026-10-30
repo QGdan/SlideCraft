@@ -1,0 +1,51 @@
+{
+  "version": "capacity-template/1",
+  "id": "campus-brief-v1",
+  "name": "校园服务 · 图文与证据候选",
+  "status": "candidate_pending_user_review",
+  "builder": "brief-compose",
+  "canvas": {
+    "width": 13.333,
+    "height": 7.5,
+    "unit": "in"
+  },
+  "font": "Microsoft YaHei",
+  "colors": {
+    "ink": "183341",
+    "accent": "9B3045",
+    "muted": "657783",
+    "background": "F8F5EE",
+    "surface": "EDE5DF",
+    "line": "A6B2B6",
+    "secondary": "8498A2"
+  },
+  "recipes": [
+    "image-right"
+  ],
+  "composition_helpers": [
+    "relationship-prepare",
+    "chart-prepare",
+    "brief-compose"
+  ],
+  "capacity_policy": "图片正文由真实字宽测量；关系/图表保留预制结构，标题下只承载一行概述；详细正文或多主视觉需其他构图。",
+  "documentation": "docs/从详细大纲到通用制作.md",
+  "reference_deck": "runs/campus-brief-20261022-001/composed/build/candidate.pptx",
+  "design_system": "runs/campus-brief-20261022-001/design-system.json",
+  "representatives": [
+    {
+      "layout": "image-right",
+      "preview": "runs/campus-brief-20261022-001/render/slides/slide-001.png",
+      "sha256": "9ffd0c6a923a6e4d18338379b72ed49ab99f02349630c92161aaa940e87eadcf"
+    },
+    {
+      "layout": "comparison",
+      "preview": "runs/campus-brief-20261022-001/render/slides/slide-002.png",
+      "sha256": "e0a7d52dfdd5c45312d9c69be9e64603046f62f6b8a058fc0a83accdd1f392b6"
+    },
+    {
+      "layout": "chart_takeaway",
+      "preview": "runs/campus-brief-20261022-001/render/slides/slide-003.png",
+      "sha256": "253e8c80d14a3d1031ac6c8b618cdf57faaf1f817e6dd08ae798cc9ac083f7c3"
+    }
+  ]
+}

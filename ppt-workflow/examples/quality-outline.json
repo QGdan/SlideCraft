@@ -1,0 +1,57 @@
+{
+  "narrative": "合成比较与教学行动示例，仅验证工程合同",
+  "source_review_notes": "所有数值为合成夹具，不得作真实研究结论。",
+  "sources": [
+    {
+      "id": "synthetic",
+      "kind": "inline",
+      "locator": "工程合成夹具，不代表任何真实调查",
+      "is_demo": true
+    }
+  ],
+  "facts": [
+    {
+      "id": "v1",
+      "source_id": "synthetic",
+      "value": 60,
+      "unit": "%",
+      "scope": "同一合成选择题",
+      "period": "工程测试",
+      "metric": "合成选项1",
+      "locator": "fixture/value/1",
+      "is_demo": true
+    },
+    {
+      "id": "v2",
+      "source_id": "synthetic",
+      "value": 35,
+      "unit": "%",
+      "scope": "同一合成选择题",
+      "period": "工程测试",
+      "metric": "合成选项2",
+      "locator": "fixture/value/2",
+      "is_demo": true
+    }
+  ],
+  "slides": [
+    {
+      "id": "s01",
+      "takeaway": "合成选项A的比例高于B",
+      "evidence_refs": [
+        "v1",
+        "v2"
+      ],
+      "speaker_intent": "说明合成比较",
+      "visual_intent": "原生横条突出A",
+      "duration_seconds": 30
+    },
+    {
+      "id": "s02",
+      "takeaway": "用可核对的过程记录验证交付",
+      "evidence_refs": [],
+      "speaker_intent": "教学示例说明验收",
+      "visual_intent": "可编辑过程",
+      "duration_seconds": 30
+    }
+  ]
+}

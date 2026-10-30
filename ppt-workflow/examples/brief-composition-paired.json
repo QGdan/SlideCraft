@@ -1,0 +1,28 @@
+{
+  "version": "brief-composition-request/1",
+  "job_id": "paired-evidence-20261022-001",
+  "outline": "C:\\Users\\郭卓然\\Desktop\\项目\\PPT-高质量生成研究\\ppt-workflow\\runs\\paired-evidence-20261022-001\\outline.json",
+  "materials_pack": "C:\\Users\\郭卓然\\Desktop\\项目\\PPT-高质量生成研究\\ppt-workflow\\runs\\paired-evidence-20261022-001\\素材\\manifest.json",
+  "design_system": "C:\\Users\\郭卓然\\Desktop\\项目\\PPT-高质量生成研究\\ppt-workflow\\runs\\paired-evidence-20261022-001\\design-system.json",
+  "pages": [
+    {
+      "slide_id": "single",
+      "visual_id": "widths",
+      "layout": "chart_takeaway",
+      "kicker": "素材筛选与原始属性"
+    },
+    {
+      "slide_id": "paired",
+      "visual_id": "scene",
+      "chart_visual_id": "widths",
+      "layout": "image-chart",
+      "kicker": "场景与数据联合判断",
+      "image_heading": "校园协作场景",
+      "image_note": "生成场景示意，非真实活动照片。",
+      "focus": {
+        "x": 0.9,
+        "y": 0.5
+      }
+    }
+  ]
+}

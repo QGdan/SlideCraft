@@ -1,0 +1,72 @@
+{
+  "version": "capacity-template/1",
+  "id": "campus-complete-v1",
+  "name": "校园服务 · 完整编辑式简报",
+  "status": "candidate_pending_user_review",
+  "builder": "frame-prepare + brief-compose",
+  "canvas": {
+    "width": 13.333,
+    "height": 7.5,
+    "unit": "in"
+  },
+  "font": "Microsoft YaHei",
+  "colors": {
+    "ink": "183341",
+    "accent": "9B3045",
+    "muted": "657783",
+    "background": "F8F5EE",
+    "surface": "EDE5DF",
+    "line": "A6B2B6",
+    "secondary": "8498A2"
+  },
+  "recipes": [
+    "cover",
+    "divider",
+    "image-right",
+    "comparison",
+    "chart_takeaway",
+    "closing"
+  ],
+  "capacity_policy": "原生封面1–2段、章节1段、结尾1–3项；真实字宽与固定字号判断容量，不截取正文。",
+  "composition_helpers": [
+    "frame-prepare",
+    "relationship-prepare",
+    "chart-prepare",
+    "brief-compose"
+  ],
+  "documentation": "docs/封面章节与行动结尾.md",
+  "reference_deck": "runs/complete-campus-20261022-002/composed/build/candidate.pptx",
+  "design_system": "runs/complete-campus-20261022-002/design-system.json",
+  "representatives": [
+    {
+      "layout": "cover",
+      "preview": "runs/complete-campus-20261022-002/render/slides/slide-001.png",
+      "sha256": "99dd1c5a957c78ad723684398e6b3c18e89d180342393e9b30e26c8bf8ae33bf"
+    },
+    {
+      "layout": "divider",
+      "preview": "runs/complete-campus-20261022-002/render/slides/slide-002.png",
+      "sha256": "30d812ea60fe39f65e1262960b164449df01330fb39b7d52a7c043116f9dc8d8"
+    },
+    {
+      "layout": "image-right",
+      "preview": "runs/complete-campus-20261022-002/render/slides/slide-003.png",
+      "sha256": "bf6f5a04b03614b9da9e9254abf7e1b59a963ed679a1a97c88a79fe47efa7a7d"
+    },
+    {
+      "layout": "comparison",
+      "preview": "runs/complete-campus-20261022-002/render/slides/slide-004.png",
+      "sha256": "22a9d5da6a6e47464963066af6adeb69b0730f360eade4a261708b50d5f1510a"
+    },
+    {
+      "layout": "chart_takeaway",
+      "preview": "runs/complete-campus-20261022-002/render/slides/slide-005.png",
+      "sha256": "d8b294bc3f82b68afb4d4b7fae68afd04e7c0fff916e4f5a24a50ccf868226f3"
+    },
+    {
+      "layout": "closing",
+      "preview": "runs/complete-campus-20261022-002/render/slides/slide-006.png",
+      "sha256": "ca1eb53be80b44bef46e7b5d20aed501c00dc22e57a35fd841912709f8bb9e07"
+    }
+  ]
+}

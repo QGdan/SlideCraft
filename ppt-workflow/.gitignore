@@ -1,0 +1,9 @@
+node_modules/
+.mcp-venv/
+.venv/
+.npm-cache/
+.pip-cache/
+.tmp/
+__pycache__/
+*.pyc
+runs/

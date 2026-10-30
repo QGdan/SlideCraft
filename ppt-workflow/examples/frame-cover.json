@@ -1,0 +1,32 @@
+{
+  "version": "editorial-frame-request/1",
+  "slide_id": "cover",
+  "element_id": "frame-cover",
+  "theme": {
+    "font": "Microsoft YaHei",
+    "colors": {
+      "ink": "183341",
+      "accent": "9B3045",
+      "muted": "657783",
+      "background": "F8F5EE",
+      "surface": "EDE5DF",
+      "line": "A6B2B6",
+      "secondary": "8498A2"
+    }
+  },
+  "frame": {
+    "kind": "cover",
+    "kicker": "校园公共服务 · 方案汇报",
+    "footer": "方案与版式示例；场景和图表不作为真实活动证据。"
+  },
+  "content": {
+    "title": "校园公共服务方案",
+    "body_blocks": [
+      "让服务事项清楚，让协作安排有据可查。",
+      "场景、组织方式与记录的汇报示例。"
+    ]
+  },
+  "source_refs": [
+    "campus-plan"
+  ]
+}

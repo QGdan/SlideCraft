@@ -1,0 +1,64 @@
+{
+  "id": "demo-report-v1",
+  "description": "人为设定的周报汇总耗时示意数据，无实测或商业效果声明。",
+  "facts": {
+    "before": {
+      "id": "before",
+      "source_id": "demo-report",
+      "value": 40,
+      "unit": "分钟",
+      "scope": "同一份教学周报的汇总环节，不含人工审核",
+      "is_demo": true,
+      "locator": "/facts/before",
+      "period": "示意场景，无实测时间",
+      "metric": "before"
+    },
+    "after": {
+      "id": "after",
+      "source_id": "demo-report",
+      "value": 1,
+      "unit": "分钟",
+      "scope": "同一份教学周报的汇总环节，不含人工审核",
+      "is_demo": true,
+      "locator": "/facts/after",
+      "period": "示意场景，无实测时间",
+      "metric": "after"
+    },
+    "saved": {
+      "id": "saved",
+      "source_id": "demo-report",
+      "value": 39,
+      "unit": "分钟",
+      "scope": "同一份教学周报的汇总环节，不含人工审核",
+      "is_demo": true,
+      "locator": "/facts/saved",
+      "period": "示意场景，无实测时间",
+      "metric": "saved",
+      "formula": {
+        "op": "subtract",
+        "inputs": [
+          "before",
+          "after"
+        ]
+      }
+    },
+    "ratio": {
+      "id": "ratio",
+      "source_id": "demo-report",
+      "value": 40,
+      "unit": "倍",
+      "scope": "同一份教学周报的汇总环节，不含人工审核",
+      "is_demo": true,
+      "locator": "/facts/ratio",
+      "period": "示意场景，无实测时间",
+      "metric": "ratio",
+      "formula": {
+        "op": "divide",
+        "inputs": [
+          "before",
+          "after"
+        ]
+      }
+    }
+  }
+}

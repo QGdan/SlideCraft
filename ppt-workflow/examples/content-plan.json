@@ -1,0 +1,92 @@
+{
+  "schema_version": "quality-content-plan/1",
+  "duration_seconds": 60,
+  "slides": [
+    {
+      "id": "s01",
+      "question": "如何读取合成比较？",
+      "claim": "合成选项A的比例高于B",
+      "claim_kind": "fact",
+      "evidence_refs": [
+        "v1",
+        "v2"
+      ],
+      "reasoning": "合成数据只用于检查比较链路",
+      "limitations": [
+        "工程夹具，非真实研究结果"
+      ],
+      "bridge": "转向验证方式",
+      "exhibit": {
+        "intent": "comparison",
+        "carrier": "native_bar",
+        "focus": "关键比较与可核对记录",
+        "annotation": "合成示例",
+        "editability": "native"
+      },
+      "case": {
+        "kind": "none",
+        "label": "",
+        "source_refs": []
+      },
+      "quality_checks": [
+        "是否标注合成示例？",
+        "是否能找到本页判断所需的证据？"
+      ],
+      "chart": {
+        "kind": "bar",
+        "task": "comparison",
+        "unit": "%",
+        "data_refs": [
+          "v1",
+          "v2"
+        ],
+        "emphasis_refs": [
+          "v1"
+        ],
+        "data_rule": "合成独立比例，不推断构成"
+      },
+      "derived": [
+        {
+          "id": "gap",
+          "operation": "subtract",
+          "inputs": [
+            "v1",
+            "v2"
+          ],
+          "value": 25,
+          "unit": "百分点"
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "question": "如何判断示例任务完成？",
+      "claim": "用可核对的过程记录验证交付",
+      "claim_kind": "teaching_example",
+      "evidence_refs": [],
+      "reasoning": "以建议任务说明交付标准，不声称已实施",
+      "limitations": [
+        "工程夹具，非真实研究结果"
+      ],
+      "bridge": "结束示例",
+      "exhibit": {
+        "intent": "action",
+        "carrier": "editable_process",
+        "focus": "关键比较与可核对记录",
+        "annotation": "合成示例",
+        "editability": "native"
+      },
+      "case": {
+        "kind": "teaching_example",
+        "label": "教学示例",
+        "source_refs": []
+      },
+      "quality_checks": [
+        "是否标注合成示例？",
+        "是否能找到本页判断所需的证据？"
+      ],
+      "chart": null,
+      "derived": []
+    }
+  ]
+}

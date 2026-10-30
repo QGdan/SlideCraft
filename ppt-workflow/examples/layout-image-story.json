@@ -1,0 +1,21 @@
+{
+  "version": "layout-request/1",
+  "slide_id": "photo",
+  "title": "先交代场景，再说明需要观察的内容",
+  "kicker": "场景与材料",
+  "source_note": "图片仅作场景参考。",
+  "evidence": "image",
+  "layout": "image-story",
+  "blocks": [
+    {
+      "id": "see",
+      "heading": "画面交代什么",
+      "text": "屋顶上的阵列排列与周边环境，为后续说明提供场景。"
+    },
+    {
+      "id": "limit",
+      "heading": "说明需要什么",
+      "text": "设备状态与变化需要对应记录，照片本身不能替代数据。"
+    }
+  ]
+}

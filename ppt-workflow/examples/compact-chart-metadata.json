@@ -1,0 +1,110 @@
+{
+  "version": "compact-chart-request/1",
+  "slide_id": "paired",
+  "element_id": "compact-widths",
+  "theme": {
+    "font": "Microsoft YaHei",
+    "colors": {
+      "ink": "183341",
+      "accent": "9B3045",
+      "muted": "657783",
+      "background": "F8F5EE",
+      "surface": "EDE5DF",
+      "line": "A6B2B6",
+      "secondary": "8498A2"
+    }
+  },
+  "chart": {
+    "kind": "bar",
+    "categories": [
+      "校园场景",
+      "光伏照片",
+      "报告插画"
+    ],
+    "series": [
+      {
+        "name": "原始宽度",
+        "values": [
+          1672,
+          2560,
+          1672
+        ],
+        "fact_ids": [
+          "campus-width",
+          "solar-width",
+          "report-width"
+        ]
+      }
+    ],
+    "unit": "px",
+    "semantics": {
+      "task": "comparison",
+      "category_order": "unordered",
+      "reason": "按相同元数据定义比较现有图片的原始宽度；不代表美观或相关性评分。"
+    },
+    "options": {
+      "emphasize_categories": [
+        "校园场景"
+      ],
+      "axis_min": 0,
+      "axis_max": 3000
+    }
+  },
+  "sources": [
+    {
+      "id": "asset-metadata",
+      "kind": "file",
+      "locator": "runs/paired-evidence-20261022-001/metadata-source.json",
+      "is_demo": false
+    },
+    {
+      "id": "visual-method",
+      "kind": "inline",
+      "locator": "Self-authored presentation material selection guidance, separate from measured file metadata",
+      "is_demo": false
+    }
+  ],
+  "facts": [
+    {
+      "id": "campus-width",
+      "source_id": "asset-metadata",
+      "value": 1672,
+      "unit": "px",
+      "scope": "校园场景",
+      "comparison_group": "source-image-width",
+      "period": "file-snapshot-20261022",
+      "metric": "image-original-width",
+      "locator": "/facts/campus-width",
+      "is_demo": false
+    },
+    {
+      "id": "solar-width",
+      "source_id": "asset-metadata",
+      "value": 2560,
+      "unit": "px",
+      "scope": "光伏照片",
+      "comparison_group": "source-image-width",
+      "period": "file-snapshot-20261022",
+      "metric": "image-original-width",
+      "locator": "/facts/solar-width",
+      "is_demo": false
+    },
+    {
+      "id": "report-width",
+      "source_id": "asset-metadata",
+      "value": 1672,
+      "unit": "px",
+      "scope": "报告插画",
+      "comparison_group": "source-image-width",
+      "period": "file-snapshot-20261022",
+      "metric": "image-original-width",
+      "locator": "/facts/report-width",
+      "is_demo": false
+    }
+  ],
+  "source_refs": [
+    "asset-metadata"
+  ],
+  "heading": "三个素材的原始宽度（px）",
+  "source_note": "来源：本地文件元数据快照，2026-10-22。"
+}

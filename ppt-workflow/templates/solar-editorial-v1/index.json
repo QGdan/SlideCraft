@@ -1,0 +1,55 @@
+{
+  "version": "capacity-template/1",
+  "id": "solar-editorial-v1",
+  "name": "场景与记录 · 光伏简报候选",
+  "status": "candidate_pending_user_review",
+  "builder": "page-prepare / trend-prepare / relationship-prepare + editorial-build",
+  "canvas": {
+    "width": 13.333,
+    "height": 7.5,
+    "unit": "in"
+  },
+  "font": "Microsoft YaHei",
+  "colors": {
+    "ink": "183341",
+    "accent": "9B3045",
+    "muted": "657783",
+    "background": "F8F5EE",
+    "surface": "EDE5DF",
+    "line": "A6B2B6"
+  },
+  "recipes": [
+    "image-story",
+    "chart-focus"
+  ],
+  "composition_helpers": [
+    "trend-prepare",
+    "relationship-prepare"
+  ],
+  "capacity_policy": "图片叙事为上图下短文，长解释优先改用图旁布局；趋势使用最多两个明确月份的原生事实注释。封面图案为可编辑参考样件，尚未提供通用封面编译器。",
+  "representatives": [
+    {
+      "layout": "cover-reference",
+      "preview": "runs/asset-style-20261022-003/render-packed/slides/slide-001.png",
+      "sha256": "0a35d606248ae115c9dee8e7601c0c3c5c04fe531b941e9c48a38ecbd2bff995"
+    },
+    {
+      "layout": "image-story",
+      "preview": "runs/asset-style-20261022-003/render-packed/slides/slide-002.png",
+      "sha256": "b74ae9eee6dde7bbd6ed91b4c86796a802e960cdcfd88a9531fa36818d64875b"
+    },
+    {
+      "layout": "trend-annotation",
+      "preview": "runs/asset-style-20261022-003/render-packed/slides/slide-003.png",
+      "sha256": "67b1f867b9e9902d0f447bd096e456b1594066199e32b607b196774316093040"
+    },
+    {
+      "layout": "process",
+      "preview": "runs/asset-style-20261022-003/render-packed/slides/slide-004.png",
+      "sha256": "82a0ff717ec82c48ad574328c73d2dbaa5997ac9b99e2633db7d332a7ac4fd15"
+    }
+  ],
+  "documentation": "docs/素材风格与图像叙事.md",
+  "reference_deck": "runs/asset-style-20261022-003/build-packed/candidate.pptx",
+  "design_system": "runs/asset-style-20261022-003/design-system.json"
+}

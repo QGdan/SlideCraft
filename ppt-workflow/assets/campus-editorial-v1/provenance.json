@@ -1,0 +1,9 @@
+{
+  "method": "host built-in image_gen.imagegen",
+  "model_id": "not exposed by host; not invented",
+  "generated_on": "2026-10-19",
+  "asset_sha256": "658a4ca792647976efc4551c287c99cbf7d64c3bd64ea7663697f2fdbe06f6aa",
+  "prompt_summary": "Premium editorial campus residence service illustration, two student volunteers at the right, ivory blank left wall, midnight blue architecture and muted burgundy, no text or logo. Hypothetical teaching scene.",
+  "prompt_exact_saved_in": "generation-prompt.txt",
+  "editability": "Raster scene is replaceable; slide text, charts, comparisons and process remain native."
+}

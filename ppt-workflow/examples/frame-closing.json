@@ -1,0 +1,38 @@
+{
+  "version": "editorial-frame-request/1",
+  "slide_id": "closing",
+  "element_id": "frame-closing",
+  "theme": {
+    "font": "Microsoft YaHei",
+    "colors": {
+      "ink": "183341",
+      "accent": "9B3045",
+      "muted": "657783",
+      "background": "F8F5EE",
+      "surface": "EDE5DF",
+      "line": "A6B2B6",
+      "secondary": "8498A2"
+    }
+  },
+  "frame": {
+    "kind": "closing",
+    "kicker": "下一步安排",
+    "footer": "来源：自撰建议，实施内容按实际条件确认。",
+    "headings": [
+      "明确范围",
+      "组织协作",
+      "保留记录"
+    ]
+  },
+  "content": {
+    "title": "先确定服务事项，再落实分工与记录",
+    "body_blocks": [
+      "确认服务对象、事项范围和现场条件。",
+      "整理问题、分工、材料与联系信息。",
+      "核对数据口径，将反馈保存到对应来源。"
+    ]
+  },
+  "source_refs": [
+    "campus-plan"
+  ]
+}

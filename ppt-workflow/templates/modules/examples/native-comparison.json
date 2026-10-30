@@ -1,0 +1,34 @@
+{
+  "version": "module-request/1",
+  "module_id": "native-comparison",
+  "element_id": "s2-module",
+  "slide_id": "s2",
+  "rect": {
+    "x": 0.8,
+    "y": 2.8,
+    "w": 8.1,
+    "h": 3.2
+  },
+  "theme": {
+    "font": "Microsoft YaHei",
+    "colors": {
+      "ink": "162E3B",
+      "accent": "9B3045",
+      "muted": "5F6F78"
+    }
+  },
+  "items": [
+    {
+      "title": "先排文字",
+      "body": "内容先占满页面\n最后再塞入配图"
+    },
+    {
+      "title": "先准备图文",
+      "body": "先核对素材与图表\n再安排阅读顺序"
+    }
+  ],
+  "source_refs": [
+    "scenario"
+  ],
+  "reason": "验证本模块原生编辑对象、内容对应与实际排版"
+}

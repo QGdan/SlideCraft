@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT 阶段调度"
+  short_description: "只负责调度需求、大纲、模板、制作、美化与审核六个独立 Skill，保留阶段交接"
+  default_prompt: "使用 $ppt-quality-workflow 定位当前阶段，调用对应 Skill 并提交该阶段审核。"

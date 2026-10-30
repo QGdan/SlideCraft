@@ -1,0 +1,16 @@
+{
+  "brief": "../runs/p2-unified-content-003/brief.json",
+  "spec": "../runs/p2-unified-content-003/deck-spec.json",
+  "template": "../runs/p2-unified-template-003/Unified-Ivory.potx",
+  "design_system": "../templates/unified-v3/design-system.json",
+  "node": "D:/node/node.exe",
+  "renderer": "powerpoint",
+  "timeout_seconds": 60,
+  "design_approval": {
+    "spec_sha256": "2b8b57bfd2df95e6a4ce2bdb9442c9dada87b7cfd5d5d2db71cb54e292363a8c",
+    "template_sha256": "8d138981fa6566d57e30ee3281b3b2c1b5bfebdae36e1c76785f24455a966f3a",
+    "design_sha256": "48d0f0657b73af7393e6d49d7d650faf9b80fd700eb2e99be47a665e9360d286",
+    "reviewer": "user",
+    "evidence": "User said continue after receiving the unified-v3 Figma G2 review packet; original visual review is retained in P2-Figma."
+  }
+}

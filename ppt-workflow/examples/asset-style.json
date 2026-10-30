@@ -1,0 +1,17 @@
+{
+  "version": "visual-style/1",
+  "id": "solar-editorial",
+  "medium": "photography",
+  "colors": {
+    "ink": "183341",
+    "accent": "9B3045",
+    "muted": "657783",
+    "background": "F8F5EE",
+    "surface": "EDE5DF",
+    "line": "A6B2B6"
+  },
+  "material": "自然屋顶与金属组件；原图不强制染色",
+  "line": "原生图形使用简洁直线、实色和统一边距",
+  "tone": "清晰日光、低装饰感；酒红用于结论，蓝灰用于场景和次级信息",
+  "references": []
+}

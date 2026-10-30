@@ -1,0 +1,20 @@
+[
+  {
+    "asset": "hero",
+    "mode": "built-in image_gen",
+    "model": "not exposed by tool",
+    "prompt": "Use case: productivity-visual. Asset type: premium PowerPoint cover artwork, wide 16:9. Primary request: create a refined, highly art-directed conceptual 3D visual for a Chinese presentation about teaching report automation with human review. Scene: navy-blue to deep petrol studio background, elegant pools of soft teal light and a small warm amber accent. On the RIGHT HALF only: a sculptural arrangement of floating cream paper sheets with abstract tabular marks (no readable words), converging into a single beautifully structured report, with a subtle glass lens suggesting thoughtful human review. Tactile paper edges, translucent smoked glass, brushed metal details, professional editorial product-photography lighting, beautiful restrained material contrast. Make the composition feel architectural and intelligently designed, not generic AI tech art. Left 45 percent must remain calm, dark and low detail for editable Chinese title overlay. No rendered text, no numbers, no logos, no watermark, no neon circuitry, no robot, no oversized cards or interface panels. The graphic is illustrative, not a photograph of a real product. Crisp details, premium consultancy presentation quality."
+  },
+  {
+    "asset": "review",
+    "mode": "built-in image_gen",
+    "model": "not exposed by tool",
+    "prompt": "Use case: stylized-concept. Asset type: premium conceptual illustration for a PowerPoint slide, true transparent-background cutout. Primary request: show the relationship between automated reporting and thoughtful human review using one elegant sculptural composition. A beautiful upright ivory report with simple abstract teal tabular markings and no readable text, beside a large tilted smoked-glass magnifying lens on a brushed-metal stand. A small amber inspection mark on the report is an abstract geometric detail, not a letter or number. Contemporary editorial 3D product render, tactile cream paper, restrained teal navy and warm amber palette, physically plausible materials, soft studio illumination, crisp silhouette, refined shadows close to objects only. Subject centered, fits comfortably with breathing room, balanced square image for placement in the right half of a white presentation slide. No text, letters, numerical values, logos, watermark, robots, human characters, hands, circuit boards or interface panels. Transparent alpha outside the subject."
+  },
+  {
+    "asset": "section",
+    "mode": "built-in image_gen",
+    "model": "not exposed by tool",
+    "prompt": "Use case: productivity-visual. Asset type: premium editorial illustration for a presentation chapter-opening slide, landscape 16:9. Primary request: a beautiful sculptural conceptual scene of a teaching-report pilot moving from scattered inputs to a carefully verified report. Arrange three distinct tactile paper forms on a long minimalist pale warm-ivory architectural plinth: a fan of raw paper sheets on the LEFT, a translucent petrol glass prism in the CENTER, a clean upright bound report with a small amber inspection lens on the RIGHT. All report markings abstract and non-readable. Elegant side-lit editorial 3D product photography, matte paper, optical glass, soft teal shadows and warm amber reflections, subtle natural material texture, premium art direction. Wide composition, subject occupies the bottom-middle 55 percent; calm light ivory negative space across upper third for editable chapter heading. Clean museum-like background; sophisticated, restrained and warm. No text, numbers, logos, watermarks, humans, robots, neon, interface panels or fake metric values. Conceptual illustration, not evidence of a real implemented product."
+  }
+]

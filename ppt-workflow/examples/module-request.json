@@ -1,0 +1,7 @@
+{
+ "version":"module-request/1","module_id":"native-process","element_id":"s1-flow","slide_id":"s1",
+ "rect":{"x":0.8,"y":2.5,"w":8.1,"h":3.2},
+ "theme":{"font":"Microsoft YaHei","colors":{"ink":"162E3B","accent":"9B3045","muted":"5F6F78"}},
+ "items":[{"title":"核对资料","body":"核实来源和口径"},{"title":"准备图表","body":"完成选材与制图"},{"title":"检查预览","body":"查看真实导图"}],
+ "source_refs":["workflow"],"reason":"用原生步骤与箭头表达制作前准备顺序；workflow须由任务资料登记"
+}

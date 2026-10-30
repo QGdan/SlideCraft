@@ -1,0 +1,91 @@
+{
+  "version": "illustration-library/1",
+  "assets": [
+    {
+      "id": "peeps:peep-16",
+      "title": "举手示意人物",
+      "type": "illustration",
+      "path": "assets/illustrations/open-peeps/peep-16.png",
+      "svg_path": "assets/illustrations/open-peeps/peep-16.svg",
+      "sha256": "ebfbfa1a215122b5145dc2f175c71010003100895b1e25e1d8c046a1ee1f1024",
+      "svg_sha256": "113957380b624e1fef9006247bea7afdfaa57753b4c8f5a10b231533ded58953",
+      "width_px": 759,
+      "height_px": 1024,
+      "transparent": true,
+      "source_id": "peeps-peep-16",
+      "license_note": "CC0-1.0; official Open Peeps dedication by Pablo Stanley, retained with source page and legal code.",
+      "origin_record": "assets/illustrations/open-peeps/provenance.json",
+      "style_family": "open-peeps",
+      "category": "people",
+      "tags": [
+        "交流",
+        "表达",
+        "人物",
+        "插画",
+        "介绍"
+      ],
+      "uses": [
+        "figure",
+        "concept",
+        "case"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "浅色背景优先，人物按比例完整显示；配合原生内容表达交流/角色语境。",
+      "limitations": [
+        "人物素材，不是完整场景或活动照片",
+        "PNG内部不可原生编辑，SVG源文件另存",
+        "深底会弱化黑色轮廓；不是实际人物身份或活动证据"
+      ],
+      "aliases": [],
+      "upstream_url": "https://cdn.prod.website-files.com/5e51c674258ffe10d286d30a/5e535216550b76cb4af21e3d_peep-16.svg"
+    },
+    {
+      "id": "peeps:peep-73",
+      "title": "微笑交流人物",
+      "type": "illustration",
+      "path": "assets/illustrations/open-peeps/peep-73.png",
+      "svg_path": "assets/illustrations/open-peeps/peep-73.svg",
+      "sha256": "45997d8690c626a3b964df68cd8835436506823157301b842a82814d5e0d0b15",
+      "svg_sha256": "9e43b37c06d5feb90a89f09738935e6a9df84294697331edc7dfa7de93a6fb64",
+      "width_px": 759,
+      "height_px": 1024,
+      "transparent": true,
+      "source_id": "peeps-peep-73",
+      "license_note": "CC0-1.0; official Open Peeps dedication by Pablo Stanley, retained with source page and legal code.",
+      "origin_record": "assets/illustrations/open-peeps/provenance.json",
+      "style_family": "open-peeps",
+      "category": "people",
+      "tags": [
+        "交流",
+        "人物",
+        "插画",
+        "介绍",
+        "沟通"
+      ],
+      "uses": [
+        "figure",
+        "concept",
+        "case"
+      ],
+      "negative_space": "transparent",
+      "recommended_focus": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "preferred_fit": "contain",
+      "placement_note": "浅色背景优先，人物按比例完整显示；配合原生内容表达交流/角色语境。",
+      "limitations": [
+        "人物素材，不是完整场景或活动照片",
+        "PNG内部不可原生编辑，SVG源文件另存",
+        "深底会弱化黑色轮廓；不是实际人物身份或活动证据"
+      ],
+      "aliases": [],
+      "upstream_url": "https://cdn.prod.website-files.com/5e51c674258ffe10d286d30a/5e535a2b8e24938384074dac_peep-73.svg"
+    }
+  ]
+}

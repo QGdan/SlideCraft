@@ -1,0 +1,5 @@
+interface:
+  display_name: "PPT 效果审核"
+  short_description: "独立检查 PPT 内容、原生编辑性、渲染与跨页视觉效果，生成通过、返修或未验证结论；适用于审核与交付门禁，不负"
+  default_prompt: "使用 $ppt-review 完成本阶段工作，提交可审核产物后交接。"
+

@@ -1,0 +1,19 @@
+[
+  {
+    "asset": "hero",
+    "mode": "built-in image_gen edit",
+    "model": "not exposed",
+    "source": "assets/editorial-v2/hero.png",
+    "prompt": "Use case: lighting-weather. Edit the provided conceptual PowerPoint artwork. Preserve the paper-report sculpture, floating papers, magnifying lens, the right-heavy composition and the overall tactile high-end editorial material quality. Change the entire lighting and environment to a softly lit WARM IVORY studio, close to #F5F3ED with very subtle teal shadows. Remove the dark navy background and dramatic black floor entirely. Make the left 45 percent a nearly uniform quiet warm-ivory negative space suitable for dark editable text. Retain restrained teal glass and a small muted warm brass accent, low saturation and gentle contrast consistent with a warm-white professional slide template. No new objects, no words, no numbers, no logos, no watermarks. Landscape 16:9. The image must feel part of a calm, coherent ivory-and-teal presentation, rather than a separate cinematic poster."
+  },
+  {
+    "asset": "review",
+    "mode": "reused prior generated asset",
+    "source": "assets/editorial-v2/review.png"
+  },
+  {
+    "asset": "section",
+    "mode": "reused prior generated asset",
+    "source": "assets/editorial-v2/section.png"
+  }
+]

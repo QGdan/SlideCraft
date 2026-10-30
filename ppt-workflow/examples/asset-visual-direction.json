@@ -1,0 +1,13 @@
+{
+  "role": "context",
+  "medium": "photography",
+  "subject": "屋顶光伏阵列及其周边环境",
+  "aspect_ratio": "4:1",
+  "negative_space": "none",
+  "fit": "cover",
+  "avoid": [
+    "无关城市夜景",
+    "用示意配图证明设备运行性能",
+    "在图片内生成标题或数据"
+  ]
+}

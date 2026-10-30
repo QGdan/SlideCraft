@@ -1,0 +1,327 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "quality-content-plan/1"
+    },
+    "baseline": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      },
+      "required": [
+        "path",
+        "sha256"
+      ]
+    },
+    "outline_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "duration_seconds": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "pilot_slides": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "slides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "question": {
+            "type": "string",
+            "minLength": 1
+          },
+          "claim": {
+            "type": "string",
+            "minLength": 1
+          },
+          "claim_kind": {
+            "enum": [
+              "fact",
+              "interpretation",
+              "normative",
+              "teaching_example",
+              "mixed"
+            ]
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          },
+          "reasoning": {
+            "type": "string",
+            "minLength": 1
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "bridge": {
+            "type": "string",
+            "minLength": 1
+          },
+          "exhibit": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "intent": {
+                "type": "string",
+                "minLength": 1
+              },
+              "carrier": {
+                "type": "string",
+                "minLength": 1
+              },
+              "focus": {
+                "type": "string",
+                "minLength": 1
+              },
+              "annotation": {
+                "type": "string",
+                "minLength": 1
+              },
+              "editability": {
+                "enum": [
+                  "native",
+                  "native_with_bitmap",
+                  "raster_allowed"
+                ]
+              }
+            },
+            "required": [
+              "intent",
+              "carrier",
+              "focus",
+              "annotation",
+              "editability"
+            ]
+          },
+          "case": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "kind": {
+                "enum": [
+                  "none",
+                  "source_paraphrase",
+                  "teaching_example"
+                ]
+              },
+              "label": {
+                "type": "string"
+              },
+              "source_refs": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "minItems": 0
+              }
+            },
+            "required": [
+              "kind",
+              "label",
+              "source_refs"
+            ]
+          },
+          "quality_checks": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 2
+          },
+          "chart": {
+            "anyOf": [
+              {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "kind": {
+                    "enum": [
+                      "bar",
+                      "column",
+                      "line"
+                    ]
+                  },
+                  "task": {
+                    "enum": [
+                      "comparison",
+                      "trend",
+                      "composition"
+                    ]
+                  },
+                  "unit": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "data_refs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 1
+                  },
+                  "emphasis_refs": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "minItems": 0
+                  },
+                  "mutually_exclusive": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "exhaustive": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ]
+                  },
+                  "data_rule": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "scale": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "properties": {
+                      "min": {
+                        "type": "number"
+                      },
+                      "max": {
+                        "type": "number"
+                      }
+                    },
+                    "required": [
+                      "min",
+                      "max"
+                    ]
+                  }
+                },
+                "required": [
+                  "kind",
+                  "task",
+                  "unit",
+                  "data_refs",
+                  "emphasis_refs",
+                  "data_rule"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "derived": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "operation": {
+                  "enum": [
+                    "subtract",
+                    "divide"
+                  ]
+                },
+                "inputs": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "note": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "id",
+                "operation",
+                "inputs",
+                "value",
+                "unit"
+              ]
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "id",
+          "question",
+          "claim",
+          "claim_kind",
+          "evidence_refs",
+          "reasoning",
+          "limitations",
+          "bridge",
+          "exhibit",
+          "case",
+          "quality_checks",
+          "chart",
+          "derived"
+        ]
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "schema_version",
+    "slides"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ppt-workflow:content-plan:1"
+}

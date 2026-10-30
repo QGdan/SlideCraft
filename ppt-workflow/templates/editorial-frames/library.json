@@ -1,0 +1,44 @@
+{
+  "version": "editorial-frames/1",
+  "frames": [
+    {
+      "kind": "cover",
+      "title": "主题封面与文档图形",
+      "layout_key": "cover",
+      "native": true,
+      "body_blocks": "1–2",
+      "font": "Microsoft YaHei",
+      "canvas": "13.333 × 7.5 in",
+      "example": "examples/frame-cover.json",
+      "preview": "runs/complete-campus-20261022-002/render/slides/slide-001.png",
+      "preview_sha256": "99dd1c5a957c78ad723684398e6b3c18e89d180342393e9b30e26c8bf8ae33bf",
+      "approval": "candidate_pending_user_review"
+    },
+    {
+      "kind": "divider",
+      "title": "章节号与阅读引导",
+      "layout_key": "divider",
+      "native": true,
+      "body_blocks": "1",
+      "font": "Microsoft YaHei",
+      "canvas": "13.333 × 7.5 in",
+      "example": "examples/frame-divider.json",
+      "preview": "runs/complete-campus-20261022-002/render/slides/slide-002.png",
+      "preview_sha256": "30d812ea60fe39f65e1262960b164449df01330fb39b7d52a7c043116f9dc8d8",
+      "approval": "candidate_pending_user_review"
+    },
+    {
+      "kind": "closing",
+      "title": "行动与下一步安排",
+      "layout_key": "closing",
+      "native": true,
+      "body_blocks": "1–3",
+      "font": "Microsoft YaHei",
+      "canvas": "13.333 × 7.5 in",
+      "example": "examples/frame-closing.json",
+      "preview": "runs/complete-campus-20261022-002/render/slides/slide-006.png",
+      "preview_sha256": "ca1eb53be80b44bef46e7b5d20aed501c00dc22e57a35fd841912709f8bb9e07",
+      "approval": "candidate_pending_user_review"
+    }
+  ]
+}

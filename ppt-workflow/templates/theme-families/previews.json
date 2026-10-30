@@ -1,0 +1,38 @@
+{
+  "research-light": [
+    {
+      "path": "templates/theme-families/research-light/01.png",
+      "sha256": "e072b120c96d0d943fb734dfb08c1e12b633e7591bd8947c53dc2d08fc5d8d6b"
+    },
+    {
+      "path": "templates/theme-families/research-light/02.png",
+      "sha256": "edfa89ff618170344e952c3831b7234708ebb04b7a8f2a5367db56d0587b1cd5"
+    },
+    {
+      "path": "templates/theme-families/research-light/03.png",
+      "sha256": "14cf9cd432b8abb2df760328d12a02254ccb427bb727a0200b223a804f6dc77e"
+    },
+    {
+      "path": "templates/theme-families/research-light/04.png",
+      "sha256": "6f1415f940d790359cc84d3aa4f775643811dce5228fd60c82d275a53896eb35"
+    }
+  ],
+  "showcase-dark": [
+    {
+      "path": "templates/theme-families/showcase-dark/01.png",
+      "sha256": "af9ee7ce7afcdb56cfdad49df89f80af1b0e7eb8fcf96e62ebc4da4edb55eda0"
+    },
+    {
+      "path": "templates/theme-families/showcase-dark/02.png",
+      "sha256": "69be70854e8858a8914b5fc9c018d07122102fec6c71a21aa44ea232939622ff"
+    },
+    {
+      "path": "templates/theme-families/showcase-dark/03.png",
+      "sha256": "dd6836aa7f161367304bb0579e91842a8b922e302a2763b02776998e86547631"
+    },
+    {
+      "path": "templates/theme-families/showcase-dark/04.png",
+      "sha256": "b790eecb683f61882ffc7b7af3b4a627cced363d9c09affe69f0ea1f7eb0e6f5"
+    }
+  ]
+}

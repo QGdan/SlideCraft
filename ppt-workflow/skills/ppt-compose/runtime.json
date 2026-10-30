@@ -1,0 +1,5 @@
+{
+  "project_root": "../..",
+  "stage": "compose",
+  "binding": "project-local-runtime"
+}

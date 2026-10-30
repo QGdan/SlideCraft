@@ -1,0 +1,11 @@
+# 任务专属三维审核
+
+quality-check按内容计划生成quality-review-draft.json，所有答案为unverified，绑定尚未填写。只有真实审核后才能用它提交；不把草稿当结果。
+
+quality_review指向schema_version为quality-review/1的实际附件。binding与visual_review同用deck_sha256/spec_sha256/qa_sha256/images；更换输入、数据或图片必须重审。
+
+dimensions分别记录content/design/engineering的status和具体notes。checks逐一回答内容计划中的每条quality_checks，answer为yes/no/unverified；已回答的项目必须有证据，不能删除难回答的问题。
+
+findings定位页/对象、dimension、severity、owner_stage、issue、evidence、proposed_fix、status与resolution_evidence。责任阶段用于返修路由；没有复查证据不能写resolved。严重问题直接失败，未验证项保留unverified，警告与待审保留needs_review。三维结论只能让原自动QA更严格，不能抹掉它的unknown。
+
+先审源稿的概念、数据、推论和信息任务，再审最终PPTX真实渲染的表达与一致性。两者分开取证，不能只看生成器自己的HTML/SVG预览。用户审美判断另记，不以二元检查代替。

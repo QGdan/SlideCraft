@@ -1,0 +1,2762 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 1255,
+    "sha256": "cb2ba6a4126856f67aad464d179cec9bb226689692024b889c4ca864596f4227"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2115,
+    "sha256": "d27a6bfdee8a16a38f299dfe8275915f86adeab838977aaa0e9bc0a9c0949e6f"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "bytes": 1930,
+    "sha256": "59393cf15c2964d7d275725741e1bac6728b72158127e0f6b12ee0ca7d828023"
+  },
+  {
+    "path": "ppt-workflow/.gitignore",
+    "bytes": 87,
+    "sha256": "b36b4cdf996155caaa0351cdddb22777769dbd0ae5145add96d24bf4838d3d23"
+  },
+  {
+    "path": "ppt-workflow/assets/campus-editorial-v1/campus-service.png",
+    "bytes": 2134684,
+    "sha256": "658a4ca792647976efc4551c287c99cbf7d64c3bd64ea7663697f2fdbe06f6aa"
+  },
+  {
+    "path": "ppt-workflow/assets/campus-editorial-v1/generation-prompt.txt",
+    "bytes": 1191,
+    "sha256": "5998d9de5c680a0a97865797620c3f6a96d9a173a6333f5283a6a4a7b9237f92"
+  },
+  {
+    "path": "ppt-workflow/assets/campus-editorial-v1/provenance.json",
+    "bytes": 620,
+    "sha256": "6cdf1930dd1d10552faa9dfc23b957bbeb9b074de4190a2c68d4c71596582346"
+  },
+  {
+    "path": "ppt-workflow/assets/editorial-v2/hero.png",
+    "bytes": 1822849,
+    "sha256": "9d0aa307f6b94e20f4367b2d503d5236032e21688ceaeb0b81f309fa65c6e33c"
+  },
+  {
+    "path": "ppt-workflow/assets/editorial-v2/prompts.json",
+    "bytes": 3774,
+    "sha256": "1da261c76a4ab574dac6743917b3b48e00a0ddcb6125ecc1f70ded93e0c1d870"
+  },
+  {
+    "path": "ppt-workflow/assets/editorial-v2/review.png",
+    "bytes": 1606841,
+    "sha256": "8c9bd44bf46247a0f5a1efb49e4d272765c44ccbadfaeddb08ef9e5fc27ba671"
+  },
+  {
+    "path": "ppt-workflow/assets/editorial-v2/section.png",
+    "bytes": 1958441,
+    "sha256": "e56ccf60643e5231f2e73ca60fe03fd1b5e48b28a3a9b03474d6692bfd2a9e06"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/library.json",
+    "bytes": 39010,
+    "sha256": "6b6da64e7db62f6cca8339c560de7dab61de0bcb9faf49d99036604cd2fcc6df"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/arrow-right.png",
+    "bytes": 1433,
+    "sha256": "ad78a0b339e4f964a916d4a99cf86bdc0f6b2f5923e6911c349b3d37ea81c467"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/arrow-right.svg",
+    "bytes": 428,
+    "sha256": "7e602a26d53e78ceb788f38cb89ec1d1091130c56d7829ca294b7ed0642277c6"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/award.png",
+    "bytes": 6964,
+    "sha256": "09c9edb6aed16944b527618274f7c978582ab6e54c7ae4e90a8d586ef61b6113"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/award.svg",
+    "bytes": 538,
+    "sha256": "9ed9dfd4bb9c49a2ee011fd2900b316a87fd4fab648d7f03f51093113a106874"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/book.png",
+    "bytes": 3272,
+    "sha256": "e7d7083ef0646db6aa48488ce57dbfd0f3bf478113eab6ee95189cd7ea4b0fb9"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/book.svg",
+    "bytes": 522,
+    "sha256": "1f55b129a72746a98e1aaffc55ae7b43d004db036968afb022b3f9fbd7da87c9"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/bulb.png",
+    "bytes": 5807,
+    "sha256": "5212b79434720d3bbdc3afccdbf6198c8db2fb5587cdf19bd08d3eee0bb764a3"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/bulb.svg",
+    "bytes": 530,
+    "sha256": "4f4688352f60a3d65ca9abb8cebc9fc3c3d3b9f2fbc47784b44b22008a69f0fc"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/calendar.png",
+    "bytes": 4157,
+    "sha256": "0c090244415894af31d62d2c795a8299c698fde5d60b4efe20070e2e95ac2ff2"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/calendar.svg",
+    "bytes": 568,
+    "sha256": "4861f170e9b1fa72eaa7cdefc3c7ca64ca6a10b9c2e3a13e1aceb4725f266d8d"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/chart-bar.png",
+    "bytes": 2863,
+    "sha256": "9c3047bc9cc099745599a41ff67d8a205ef8b986dc317f8fbeb69882f984ae9e"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/chart-bar.svg",
+    "bytes": 694,
+    "sha256": "ca1d3717da5007a46a2cf7521f9df558fd6e159874696dd400626809ead41162"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/chart-line.png",
+    "bytes": 2498,
+    "sha256": "da81427042c471e3df475090c8c2c1acd487c1be2f963c4bedd706d0b6f99792"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/chart-line.svg",
+    "bytes": 445,
+    "sha256": "91ae4d96cfc8926df2c715438bd539da2703dc158828336c227ce23e62ca7cb4"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/chart-pie.png",
+    "bytes": 6505,
+    "sha256": "2ea821405a7e3a4258282b6f3c6658efbf4e20a9e0e84578ea11c75e1e4b400e"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/chart-pie.svg",
+    "bytes": 544,
+    "sha256": "cf800f8dc1b3d6474dc79f6914c168b299e67752d1ff6e6bf653774d185e5f1f"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/checklist.png",
+    "bytes": 3773,
+    "sha256": "ea0775e75854d87f982991189a6f1ed536301602564b55f27acd807b50fd8407"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/checklist.svg",
+    "bytes": 500,
+    "sha256": "7e6753a32e2207411201877467fb7b3c52645338a09c6612478e300d99ada973"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/clock.png",
+    "bytes": 6655,
+    "sha256": "d895e9c7dd8dd6890873d19c4a4e7299f4ff1c50aea36009855cfc80b5681fc4"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/clock.svg",
+    "bytes": 445,
+    "sha256": "971b0b2d3b5b17ae240cd3aac1a09710ab680d8c41900f1a37a0e430994d7fda"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/database.png",
+    "bytes": 6460,
+    "sha256": "405d99fd035c0fd07d4b296086767960e67cd9aa763a2037c1578aab88960c15"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/database.svg",
+    "bytes": 479,
+    "sha256": "7cdcca11c1555d48e19c2fcd2fce4420cbec734f3fa3d28274f8167a796ee0d6"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/file-text.png",
+    "bytes": 3916,
+    "sha256": "e5de9fa26a0f4eb5eb090e94fc6de047e551642f8e8b8f13e22175a911e14b33"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/file-text.svg",
+    "bytes": 542,
+    "sha256": "afc807ae397fc2419ac5cbca6a1e085a5f761277397682cbad3d907ca78693f5"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/flask.png",
+    "bytes": 2654,
+    "sha256": "ffcd52c464cc548741233c789146f92487f55a8fadcb5108a198edd08e9bc8e3"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/flask.svg",
+    "bytes": 482,
+    "sha256": "28459e1fcdf7e9d8b0664aa3fe350995c4df3dda6ee9823351df3ea0f5714d17"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/heart-handshake.png",
+    "bytes": 6704,
+    "sha256": "0287d58f0b97b935ac77c690ab79ea9fd9dc270eb6507033611ba0396ddd49f8"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/heart-handshake.svg",
+    "bytes": 638,
+    "sha256": "4e09c9d7f50207b355ce2d8c2ca9249d78a33baa18d213071ed85771705995a3"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/leaf.png",
+    "bytes": 6139,
+    "sha256": "77e0bd873f51b1df062c72649ba31fc48737cdc9a9b5f9c6d38ced0059040b48"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/leaf.svg",
+    "bytes": 486,
+    "sha256": "ca3b92ae35e9b8e7e94746cc4e51301ee2f85b4760a03a62250eb418f39a063a"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/LICENSE",
+    "bytes": 1073,
+    "sha256": "b740a1d46122672da62833e97f7e7c8a13fa85cbc7445b584b297cc00dde93db"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/microscope.png",
+    "bytes": 4252,
+    "sha256": "70d275c9c9ef60b6c52eefc5598e40732b125b4e9730a7aec887699d32e4e82d"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/microscope.svg",
+    "bytes": 581,
+    "sha256": "279fb1bd505b97a6b79514f890bdb6dac4783b06b4b1880ba31e36403bce1a66"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/presentation.png",
+    "bytes": 3571,
+    "sha256": "f8da0fb6ce2e4b4f65d976c79f7f1ed07d56b7dac645bd586fc9e97953dc2c9e"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/presentation.svg",
+    "bytes": 563,
+    "sha256": "076b83103b75ecfc5bb4cb441e16b610817d84a22a6adb1cefb7118b2e78db65"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/provenance.json",
+    "bytes": 523,
+    "sha256": "14cd48b1c7e566de2887652343539521fa090c21c4b376a00d6a7423259ce0ea"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/route.png",
+    "bytes": 5909,
+    "sha256": "e967ab9e39f3ed7dcf2c57ee3eb61928e638b6ec47351c06d9e18266868571cb"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/route.svg",
+    "bytes": 500,
+    "sha256": "383e4d1290ea525748767973343b3f20ea979b3638f9b3896b417e032c6ebe6f"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/school.png",
+    "bytes": 3660,
+    "sha256": "4e5f51f60432b9fd4d2fb11a07c7c510f6e1bf3936c745413d4f2e8c9e25b22e"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/school.svg",
+    "bytes": 455,
+    "sha256": "8817457400645445cc584dcb45315cc01c7bd0dd07e1ac9791fd176328d29edb"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/search.png",
+    "bytes": 5258,
+    "sha256": "82dd3797d07f5b91e0b4ed378d0ace9d33f7d62bc79a6c81316c18b91489c2a3"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/search.svg",
+    "bytes": 433,
+    "sha256": "3dd53b9606283dfa0adcb0b10a7d9a4432369d4bebcfacf67f80fbe358381c34"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/shield-check.png",
+    "bytes": 6030,
+    "sha256": "b4918a8468e7dfdce0912b11ed73898307d90771f3d6d6a7821cbed253dd0fd3"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/shield-check.svg",
+    "bytes": 527,
+    "sha256": "7d12a28bb5b8ba69445a94118aa96b57a513f8d45e23974665f25c597eaccc30"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/target.png",
+    "bytes": 8704,
+    "sha256": "628ed9a673088a82639c898c2dbc58e43a6cafe840d055aec28b2d092ffeacda"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/target.svg",
+    "bytes": 489,
+    "sha256": "1874e1180c0fbe2a570c59986adfbed4e4eb9e839f7dd100bc871e08f5aabb1d"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/tools.png",
+    "bytes": 4813,
+    "sha256": "c8b45b5edd3e562158af61d298aff99b2566807a3886798d4d8431edd101bab6"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/tools.svg",
+    "bytes": 566,
+    "sha256": "d1acf22c4771a3ffd68791289c86ec8d78faac128d32cc72876693c3d32ea040"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/users.png",
+    "bytes": 6652,
+    "sha256": "861d206d6eaa1b340c29febda40435267be38a802d36fe22001d5a7791675ae8"
+  },
+  {
+    "path": "ppt-workflow/assets/icons/tabler-outline/users.svg",
+    "bytes": 536,
+    "sha256": "a9892bcba1adad20184c0b50641b1a96a56fb9ef5135ff60462c664874021cc3"
+  },
+  {
+    "path": "ppt-workflow/assets/illustrations/library.json",
+    "bytes": 3383,
+    "sha256": "870d9d919ad1aed19f6605ddfd5d4360fde5aa9234f4058252627b34cc14f81a"
+  },
+  {
+    "path": "ppt-workflow/assets/illustrations/open-peeps/CC0-legalcode.html",
+    "bytes": 32223,
+    "sha256": "b43732f4c1463b087cf10d4daf8d8766514b2bf8f21bc5ef50905f95be227726"
+  },
+  {
+    "path": "ppt-workflow/assets/illustrations/open-peeps/peep-16.png",
+    "bytes": 40635,
+    "sha256": "ebfbfa1a215122b5145dc2f175c71010003100895b1e25e1d8c046a1ee1f1024"
+  },
+  {
+    "path": "ppt-workflow/assets/illustrations/open-peeps/peep-16.svg",
+    "bytes": 35780,
+    "sha256": "113957380b624e1fef9006247bea7afdfaa57753b4c8f5a10b231533ded58953"
+  },
+  {
+    "path": "ppt-workflow/assets/illustrations/open-peeps/peep-73.png",
+    "bytes": 56046,
+    "sha256": "45997d8690c626a3b964df68cd8835436506823157301b842a82814d5e0d0b15"
+  },
+  {
+    "path": "ppt-workflow/assets/illustrations/open-peeps/peep-73.svg",
+    "bytes": 32134,
+    "sha256": "9e43b37c06d5feb90a89f09738935e6a9df84294697331edc7dfa7de93a6fb64"
+  },
+  {
+    "path": "ppt-workflow/assets/illustrations/open-peeps/provenance.json",
+    "bytes": 620,
+    "sha256": "26db8a193ef2347d7a64559524353927a45a7746938a04032439fbb274e0b697"
+  },
+  {
+    "path": "ppt-workflow/assets/illustrations/open-peeps/source-page.html",
+    "bytes": 83945,
+    "sha256": "d1422aa39ff9ba28ae9c9ac483817dc90aa0624180457ee42a94257a60b5a343"
+  },
+  {
+    "path": "ppt-workflow/assets/library.json",
+    "bytes": 6296,
+    "sha256": "be96bfe398a22fe5d42e04917a52f55b14dcc80ba0c4aab41ae34fcf3c5f81ce"
+  },
+  {
+    "path": "ppt-workflow/assets/unified-v3/hero.png",
+    "bytes": 1704803,
+    "sha256": "0db030c4278c366653b702e73e2856b528d3c4746ec0282b60cadf46c6f4a85d"
+  },
+  {
+    "path": "ppt-workflow/assets/unified-v3/prompts.json",
+    "bytes": 1300,
+    "sha256": "f0ff0fe254cf07501d361f0a8755999c4c472b25dc41ffdc3693efae5cea2b95"
+  },
+  {
+    "path": "ppt-workflow/assets/unified-v3/review.png",
+    "bytes": 1606841,
+    "sha256": "8c9bd44bf46247a0f5a1efb49e4d272765c44ccbadfaeddb08ef9e5fc27ba671"
+  },
+  {
+    "path": "ppt-workflow/assets/unified-v3/section.png",
+    "bytes": 1958441,
+    "sha256": "e56ccf60643e5231f2e73ca60fe03fd1b5e48b28a3a9b03474d6692bfd2a9e06"
+  },
+  {
+    "path": "ppt-workflow/docs/Office直接导图与连接恢复.md",
+    "bytes": 3240,
+    "sha256": "55c16885e27aa8166ab8b004515fdf9ff4d7366dfae88c3b7d6bf9aa05605e60"
+  },
+  {
+    "path": "ppt-workflow/docs/WPS-MCP连接记录.md",
+    "bytes": 2543,
+    "sha256": "369043b68923e82a39ca811036db9987de2c6cadf6b7a7bbd12da7f0c67377cd"
+  },
+  {
+    "path": "ppt-workflow/docs/WPS-元素能力矩阵.md",
+    "bytes": 2611,
+    "sha256": "7c12907aa242ad1bac1489b5813cf3ab42dab042dad52fa0a5957c3d4735c5ca"
+  },
+  {
+    "path": "ppt-workflow/docs/WPS-模板工作流.md",
+    "bytes": 4453,
+    "sha256": "bdf0a91399d5966bd9e9785a5fec8de8e183e1b7afad769311ba921f956244cc"
+  },
+  {
+    "path": "ppt-workflow/docs/主题选择与同稿对照.md",
+    "bytes": 2514,
+    "sha256": "79a2dd4481366e8ea3a769c9fd1a18d71994dd64517e782edea605e24dbaea49"
+  },
+  {
+    "path": "ppt-workflow/docs/从详细大纲到通用制作.md",
+    "bytes": 5782,
+    "sha256": "c465ea137c6f8d731050d426f5f99eca830880f9165a642b9e34c0b6f9a232ba"
+  },
+  {
+    "path": "ppt-workflow/docs/任务验收矩阵.md",
+    "bytes": 1833,
+    "sha256": "223250c06e39724bb38f07ca6a54b25fea718100ddabd3ae5e76f92495ec2e5d"
+  },
+  {
+    "path": "ppt-workflow/docs/内容关系与原生构图.md",
+    "bytes": 4054,
+    "sha256": "4fc7932cb866e0b0e2437f636e9474f66886eceb225c107067867452fed35b1c"
+  },
+  {
+    "path": "ppt-workflow/docs/内容驱动布局与中文容量.md",
+    "bytes": 5541,
+    "sha256": "2e41981fb07675db1a78401667f12c2ffc32fdef6fa65fd9a9beddd0aaf53368"
+  },
+  {
+    "path": "ppt-workflow/docs/原生图表视觉配方.md",
+    "bytes": 5116,
+    "sha256": "0c17d0a5ee2e65dabdf98bf0f37d8d7ed29b0b0acaba739e138bdc87dccbab30"
+  },
+  {
+    "path": "ppt-workflow/docs/原生模板与视频借鉴.md",
+    "bytes": 4266,
+    "sha256": "94292ef994671c7cdc08ebc144ee95f255d1a52ed17205c0edc3b33cbe1fcd3d"
+  },
+  {
+    "path": "ppt-workflow/docs/图片与原生图表联合表达.md",
+    "bytes": 4186,
+    "sha256": "e47b2563773dd565072b7e5377e550cc90f1704d55b88f81b63253e419373f72"
+  },
+  {
+    "path": "ppt-workflow/docs/在线素材检索与入页.md",
+    "bytes": 7704,
+    "sha256": "47d8b6e82ed6c869ad80a9c49ccfef634025f57070e47e6d0bf0fdba8e679ba8"
+  },
+  {
+    "path": "ppt-workflow/docs/场景模板与分层视觉.md",
+    "bytes": 3474,
+    "sha256": "2b0a7baf591e0c2849c11d599240bda062a7bf1c45bf4336e896c590d40d0718"
+  },
+  {
+    "path": "ppt-workflow/docs/大纲驱动与任务素材包.md",
+    "bytes": 7987,
+    "sha256": "040cf612856265c16d087a467490f4f8739b6dbe0d057a633fa4f5218c40a831"
+  },
+  {
+    "path": "ppt-workflow/docs/封面章节与行动结尾.md",
+    "bytes": 5033,
+    "sha256": "fbc7c9c6378f60379f2826c7b135d078580cd47fbfc4ed70bfc5454fb39e403f"
+  },
+  {
+    "path": "ppt-workflow/docs/工具与连接.md",
+    "bytes": 4459,
+    "sha256": "494538d2e01d4a52636d6ffc1b915d49fa6d774887858ee3f9a607cc3d8a5376"
+  },
+  {
+    "path": "ppt-workflow/docs/开源素材库研究与接入方案.md",
+    "bytes": 8178,
+    "sha256": "5a6743447e96f5bc6b25a8cc5e7d7b7ec877e3f5d79d7d67510efde7d6b7082e"
+  },
+  {
+    "path": "ppt-workflow/docs/开源融合记录.md",
+    "bytes": 2787,
+    "sha256": "40d6e3dc1bed7643d03b0b986792d72f0cb2101160e68303bc5cff2a359cac73"
+  },
+  {
+    "path": "ppt-workflow/docs/插画与原生模块库.md",
+    "bytes": 5580,
+    "sha256": "1534d3db00c5f700a03615d08fde5ae765f7bdb40cc755822cdcaaa147436860"
+  },
+  {
+    "path": "ppt-workflow/docs/效果验证与编辑回查.md",
+    "bytes": 2647,
+    "sha256": "b92920bdf46defa6e7f081512705917674f77ddf7f814495e844cf237f15f9af"
+  },
+  {
+    "path": "ppt-workflow/docs/版式与素材设计方法.md",
+    "bytes": 7566,
+    "sha256": "bf62518df8ddc49cfb95706c7b88352782491d5081a6f7b8fe68360720af65b3"
+  },
+  {
+    "path": "ppt-workflow/docs/素材库使用.md",
+    "bytes": 4259,
+    "sha256": "ff14cf9e788c8dcd51493d838d1d5edb171dd74737825473c3618e5cb82bcc0c"
+  },
+  {
+    "path": "ppt-workflow/docs/素材风格与图像叙事.md",
+    "bytes": 6866,
+    "sha256": "ebe094030dc5f6c426476a98f6530471cd89db29ed425d0752d15661c206bf77"
+  },
+  {
+    "path": "ppt-workflow/docs/视觉优先的制作约定.md",
+    "bytes": 1814,
+    "sha256": "440465a1fc65452b68eaab6fe03f635576f984a5b319dfba5ad062c93063ad06"
+  },
+  {
+    "path": "ppt-workflow/docs/视觉构图示例-20261021.md",
+    "bytes": 3423,
+    "sha256": "31497cf10e5be50d21462bf4f5131a066fc321eaf557c2dcbb512b7bbc97d48c"
+  },
+  {
+    "path": "ppt-workflow/docs/质量升级工作流.md",
+    "bytes": 3556,
+    "sha256": "d7e97eb8bbd594d1c7e00b99b82c29db565161968c96970f5ba0210f28fdbba4"
+  },
+  {
+    "path": "ppt-workflow/docs/页内排版与素材调用工作流.md",
+    "bytes": 8354,
+    "sha256": "81e820671b1fedefd986f005035891aa4e2879a07b2970ef8e04ed6ff95c2b42"
+  },
+  {
+    "path": "ppt-workflow/engine/build.cjs",
+    "bytes": 3632,
+    "sha256": "4429165f1344a0fd034744b384ed4424d776108937d987cdf927494cbd2935e4"
+  },
+  {
+    "path": "ppt-workflow/engine/capabilities.json",
+    "bytes": 6653,
+    "sha256": "d56be925f4df7f6871cdd0c13e0adae7175f17250846c84c6bb5e93e2756c173"
+  },
+  {
+    "path": "ppt-workflow/engine/chart_compile.cjs",
+    "bytes": 5140,
+    "sha256": "7ba191cd9ce0442f4c848532eb6f3bc54501aed7ddf6844a5afb77f923191e33"
+  },
+  {
+    "path": "ppt-workflow/engine/editorial_build.cjs",
+    "bytes": 4087,
+    "sha256": "ae498c42c90f0ac7a06578b5af43fcd8263554e88404dada83750d72625d7472"
+  },
+  {
+    "path": "ppt-workflow/engine/image_compile.cjs",
+    "bytes": 985,
+    "sha256": "745d2d7460cb8df398437f10714d661c1e5253ce3c8c0c32758ea2e22268a1ba"
+  },
+  {
+    "path": "ppt-workflow/examples/asset-style.json",
+    "bytes": 519,
+    "sha256": "a1e7235057678ec8ca5e044e301da07d8825b0e6f1598c5f14fac016e311a70e"
+  },
+  {
+    "path": "ppt-workflow/examples/asset-visual-direction.json",
+    "bytes": 319,
+    "sha256": "cfffb04582adb9eaadde11eda8efe8b5d839ec28189393b104c53e67d088ec03"
+  },
+  {
+    "path": "ppt-workflow/examples/brief-composition-campus.json",
+    "bytes": 1465,
+    "sha256": "da23450be6970e5627a83f4362f28a8f8a3122f7dea8b853f355c9b77a7a7be0"
+  },
+  {
+    "path": "ppt-workflow/examples/brief-composition-complete.json",
+    "bytes": 1910,
+    "sha256": "3f09114c77ff748d714c2c6a285e9704ef0e63cbc7eed5b7becb64310ada01e7"
+  },
+  {
+    "path": "ppt-workflow/examples/brief-composition-paired.json",
+    "bytes": 1103,
+    "sha256": "e06ec3cf124d1f4308afde75e54c722b99b8eed44416ed444dcf963ebadf4606"
+  },
+  {
+    "path": "ppt-workflow/examples/brief.json",
+    "bytes": 615,
+    "sha256": "9a0e93214942d1d816b4a37812dfc4e8aad402b79f4b30c758c31c3e5d0a02dd"
+  },
+  {
+    "path": "ppt-workflow/examples/campus-blueprint-ink.json",
+    "bytes": 11195,
+    "sha256": "225d7c92216b2fde3bdb7ae5166bc0a87335c28a9150fe6ac97e9b3f456e2a5d"
+  },
+  {
+    "path": "ppt-workflow/examples/campus-blueprint.json",
+    "bytes": 11193,
+    "sha256": "51b3720fa7620de176d110e17ff4c6d34ea0018311205924af2a4f0f4d36b4c9"
+  },
+  {
+    "path": "ppt-workflow/examples/chart-demo-source.json",
+    "bytes": 7760,
+    "sha256": "07b9f08d1bf03e5f58feaeaa389250c87937bf7548219e6c7a1baa0d925ae3e6"
+  },
+  {
+    "path": "ppt-workflow/examples/chart-style-focus-comparison.json",
+    "bytes": 3457,
+    "sha256": "c1e38a2c014c3b9da5996b401e15fd3a1d29b39b274d72573a61b7e81e6bf0d3"
+  },
+  {
+    "path": "ppt-workflow/examples/chart-style-focus-trend.json",
+    "bytes": 6091,
+    "sha256": "751be44ad4680b380f53e90e7677081827fc4835d18b01f8cd2d4d4860eeb81e"
+  },
+  {
+    "path": "ppt-workflow/examples/chart-style-series-comparison.json",
+    "bytes": 3840,
+    "sha256": "5ec96c63ccb62f869135416ebbb4f4665121c5e1af223028250ba5d1f2b6dcc2"
+  },
+  {
+    "path": "ppt-workflow/examples/compact-chart-metadata.json",
+    "bytes": 2802,
+    "sha256": "53572ec27698c9b015074e52649dd32694b69ab80b83cd29f058577b72f1f236"
+  },
+  {
+    "path": "ppt-workflow/examples/content-plan.json",
+    "bytes": 2433,
+    "sha256": "57a08f9cd6e50370e4d2c5a24986ccffdaffb6df445f4c553c82f518953d1f59"
+  },
+  {
+    "path": "ppt-workflow/examples/deck.json",
+    "bytes": 8584,
+    "sha256": "3b8980863e5a4a6ff57b464b25418da30ac5da1001f9874819449b3d013a54ea"
+  },
+  {
+    "path": "ppt-workflow/examples/demo-report-v1.json",
+    "bytes": 1758,
+    "sha256": "9a08d5f4b5e051d874986a5cd9c32c39f18a7d98ff9f9dcb2a89c17d1c33f6bb"
+  },
+  {
+    "path": "ppt-workflow/examples/frame-closing.json",
+    "bytes": 970,
+    "sha256": "7bf3979e18d8f688ea8d96594962f73203967ab0e5d210a885ff66f2eab8642d"
+  },
+  {
+    "path": "ppt-workflow/examples/frame-cover.json",
+    "bytes": 811,
+    "sha256": "2f5f04a780617ba943e9756f8d1f1a0f8b195fab64705985dca8e6b9a96c5a7c"
+  },
+  {
+    "path": "ppt-workflow/examples/frame-divider.json",
+    "bytes": 776,
+    "sha256": "199629a26dd22bd8904c42c3d8a31b764c47188030dac4a77e956b32a49c7b3f"
+  },
+  {
+    "path": "ppt-workflow/examples/layout-body.json",
+    "bytes": 1872,
+    "sha256": "74c78a23c5ee0c74ac2a82c640a8aa1dfdcc3aced4955ad4eb4378745dc6484c"
+  },
+  {
+    "path": "ppt-workflow/examples/layout-comparison.json",
+    "bytes": 9158,
+    "sha256": "e94943419a74d9831d942b53f69d879e9a84ad070e932048b0c7496ce6beda0d"
+  },
+  {
+    "path": "ppt-workflow/examples/layout-data.json",
+    "bytes": 311,
+    "sha256": "8310c74aa236bbef1ab5be9e3cf11e18e09e2dc011529ecc7ea4111755293c88"
+  },
+  {
+    "path": "ppt-workflow/examples/layout-image-story.json",
+    "bytes": 613,
+    "sha256": "a8c1e44acd1bc55ff5d73f119fdd87b193b82ec754c5d358288515153049f395"
+  },
+  {
+    "path": "ppt-workflow/examples/layout-photo.json",
+    "bytes": 833,
+    "sha256": "e18d897d8e4e34ed1676b966da9aa77acd6cf8c116ef10045d0475b99233adae"
+  },
+  {
+    "path": "ppt-workflow/examples/module-request.json",
+    "bytes": 547,
+    "sha256": "2d7fafb16ce9b14defcae836bccf12208052925c543a42eb396d94e4db31c49c"
+  },
+  {
+    "path": "ppt-workflow/examples/qa.json",
+    "bytes": 1612,
+    "sha256": "b434def05c6c68fd49588cae3b430ca27561a45ec3cdccec41b216b3506e2839"
+  },
+  {
+    "path": "ppt-workflow/examples/quality-outline.json",
+    "bytes": 1466,
+    "sha256": "22574544e6497b61347251fb58b5972abf4a46da22c1f88a09ab3a72dc819a98"
+  },
+  {
+    "path": "ppt-workflow/examples/relationship-comparison.json",
+    "bytes": 1390,
+    "sha256": "72a48084428eb7c7ac14c852aceaa12b6a78d2c5238cf55c2dd3146e6cf7610e"
+  },
+  {
+    "path": "ppt-workflow/examples/relationship-hierarchy.json",
+    "bytes": 1394,
+    "sha256": "18355b189e506e39497d4b2b6a8dad98d20dca8a6866e3022f000445aa18965a"
+  },
+  {
+    "path": "ppt-workflow/examples/relationship-process.json",
+    "bytes": 1365,
+    "sha256": "39490c676543417a6e0589e08d5f1f1df001664cedb54dd09f567187809a3f5e"
+  },
+  {
+    "path": "ppt-workflow/examples/trend-annotation.json",
+    "bytes": 6883,
+    "sha256": "1c9f5f309a03752a115e63d9b178ad50d1ee8ea8d4d8dc7ec039ac0dea9cebf6"
+  },
+  {
+    "path": "ppt-workflow/examples/workflow-unified.json",
+    "bytes": 807,
+    "sha256": "279169364d21387ebefff8401a730fd8808d915c9195e77608def829264b9693"
+  },
+  {
+    "path": "ppt-workflow/office-mcp/editable_art_worker.py",
+    "bytes": 4127,
+    "sha256": "396dfb916077cf6de78fafb00cc7c8fdbde6ec70d290bd6881c81b8f439b33ee"
+  },
+  {
+    "path": "ppt-workflow/office-mcp/native_worker.py",
+    "bytes": 9906,
+    "sha256": "9468c37d6a90fc38ee3dcdcf5211d4318e96e81bc8771cb972780cd95e0ef816"
+  },
+  {
+    "path": "ppt-workflow/office-mcp/requirements.lock.txt",
+    "bytes": 666,
+    "sha256": "54295082ff3dda6e82525996d42cd4ddaac0ed05c99b79be1856c0940311996c"
+  },
+  {
+    "path": "ppt-workflow/office-mcp/server.py",
+    "bytes": 3954,
+    "sha256": "88ec70cbb6b9546e7d76254f73d166839e40d39fe1baecc300ad7d21c0d8326e"
+  },
+  {
+    "path": "ppt-workflow/office-mcp/unified_worker.py",
+    "bytes": 6944,
+    "sha256": "39de5492e3c8d90c1edc14e22be610cc592e76242cdc6a4a1c68c571f423d44e"
+  },
+  {
+    "path": "ppt-workflow/office-mcp/wps_readback_worker.py",
+    "bytes": 2446,
+    "sha256": "7279593b611e687b8ec159373dcfc79248df5201706d4da930858ed7f0ba510c"
+  },
+  {
+    "path": "ppt-workflow/office-mcp/wps_template_worker.py",
+    "bytes": 4187,
+    "sha256": "e77d3665e82294f68474a527e292f1bec838cafa97842e638c9db1a6f2a3804b"
+  },
+  {
+    "path": "ppt-workflow/P2组件说明.md",
+    "bytes": 5834,
+    "sha256": "4ab71e7a1b779de6257ca0b52598f2092ca218899721407663f4ecdc9f0b3b14"
+  },
+  {
+    "path": "ppt-workflow/package-lock.json",
+    "bytes": 6789,
+    "sha256": "a71cea2c5499bbbe8f895b39c0c07ddfa144184b6afd9ee0b92ef0984c09db6c"
+  },
+  {
+    "path": "ppt-workflow/package.json",
+    "bytes": 197,
+    "sha256": "04f8f924fb34276247ca072b367ab37ad37d83fbb79d9a3802ea60c38f966739"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/__init__.py",
+    "bytes": 102,
+    "sha256": "985fd5e659626d6b103be8c9fa8d9198843f82157ee0b3877e2dcb0904797cb0"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/__main__.py",
+    "bytes": 14296,
+    "sha256": "350595f31003e247343ef7dbbe5e0b857abe059501980605f28dc91abd10fbdf"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/asset_direction.py",
+    "bytes": 10713,
+    "sha256": "b5ae445c1f77894eb0b386be79045302f445cb9b06a169d4b5d9827f29ab8660"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/asset_library.py",
+    "bytes": 5014,
+    "sha256": "982adab3dfea38869f00bd18614e156fa4743bcda10b316ed0d0f97e45951bde"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/asset_placement.py",
+    "bytes": 6229,
+    "sha256": "363766bf63245d8bbaa31904ef7046029f2c3aef703a40250dbce7a2ae2c2d84"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/assets.py",
+    "bytes": 1940,
+    "sha256": "fa3dafcab783113c53dc5d4f22a61d00d99d1739b67175f79ae885f2b76f05eb"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/blueprints.py",
+    "bytes": 8989,
+    "sha256": "9e79c707c3e7282a2e0552597414e0ce5705fc130ea0a8b022d7a58d926fc38b"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/brief_composer.py",
+    "bytes": 17348,
+    "sha256": "7b57e7d2745ede01586654a1db25f0a115d54959eb78385774f50048bef7cdb2"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/chart_preservation.py",
+    "bytes": 2436,
+    "sha256": "d1931f7c93590840db719873fe5d6bec9dad3383ea53c0e53a6d06cbd937ea30"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/chart_style_library.py",
+    "bytes": 10745,
+    "sha256": "7d947a38f189ff91d5d47aa07191bd4529da9a7a40984ba6f195ccc22965b014"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/charts.py",
+    "bytes": 3805,
+    "sha256": "439221b284f720247815f174295246c1b0b862359d63b76db924caf559187d0b"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/content.py",
+    "bytes": 18806,
+    "sha256": "fce88a02a415f05227f7294cc789fb6857d86f19deb876b57b235026e8876be8"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/contracts.py",
+    "bytes": 8982,
+    "sha256": "ed7a0f23655825fffd4b9b45e6e50e5680c0f108670caa6118f4bb8a754527f9"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/design.py",
+    "bytes": 11867,
+    "sha256": "aaaf259a23dc79db45794e24602b9b4481ba5c152f19bbc66c22d743c7770aa8"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/editorial.py",
+    "bytes": 8546,
+    "sha256": "b0a4abb5588fb1d41145420def335f59292af6ec61520b3e72a6206f74a0a4be"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/editorial_builder.py",
+    "bytes": 2946,
+    "sha256": "352295df5c70a38883d733b98781754345a065cc12386d7f2dba2a2c36a4595c"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/editorial_frames.py",
+    "bytes": 7167,
+    "sha256": "769c8d6edc9f16671dba5dcb231c521c50df52bdde4034adffdb0dd191f9c402"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/exhibits.py",
+    "bytes": 4738,
+    "sha256": "4bf14cc2fc036d3cacf5df3749f95cae749da5dc27f3f0d491116743c7786383"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/export_fix.py",
+    "bytes": 2658,
+    "sha256": "47e0d9c9ab7963d777d64547b3a741edfd8155b84e4d4286d16061f8ba022f7d"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/icon_library.py",
+    "bytes": 4451,
+    "sha256": "07a7ecad7b99b75f8d6cedaff1195431a8b5fe63cc6030b3041746f8b323dba6"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/illustration_library.py",
+    "bytes": 3587,
+    "sha256": "9316f3949576bc0b0c4637fea26c2ec09318f0f8e4311605c20451e1cd454502"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/layout_capacity.py",
+    "bytes": 11761,
+    "sha256": "057f648b591825765503230fbb85ccace8d7249a58eed1fe52845fc14ce3f9ee"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/module_library.py",
+    "bytes": 7760,
+    "sha256": "ef3f3f30fc713b37787b16f52f3b4252f03893d28afcb1fb74be02aa0bde52fc"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/native_structure.py",
+    "bytes": 4613,
+    "sha256": "79b33163f0ec4bbb9bbf654504f26d26e4b438869a00a2ad8211802a7cccefb7"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/office_bridge.py",
+    "bytes": 3799,
+    "sha256": "24e6d32e0e94368dea52dc06215097ef6a0b765200b1b7cd82e10bc533ddb90e"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/online_assets.py",
+    "bytes": 18599,
+    "sha256": "118aeb3106f5ca85e54c6896b79915c26e7fe687d51af4f2873e904a4cf23e27"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/paired_evidence.py",
+    "bytes": 4802,
+    "sha256": "a7c2ea8fe1f07595b31ea830270de8f3d01f2876c4dcefe136d71b405fe68779"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/production_materials.py",
+    "bytes": 19259,
+    "sha256": "e83c19f10439fbd9d181a8fd701fdbee516874d6941466d0815431b9417d386e"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/qa/__init__.py",
+    "bytes": 68,
+    "sha256": "abc352b17658c39ea8723f5bf1fe82bbc23eeddd642ad1621d274392a453ecf4"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/qa/common.py",
+    "bytes": 937,
+    "sha256": "9da582ad54977f5ae4a4a5e5efac0ee41d13145419e388e4eb1db4fa7d9ea266"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/qa/fonts.py",
+    "bytes": 5637,
+    "sha256": "e78a71546d43c10bc1902ed77cfc51d59d8021d4206d21af5b5050259fe0cbdc"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/qa/geometry.py",
+    "bytes": 5463,
+    "sha256": "03bb453f46725cb499242fcc9c1a01e44697b31c85246f638c8f8d88dbc35295"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/qa/inspect.py",
+    "bytes": 8252,
+    "sha256": "be8bd6941e25087551fbdd6ad3c418aa9b3ba06309cb0a8b78c3f41e5dd624a8"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/qa/package.py",
+    "bytes": 8789,
+    "sha256": "9037852a9fe50a6dc22d1ac3ebb4d9d38ef7dbba494f0ab1ac7b228f4a369d7d"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/qa/styles.py",
+    "bytes": 8462,
+    "sha256": "20ac98f60da58114a71ba95e1ddeb376b7f67c54fe1d4d45ba504648238febf2"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/qa/typography.py",
+    "bytes": 14907,
+    "sha256": "5aab63d3df463bfc288daa9f5f275d51c8b4b823e0e82df4fe571b23e0362bb0"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/quality.py",
+    "bytes": 9707,
+    "sha256": "34d8074862a4e96cead5c126574cd7b941cedc5489f1069b8e37df66c08bc5ad"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/relationships.py",
+    "bytes": 10757,
+    "sha256": "246dd60ec1e1a090f38247a362981c2979f8ecaf09efe2e67f9be019f025853b"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/render.py",
+    "bytes": 8087,
+    "sha256": "3e55e7b4876ce7272526b209e71f17d216fea9b01184a41670dcdbb90c0a47e8"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/stages.py",
+    "bytes": 27554,
+    "sha256": "084b02439e2927b07604680e1098c104f47188b1280ea09eb7b0f083d3644b27"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/template_resources.py",
+    "bytes": 5090,
+    "sha256": "6a804a121b10ac5212599baed56a64af36b3d2f7b03406eba667b3f83ca656e8"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/textflow.py",
+    "bytes": 2817,
+    "sha256": "d080c61a4fb118b8ec533b5dfd88616ed7660393caa4e51cf1cf6a6084b5757e"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/theme_library.py",
+    "bytes": 3201,
+    "sha256": "69fa87a228b0db451b07c465f3409d62acecee723b58237f2513364a215f813c"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/trend_annotations.py",
+    "bytes": 3700,
+    "sha256": "2824418fdde1d61eb31ba2762f3e6ee42f2cbb3fccea94cd5a349d1269d083fe"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/unified.py",
+    "bytes": 9811,
+    "sha256": "a56ff1ac1d6e31f6aa13650665e5c0d75676408417bd36ea6bf9394fcb562dfe"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/workflow.py",
+    "bytes": 33434,
+    "sha256": "7a9562f87e2e4a8c2005efe6fa133a9ecfa0bb76f169f4a40e3d503eaa1ab724"
+  },
+  {
+    "path": "ppt-workflow/ppt_workflow/wps_bridge.py",
+    "bytes": 5300,
+    "sha256": "495d572984aca287cd4fee3b90b59d0fa44b3732cfc0aaf0621623b003ba768c"
+  },
+  {
+    "path": "ppt-workflow/README.md",
+    "bytes": 1915,
+    "sha256": "cf7eb43cdba46c522cf19a79a98dd7f98aa383e590c6b8d34fc117f70975099d"
+  },
+  {
+    "path": "ppt-workflow/render/edit_probe.ps1",
+    "bytes": 3180,
+    "sha256": "dedfe6c567adcc35c345b3975a44d8edbcd515523d40a7fe6fe616736247c287"
+  },
+  {
+    "path": "ppt-workflow/render/windows.ps1",
+    "bytes": 3969,
+    "sha256": "12f22109327f21fb697cd090f748265badb01d42e508468d4c3ca18c86983328"
+  },
+  {
+    "path": "ppt-workflow/requirements.in",
+    "bytes": 145,
+    "sha256": "5bf36712e1e04f0752f67c6ed92f3b6bacd11e8c5a8652f6c44884dd32eb6215"
+  },
+  {
+    "path": "ppt-workflow/requirements.lock.txt",
+    "bytes": 245,
+    "sha256": "43f114306f843d3a634b32c7a4790afea7d9bc2e6e893641fded1a62f6e72658"
+  },
+  {
+    "path": "ppt-workflow/schemas/brief.schema.json",
+    "bytes": 2016,
+    "sha256": "1123ff6f29ea732c14767ea7c71c0d8a69ad8d2a806482f0e18a83da71dd5709"
+  },
+  {
+    "path": "ppt-workflow/schemas/content-plan.schema.json",
+    "bytes": 8595,
+    "sha256": "e4493024665d2777356baf2b8851cf060674b0d9dc0e17666f272931c3c20ad5"
+  },
+  {
+    "path": "ppt-workflow/schemas/deck.schema.json",
+    "bytes": 20590,
+    "sha256": "f2e51c9cc3872a6473f2e4d76f6725f86da5a68a53ca7fa06c47a772f278ab49"
+  },
+  {
+    "path": "ppt-workflow/schemas/qa.schema.json",
+    "bytes": 7296,
+    "sha256": "091fb25480174401f47dac807d88ebd501070066165b11f5e1d69fd648d4b153"
+  },
+  {
+    "path": "ppt-workflow/schemas/quality-review.schema.json",
+    "bytes": 6534,
+    "sha256": "6e26ed3d041e8c680a92e595503b28303c48920591325b9a8cbd4bb9eaccc551"
+  },
+  {
+    "path": "ppt-workflow/scripts/activate_wps.ps1",
+    "bytes": 1217,
+    "sha256": "57506f5528deedf3683d276017f17d19a07a08f2f098bb1359a46bf2acc0373b"
+  },
+  {
+    "path": "ppt-workflow/scripts/apply_cleanup.ps1",
+    "bytes": 2590,
+    "sha256": "dd51e4db5d6180091b5c4575e5d5d55829ebb9102d28d461878f67c9f027f1d0"
+  },
+  {
+    "path": "ppt-workflow/scripts/attempt_render.py",
+    "bytes": 3426,
+    "sha256": "4021b6481c5a19f49619d038a0d7758d34fc65b245bf6d01d35228037f232c37"
+  },
+  {
+    "path": "ppt-workflow/scripts/bind_p2_render.py",
+    "bytes": 1648,
+    "sha256": "d5b391e7e51ca9a3654fdc8ece16e1b274cbf6d9e2614d3a722fc2e5e09e011c"
+  },
+  {
+    "path": "ppt-workflow/scripts/bootstrap.py",
+    "bytes": 3655,
+    "sha256": "50ee6b5f71e67353861604d05a74fb5ab9f8e505a37540c17ede7864f45ad455"
+  },
+  {
+    "path": "ppt-workflow/scripts/build_editable_art.py",
+    "bytes": 3609,
+    "sha256": "8ab67f6ca45640ed3a9712e95cd6f610819fa209c45d178b6bf32de58b807582"
+  },
+  {
+    "path": "ppt-workflow/scripts/build_editorial.py",
+    "bytes": 1725,
+    "sha256": "ea1bf6efc026863f06412f8fdd05ee22ff8c809a36b81b989cdcb2ab81df12fb"
+  },
+  {
+    "path": "ppt-workflow/scripts/build_p2.py",
+    "bytes": 2999,
+    "sha256": "19bfb28b0e432d266834eba8415ca3db93c58b7a54b027f0cc7515494e6604ed"
+  },
+  {
+    "path": "ppt-workflow/scripts/build_unified.py",
+    "bytes": 1911,
+    "sha256": "547ef8708b6bd5e7669459194de9720a67e5fedd50013c60fea64f966fb0af1f"
+  },
+  {
+    "path": "ppt-workflow/scripts/collect_p1_evidence.py",
+    "bytes": 3917,
+    "sha256": "cb316651c82cd57ed0dec66e5fcfa2cbd89c2da1b5462a247dd6faf58e257a83"
+  },
+  {
+    "path": "ppt-workflow/scripts/collect_p2_evidence.py",
+    "bytes": 8170,
+    "sha256": "c2ee10660b74c9e398095b2b254f6dc1fcaab18ee7ec9de95626b3a2b18218fe"
+  },
+  {
+    "path": "ppt-workflow/scripts/create_contract_examples.py",
+    "bytes": 3597,
+    "sha256": "95caaed90c8c5f43ba364ba2b657d0ed29b1c99a24874e1452e5c082562849c4"
+  },
+  {
+    "path": "ppt-workflow/scripts/create_demo.py",
+    "bytes": 2098,
+    "sha256": "2d309372b3ae5f66e69da60fb1d1782bd0c7cad577e4557e7e0aa60e898a8776"
+  },
+  {
+    "path": "ppt-workflow/scripts/create_real_probe.py",
+    "bytes": 1039,
+    "sha256": "a05103e713913e704efd1b9d735343bcb669754f38b0a3b8b8ca34bd6923218e"
+  },
+  {
+    "path": "ppt-workflow/scripts/edit_probe_p2.py",
+    "bytes": 4010,
+    "sha256": "b048ef74f864b7c3dec5fb9177965730e5b262e48372d53e9786b7c66969bc9e"
+  },
+  {
+    "path": "ppt-workflow/scripts/final_maintenance_report.py",
+    "bytes": 11659,
+    "sha256": "15f4ba3528b5a0be203086395e985e9949910a197cc167869e067915e59ac9b2"
+  },
+  {
+    "path": "ppt-workflow/scripts/finalize_p2_review.py",
+    "bytes": 10588,
+    "sha256": "dfbae9fa464d4ec1c93f89b7e5ef1c46b3bff8e48bfc5c6f4b20824f0e6b1eba"
+  },
+  {
+    "path": "ppt-workflow/scripts/freeze_baseline.py",
+    "bytes": 6823,
+    "sha256": "746ec272912069103be7181c172528b4e5cec9420e6945a8c885c06f724d465f"
+  },
+  {
+    "path": "ppt-workflow/scripts/import_peeps_subset.py",
+    "bytes": 3596,
+    "sha256": "43d114e6a678fa3aa6e7c41c50c516429eaef315923d5dadac322988339d3c3c"
+  },
+  {
+    "path": "ppt-workflow/scripts/import_tabler_subset.py",
+    "bytes": 5433,
+    "sha256": "a5588a4bf8823cc7e2718d8a616451328f5b8066d9852f57ae9a87c78bf75948"
+  },
+  {
+    "path": "ppt-workflow/scripts/inspect_deck.py",
+    "bytes": 1368,
+    "sha256": "e2bbd27f1b094e6c30670a47a9ac922f1f613113ddac260e1571f2ecd35d1778"
+  },
+  {
+    "path": "ppt-workflow/scripts/inspect_editorial.py",
+    "bytes": 1681,
+    "sha256": "234c4b9edc371589613a9bb34aec77a59844f528026f1e5d65fecd77a5f58b97"
+  },
+  {
+    "path": "ppt-workflow/scripts/install_skill.py",
+    "bytes": 1926,
+    "sha256": "766af3967602df87ec8fe03c4fce284f9782cd95a9c0b1390e37612abdf68d57"
+  },
+  {
+    "path": "ppt-workflow/scripts/office_mcp_client.py",
+    "bytes": 3131,
+    "sha256": "30bc2d732af5e6fd51bafdd445126619573f780428c0ccd520ea6ff90b5b7d47"
+  },
+  {
+    "path": "ppt-workflow/scripts/p5_cli_smoke.py",
+    "bytes": 2079,
+    "sha256": "06af47a341272bdad83bc1b5b46b5b2c22eba658b21fb9b063e9122e6306065f"
+  },
+  {
+    "path": "ppt-workflow/scripts/p5_inventory.py",
+    "bytes": 3556,
+    "sha256": "fd1196b296f692b6bc10f107660ee45926a23e7385bd7d4029021ed28d8663a0"
+  },
+  {
+    "path": "ppt-workflow/scripts/p5_previews.py",
+    "bytes": 829,
+    "sha256": "a68c1098bfe6cef0a06766bba1fa6b2df0c3de656c0aeb93b027e56dcd9ff5de"
+  },
+  {
+    "path": "ppt-workflow/scripts/package_editorial_review.py",
+    "bytes": 6932,
+    "sha256": "e5bf7d6cab995ac45ef11a6ab5e266318628ac207557e12217a10e4bc1a30f73"
+  },
+  {
+    "path": "ppt-workflow/scripts/package_p3_review.py",
+    "bytes": 4750,
+    "sha256": "6ed0b56815935648b48e8e97f85d34a777619a950d27495d9b0c9a38a7e9fe56"
+  },
+  {
+    "path": "ppt-workflow/scripts/package_p5_candidate.py",
+    "bytes": 2831,
+    "sha256": "cf07fd7ac4f6f644804354d120d94a23c90e45ff265383160119a2deb7b74675"
+  },
+  {
+    "path": "ppt-workflow/scripts/package_p5_review.py",
+    "bytes": 13458,
+    "sha256": "be3765b76646660fe2aa72901f6c1900a526557d4748d5d8198538d059e2deec"
+  },
+  {
+    "path": "ppt-workflow/scripts/package_runtime.py",
+    "bytes": 4527,
+    "sha256": "39b960a53ed86d314b603a33fa1405c2b0e5ca76be04b845099ebd63a1b59159"
+  },
+  {
+    "path": "ppt-workflow/scripts/package_stage_skills.py",
+    "bytes": 5341,
+    "sha256": "21cb32333e0ea380daedd9394698299aa23ff5913198bfe73abc5bb26a896484"
+  },
+  {
+    "path": "ppt-workflow/scripts/package_unified_review.py",
+    "bytes": 7299,
+    "sha256": "75feddfd8bb1769da95331e18e20d47d209d7f8de3e452f8ee3fdc712a01b37b"
+  },
+  {
+    "path": "ppt-workflow/scripts/plan_cleanup.py",
+    "bytes": 3246,
+    "sha256": "9ea51b8851feb1dbaf65182ddc93dc513a8c6e4092d849836a0e882ec66f0bf1"
+  },
+  {
+    "path": "ppt-workflow/scripts/prepare_p5_bundle.py",
+    "bytes": 4492,
+    "sha256": "b020dc99ed8220fee1323eaa7e0630f16a9812aefb7c2d802ed49ad51102b382"
+  },
+  {
+    "path": "ppt-workflow/scripts/probe_wps.py",
+    "bytes": 6596,
+    "sha256": "0a623155b09409ec7a9344959b7a2258cb9bb97dd8ff232e675b4693a65a89c8"
+  },
+  {
+    "path": "ppt-workflow/scripts/README.md",
+    "bytes": 1563,
+    "sha256": "99dc6edbaca2afcbc7b43fb850f865eac3fe3a60ff2fc12fc62028e027ca8181"
+  },
+  {
+    "path": "ppt-workflow/scripts/render_baseline.ps1",
+    "bytes": 3534,
+    "sha256": "18809a26cec060723e8ff7d08f3ac0cfa5deb41114ad2f628eb3f1d3b51083bf"
+  },
+  {
+    "path": "ppt-workflow/scripts/render_deck.py",
+    "bytes": 793,
+    "sha256": "1782da9cfd5c217adc74a42f66ea371c214116f9611b673dd659a743cc3740bf"
+  },
+  {
+    "path": "ppt-workflow/scripts/render_direct.ps1",
+    "bytes": 4652,
+    "sha256": "d9c1fe63b011dd586d4f32158a58ca32010924008b5f33c5cad5a57640b67e7d"
+  },
+  {
+    "path": "ppt-workflow/scripts/render_p2.py",
+    "bytes": 714,
+    "sha256": "3e3e7a69c6dea68bbdbec573f853b49a45f0e96dda1caa87787982e3da01498e"
+  },
+  {
+    "path": "ppt-workflow/scripts/run_p3_demo.py",
+    "bytes": 2799,
+    "sha256": "f60d4a742c4eddf7c9b7369a41f24c42361c8960cf623d5d3c1714ad7862566a"
+  },
+  {
+    "path": "ppt-workflow/scripts/run_p3_size_probes.py",
+    "bytes": 3412,
+    "sha256": "e3c408a0596010c99fd83691a36de895dd5f470ec4caf0434da12e2213f0a05f"
+  },
+  {
+    "path": "ppt-workflow/scripts/run_p5_acceptance.py",
+    "bytes": 8075,
+    "sha256": "64b7ab5382a96bfbb198c73673cc136b80020d4a2bb9ab94e27e5a0696e515bd"
+  },
+  {
+    "path": "ppt-workflow/scripts/setup_p2.py",
+    "bytes": 2099,
+    "sha256": "feed30bd420622a92252a2430cebca17af28769a76873f1283dbf3c68fda39a8"
+  },
+  {
+    "path": "ppt-workflow/scripts/smoke.py",
+    "bytes": 1521,
+    "sha256": "42bd6d5bb3b2866754348e1a7fd48d1a9ffda88d7a161ea7b86fac1f5b8f49b2"
+  },
+  {
+    "path": "ppt-workflow/scripts/sync_installed_skills.py",
+    "bytes": 2740,
+    "sha256": "c05b284e2632fc1fab5a1a7b3659d5957277d4ce8032ad5e9d1c0730d5ed9c45"
+  },
+  {
+    "path": "ppt-workflow/scripts/verify_connections.py",
+    "bytes": 3894,
+    "sha256": "153918f4934030777da79df2bcf51ee256c5ef25ddceb952c58371fc04553355"
+  },
+  {
+    "path": "ppt-workflow/scripts/verify_direct_render.py",
+    "bytes": 2021,
+    "sha256": "afc446b3905e009f0140e0f753a94e0c25f8748af559b2f09595ef053a022610"
+  },
+  {
+    "path": "ppt-workflow/scripts/verify_effects.py",
+    "bytes": 7557,
+    "sha256": "346ebcd49caf335af21aaa7f86fcc8d364990706203cba36ec75568e8f780c84"
+  },
+  {
+    "path": "ppt-workflow/scripts/verify_p0.py",
+    "bytes": 2933,
+    "sha256": "c00f9f25a55bd7427d27c291801401d894ead006cc058add5934f31772301047"
+  },
+  {
+    "path": "ppt-workflow/scripts/verify_p5_zip.py",
+    "bytes": 2574,
+    "sha256": "323581d26b3602623bada7f1f13c3da5430d6031f4e8c081363e3159ce11b30c"
+  },
+  {
+    "path": "ppt-workflow/scripts/verify_project_upgrade.py",
+    "bytes": 2528,
+    "sha256": "cefc2125970d35dfb42913e5edea13f58c0f4e9a444e23fcd96063c9b8f8f636"
+  },
+  {
+    "path": "ppt-workflow/scripts/verify_wps_editing.py",
+    "bytes": 8748,
+    "sha256": "c50cddd38f070e1c228d3b794dd102a53c7244d63c2f7960fa725f79f9b2e8b5"
+  },
+  {
+    "path": "ppt-workflow/scripts/verify_wps_elements.py",
+    "bytes": 15451,
+    "sha256": "49ae103e99bb64dd958a767ac1fe316ef95cabf833787a1957baba060a20c83d"
+  },
+  {
+    "path": "ppt-workflow/skill-routing.json",
+    "bytes": 2502,
+    "sha256": "87bb1866dad251e0af86fd7f2180c53290589449bc39b941e6d06c7e364d0f85"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-compose/agents/openai.yaml",
+    "bytes": 329,
+    "sha256": "69fa84f57c6676dda2a24621a2f54e5b1e22daa1dab5cdda0d090cc5aa336dd4"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-compose/references/chart-v02.md",
+    "bytes": 2100,
+    "sha256": "27de738a44dcea08de080acfa2d6d14ad761ce581f7d46a87ae076c0d3f7a128"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-compose/references/engine-cli.md",
+    "bytes": 2043,
+    "sha256": "1668ea4b62f7b29268fdb3e9ff67a9085593dab6b03eb2705ac1b24293a8b1d2"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-compose/references/scene-images.md",
+    "bytes": 1615,
+    "sha256": "0fe8a0219788542b3950de11c11a6b24f56a5d83a532a9d04f77df44a6f2fa51"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-compose/references/wps-elements.md",
+    "bytes": 2401,
+    "sha256": "84cdfb3f4143e9ccbffd9b1f7bd0d92fd5ffb16cb9e131ef5cc0a09fe993d7f9"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-compose/runtime.json",
+    "bytes": 90,
+    "sha256": "6cb3a9a5f89575b4e45f592e9bfedbc3096be2b9706a3f89c08e57ddebd67c44"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-compose/SKILL.md",
+    "bytes": 11174,
+    "sha256": "ae44a90c80d72acc49ebf550f47b9ba72ef02c4c65d1869c8e310e22068b2c7c"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-intake/agents/openai.yaml",
+    "bytes": 323,
+    "sha256": "2f4868fda35320988b3ed76e4c5c1073928629c42130adb86f32183e721203a3"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-intake/runtime.json",
+    "bytes": 89,
+    "sha256": "e163de80ccebf610bf2b488c6e84d0c5c26bf5537d549bdf01c63d20e9e176b1"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-intake/SKILL.md",
+    "bytes": 3470,
+    "sha256": "ddcb77d3fc5d53493ad0b0eeb3ce669843d2c3be74543654b9ca953f5ffdaeef"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-outline/agents/openai.yaml",
+    "bytes": 327,
+    "sha256": "b33098982c0c7ee193476ea256df495599d88aa49693c080867a01be73797986"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-outline/references/content-plan.md",
+    "bytes": 1378,
+    "sha256": "d5713757ca4de7ebe1736a5566c1fa047efe601b608be886ddfb0b37817820aa"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-outline/runtime.json",
+    "bytes": 90,
+    "sha256": "c75e2a41a6ffb1474265f5527a9ea8aaf1e2b451b51e0907d462521709675b2b"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-outline/SKILL.md",
+    "bytes": 5333,
+    "sha256": "a0acb26f90b5e3a405782999fbbb6b9250a4cd6dd0c392404e000cbe23b9b8f4"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-polish/agents/openai.yaml",
+    "bytes": 326,
+    "sha256": "516167f2411ffa8f277a8c9c394f3ce189eb79236d13b73d1621bd2f48935ec6"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-polish/references/layered-visuals.md",
+    "bytes": 888,
+    "sha256": "9adbcb504f87f8db8d69299437c9ab410aec0729020f125a368167c160763f97"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-polish/runtime.json",
+    "bytes": 89,
+    "sha256": "a833447e34d7b45add6a2a71077bbfda7b436b8670911e088dd172de10ea0c48"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-polish/SKILL.md",
+    "bytes": 5710,
+    "sha256": "d971d1c892187b20e9151f9d673e571aac41ee116af2f3b616abe21e3e1c7281"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-quality-workflow/agents/openai.yaml",
+    "bytes": 292,
+    "sha256": "fbcefd106e5c292fe9e18c5ee71ad6419604d2ce0db80626847550f004359139"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-quality-workflow/references/runtime-tools.md",
+    "bytes": 4061,
+    "sha256": "28469a7475069d360240cd90918e3c27027a34ace7b06a9c1df3e63b72316f2c"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-quality-workflow/references/stage-handoffs.md",
+    "bytes": 2733,
+    "sha256": "4915b64e014cd73fd9780557eb8baa1d0ab759d2856ca96da500d4eced2bea6b"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-quality-workflow/runtime.json",
+    "bytes": 93,
+    "sha256": "be67fe12ed8ce5c26ac8256fc170b47c54a0158a88626750c058d08ade6fef0c"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-quality-workflow/scripts/run.py",
+    "bytes": 643,
+    "sha256": "fd98b1ed3141b71b5c2a24d9e43663f1136e53e903b1db03f8d6bedff2d93b78"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-quality-workflow/SKILL.md",
+    "bytes": 8085,
+    "sha256": "71a60e6d80764f33381029105d9fc21571ae9d3160791f0aa4244d8663818395"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-review/agents/openai.yaml",
+    "bytes": 323,
+    "sha256": "70ee3f63b8ac9379834d74a9b59b703f57fc2146c5b176b0c9332f10a36c374a"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-review/references/engine-cli.md",
+    "bytes": 1734,
+    "sha256": "83a030b5737792f4d0a50ae0ad52e8aee6ab2cb053d249811a176d8ef8701560"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-review/references/layered-visuals.md",
+    "bytes": 1084,
+    "sha256": "92d30aebe7c0ddf91b63c518297565b8cf833959827fa48ef20532c02eebe277"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-review/references/task-review.md",
+    "bytes": 1230,
+    "sha256": "ace2565e1fa1a6852cfa91174545b1d56d940dd45e3469752a6f460ae5c8f74a"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-review/runtime.json",
+    "bytes": 89,
+    "sha256": "afb7e4b46cfd199f8e110ad8beb8bc0382c34fff69169891a376c4d357c5ff65"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-review/SKILL.md",
+    "bytes": 6741,
+    "sha256": "248825c3bf88c120287c777cc759117774e484d7aa53cd118fbcb07508de66b8"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-template/agents/openai.yaml",
+    "bytes": 303,
+    "sha256": "1a51948a3eeb4f4a9427a2b9f4863a93389d1c3c09d08b14bf2360eff356be3a"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-template/references/scene-blueprints.md",
+    "bytes": 1303,
+    "sha256": "6cf82f097a262c4258741d39be3be0fe3c066c4eab8be6d3af8b86571406afcb"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-template/references/semantic-layouts.md",
+    "bytes": 1121,
+    "sha256": "ed251fbd61ad74b4836c9f6d08e1f5a51c99c41b7d6d150632cebbde1eb13ddd"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-template/references/visual-composition.md",
+    "bytes": 3494,
+    "sha256": "1d271872dba12ba1810a77c7b7828127fceb4450637152430b6929e1717bb30a"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-template/references/wps-template-selection.md",
+    "bytes": 5664,
+    "sha256": "d3a453bc1c61b718bf58b5e70e4272662f2d7d828d20bd579bbd971a2dbd3988"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-template/runtime.json",
+    "bytes": 91,
+    "sha256": "cdc32213ca361e77cb68aa93d7a8dc88de47fd4e3fdfdb8ac9e5050dee6827ee"
+  },
+  {
+    "path": "ppt-workflow/skills/ppt-template/SKILL.md",
+    "bytes": 8459,
+    "sha256": "609437ccf9126cc6613c1634b4214f1b75a8e682caa8f694f27e22ed65577614"
+  },
+  {
+    "path": "ppt-workflow/templates/campus-brief-v1/index.json",
+    "bytes": 1710,
+    "sha256": "c42133a2128871250e20a6a6f8ecb4b3bfc244aef67726265267eefdc377bdef"
+  },
+  {
+    "path": "ppt-workflow/templates/campus-complete-v1/index.json",
+    "bytes": 2446,
+    "sha256": "250001a9354ddd8718886c0ae3daee9415c88f89cb95c50bd3982ab01d672c00"
+  },
+  {
+    "path": "ppt-workflow/templates/campus-editorial-v1/blueprint.json",
+    "bytes": 5491,
+    "sha256": "6a3c512f9b967a1c5dee07514be9395df46591db728638b546231a8dde1983dc"
+  },
+  {
+    "path": "ppt-workflow/templates/chart-styles/library.json",
+    "bytes": 2579,
+    "sha256": "8f998f6e04bfc06784107a48633b376b5fec062c46994fa5294ff54fce45dd63"
+  },
+  {
+    "path": "ppt-workflow/templates/chart-styles/preview-source.pptx",
+    "bytes": 150875,
+    "sha256": "585fd3c4a89ba8fc00132753a74dce4d000de7c5f9d35bab6f1a69d17229d0d3"
+  },
+  {
+    "path": "ppt-workflow/templates/chart-styles/previews/focus-comparison.png",
+    "bytes": 31319,
+    "sha256": "294798b3ffef94d618a026fd1bc81e237bf3c5bf61e2029c251858cc3d4b1854"
+  },
+  {
+    "path": "ppt-workflow/templates/chart-styles/previews/focus-trend.png",
+    "bytes": 57080,
+    "sha256": "cb3130f97e6fa93216c9af34675759e64d2f6152d6520fc5b90f45d941a7110b"
+  },
+  {
+    "path": "ppt-workflow/templates/chart-styles/previews/series-comparison.png",
+    "bytes": 59926,
+    "sha256": "bb445dffff41f94d97bc331f95c3ec7bdd59107eab11e0099269c743e4e9bcfd"
+  },
+  {
+    "path": "ppt-workflow/templates/content-editorial-v1/index.json",
+    "bytes": 1986,
+    "sha256": "e8cca99385f900182e6922d61412304c7e9c31be909ce6a125b4d1c7ede66a21"
+  },
+  {
+    "path": "ppt-workflow/templates/editorial-frames/library.json",
+    "bytes": 1608,
+    "sha256": "dd956ac58fb05e36f3b4f1f2e8a19d73816e70533d6d5daed5ae929f19fe022b"
+  },
+  {
+    "path": "ppt-workflow/templates/editorial-wine-v1/design-system.json",
+    "bytes": 1293,
+    "sha256": "8645bb2f1310854b6823dbac63fa6c541a4be5ec40ceb5b376baea9c517fa5db"
+  },
+  {
+    "path": "ppt-workflow/templates/editorial-wine-v1/使用说明.md",
+    "bytes": 275,
+    "sha256": "264f7da918ef60f8f3c7254cb9071a7fbed07fd22326faa22d48419f16acf57c"
+  },
+  {
+    "path": "ppt-workflow/templates/editorial-wine-v1/素材来源.txt",
+    "bytes": 330,
+    "sha256": "7b3a9997fbdaf60f1770023144292a8a044c2cc9ec5e537c0339fafa45c36b3a"
+  },
+  {
+    "path": "ppt-workflow/templates/editorial-wine-v2/design-system.json",
+    "bytes": 1300,
+    "sha256": "be361b81f33e97fc7c2449c93e24cf8d0882a9822d67afecbd7f2456b9866852"
+  },
+  {
+    "path": "ppt-workflow/templates/editorial-wine-v2/使用说明.md",
+    "bytes": 360,
+    "sha256": "919b20008da92e269cca81339591c808d2c112751ce00fdc4732193323658019"
+  },
+  {
+    "path": "ppt-workflow/templates/editorial-wine-v2/素材来源.txt",
+    "bytes": 330,
+    "sha256": "7b3a9997fbdaf60f1770023144292a8a044c2cc9ec5e537c0339fafa45c36b3a"
+  },
+  {
+    "path": "ppt-workflow/templates/imported/README.md",
+    "bytes": 714,
+    "sha256": "632008a12bdc00b01fe7d23a04a2bed7609f0a0cfffbd1e78fbd3b92acf9bb47"
+  },
+  {
+    "path": "ppt-workflow/templates/modules/examples/native-action.json",
+    "bytes": 856,
+    "sha256": "cf9a945ece0b4e0306f37cbd81c0d6227c5b2fe35f7ca5bcefa3eb94d349a81d"
+  },
+  {
+    "path": "ppt-workflow/templates/modules/examples/native-comparison.json",
+    "bytes": 720,
+    "sha256": "2cf3c3190f53ed4aa2a1eddd8a90d5082c5d366662de4881688b8be62d371be9"
+  },
+  {
+    "path": "ppt-workflow/templates/modules/examples/native-process.json",
+    "bytes": 778,
+    "sha256": "531448af9223eabf7db25d08e80fca6cb4b7f2288e29379a9f3ac450eb6c06b6"
+  },
+  {
+    "path": "ppt-workflow/templates/modules/examples/native-timeline.json",
+    "bytes": 828,
+    "sha256": "9aed4a4203a8a751ea44d27d5eee1c84d826d6be0f6c8cfdd5e3bdf2c6d19460"
+  },
+  {
+    "path": "ppt-workflow/templates/modules/library.json",
+    "bytes": 3431,
+    "sha256": "60aad3cc15abfbc2b8acaf508f0757ceaa5802fb5e090224863b025090494913"
+  },
+  {
+    "path": "ppt-workflow/templates/modules/preview-source.pptx",
+    "bytes": 198695,
+    "sha256": "07c2696977c44b60cd8c17c43e7cbea30021c88221a2af916d4f2f98b4906c17"
+  },
+  {
+    "path": "ppt-workflow/templates/modules/previews/native-action.png",
+    "bytes": 29803,
+    "sha256": "9d0c0f6518394a13600257ecca11ce8e1de38cac2031e0f01c6bca545ebf71a1"
+  },
+  {
+    "path": "ppt-workflow/templates/modules/previews/native-comparison.png",
+    "bytes": 80729,
+    "sha256": "dd2d184ac0680955f4eb39c70a805cec32b366d1706b00c2c6658bf8fcef5a4a"
+  },
+  {
+    "path": "ppt-workflow/templates/modules/previews/native-process.png",
+    "bytes": 72786,
+    "sha256": "d1c958069aca08c9470232bd516626d39a0b10b88624f1c82c4810fefd7af2ce"
+  },
+  {
+    "path": "ppt-workflow/templates/modules/previews/native-timeline.png",
+    "bytes": 31039,
+    "sha256": "2c8557e2a78cc8deb2cdf981321ce4c516a22cddf80c544daba4829151a055e5"
+  },
+  {
+    "path": "ppt-workflow/templates/paired-evidence-v1/index.json",
+    "bytes": 1449,
+    "sha256": "463a790c51ee779c988743f9c708eaf9b58f86e9e4762c352b97c811ab6d0e44"
+  },
+  {
+    "path": "ppt-workflow/templates/solar-editorial-v1/index.json",
+    "bytes": 2028,
+    "sha256": "e032fbc4590869b0fa98b49ad2278d47a388da31c4c852b24ef86771ca035c68"
+  },
+  {
+    "path": "ppt-workflow/templates/theme-families/previews.json",
+    "bytes": 1366,
+    "sha256": "8c4c5716379c6a1ce5eaac05ea1ed07f26608f36bacf78db345495d8e1f8e1b1"
+  },
+  {
+    "path": "ppt-workflow/templates/theme-families/research-light/01.png",
+    "bytes": 24089,
+    "sha256": "e072b120c96d0d943fb734dfb08c1e12b633e7591bd8947c53dc2d08fc5d8d6b"
+  },
+  {
+    "path": "ppt-workflow/templates/theme-families/research-light/02.png",
+    "bytes": 54778,
+    "sha256": "edfa89ff618170344e952c3831b7234708ebb04b7a8f2a5367db56d0587b1cd5"
+  },
+  {
+    "path": "ppt-workflow/templates/theme-families/research-light/03.png",
+    "bytes": 449910,
+    "sha256": "14cf9cd432b8abb2df760328d12a02254ccb427bb727a0200b223a804f6dc77e"
+  },
+  {
+    "path": "ppt-workflow/templates/theme-families/research-light/04.png",
+    "bytes": 29448,
+    "sha256": "6f1415f940d790359cc84d3aa4f775643811dce5228fd60c82d275a53896eb35"
+  },
+  {
+    "path": "ppt-workflow/templates/theme-families/showcase-dark/01.png",
+    "bytes": 24142,
+    "sha256": "af9ee7ce7afcdb56cfdad49df89f80af1b0e7eb8fcf96e62ebc4da4edb55eda0"
+  },
+  {
+    "path": "ppt-workflow/templates/theme-families/showcase-dark/02.png",
+    "bytes": 53745,
+    "sha256": "69be70854e8858a8914b5fc9c018d07122102fec6c71a21aa44ea232939622ff"
+  },
+  {
+    "path": "ppt-workflow/templates/theme-families/showcase-dark/03.png",
+    "bytes": 448773,
+    "sha256": "dd6836aa7f161367304bb0579e91842a8b922e302a2763b02776998e86547631"
+  },
+  {
+    "path": "ppt-workflow/templates/theme-families/showcase-dark/04.png",
+    "bytes": 29482,
+    "sha256": "b790eecb683f61882ffc7b7af3b4a627cced363d9c09affe69f0ea1f7eb0e6f5"
+  },
+  {
+    "path": "ppt-workflow/templates/unified-v3/design-system.json",
+    "bytes": 5952,
+    "sha256": "48d0f0657b73af7393e6d49d7d650faf9b80fd700eb2e99be47a665e9360d286"
+  },
+  {
+    "path": "ppt-workflow/templates/unified-v3/Unified-Ivory.potx",
+    "bytes": 42692,
+    "sha256": "8d138981fa6566d57e30ee3281b3b2c1b5bfebdae36e1c76785f24455a966f3a"
+  },
+  {
+    "path": "ppt-workflow/tests/fixtures/group_offslide.pptx",
+    "bytes": 28391,
+    "sha256": "2d89fbb0e5a2354950d828ca1b2e992bce2875b8e1cdf4e9f2ba80f742d4f476"
+  },
+  {
+    "path": "ppt-workflow/tests/fixtures/inherited_background.pptx",
+    "bytes": 28306,
+    "sha256": "520dc7b703d686c6367838c648aad8798f25cd82f5c497e3552cc3a4b4593274"
+  },
+  {
+    "path": "ppt-workflow/tests/fixtures/manifest.json",
+    "bytes": 1129,
+    "sha256": "acd297128d36f27d3460b86da8d443e2962f3ac5403b096691989c9da8c02fa2"
+  },
+  {
+    "path": "ppt-workflow/tests/fixtures/nontext_offslide.pptx",
+    "bytes": 28368,
+    "sha256": "f7a5abd6db55c3e8b3887b14e1ec6c195d818b3e1ab3e83c7c2a697dc0ace0e3"
+  },
+  {
+    "path": "ppt-workflow/tests/fixtures/unbroken_long_word.pptx",
+    "bytes": 28349,
+    "sha256": "c9576467a6982b5d0344a6b3ad7ef5cd09a7c5dcfd959803991cb74a3e24dad6"
+  },
+  {
+    "path": "ppt-workflow/tests/fixtures/undeclared_axis_validator_probe.zip",
+    "bytes": 1340,
+    "sha256": "0510442faf8d2091391157cf7a2369df860937c955ccf43ad301ec2397a9b2ec"
+  },
+  {
+    "path": "ppt-workflow/tests/test_asset_direction.py",
+    "bytes": 8253,
+    "sha256": "91b2a1740e43f4a3ac9d0ac74fbced0b53220173e8a32d651bb7e3dc555c1872"
+  },
+  {
+    "path": "ppt-workflow/tests/test_blueprints.py",
+    "bytes": 6405,
+    "sha256": "817ab0714c88b44c9ae9d074cfb06d84a352d84d9065c01897315ddd0336a226"
+  },
+  {
+    "path": "ppt-workflow/tests/test_bootstrap.py",
+    "bytes": 1950,
+    "sha256": "4798b5f0b1233b1423fa79a69c889cd2377f50333ffdf078d7d832ea14267787"
+  },
+  {
+    "path": "ppt-workflow/tests/test_brief_composer.py",
+    "bytes": 5752,
+    "sha256": "8c7acbe9c63de70883eebe2df5dad76e2b65a59df46404ee8b7b26fa19506126"
+  },
+  {
+    "path": "ppt-workflow/tests/test_chart_compile.py",
+    "bytes": 6721,
+    "sha256": "3a717bf06634cabf7476edb38cbf6bb02fd0cb2299158d0ddfc25de5987bb37b"
+  },
+  {
+    "path": "ppt-workflow/tests/test_chart_scale.py",
+    "bytes": 2128,
+    "sha256": "d85212560bb8d1a28ccf1f7b70b1500be495fac469f8b6d0103e3c39f7beff3e"
+  },
+  {
+    "path": "ppt-workflow/tests/test_chart_styles.py",
+    "bytes": 9629,
+    "sha256": "9a2258c3d04f66de7622af05861728e2d628d5864d748bc791b23523da087055"
+  },
+  {
+    "path": "ppt-workflow/tests/test_contracts.py",
+    "bytes": 4168,
+    "sha256": "b7b0185f2d9b4804b002dc9fa5eb2a117e4aa0301a1410cfdd9a50e73e37dd84"
+  },
+  {
+    "path": "ppt-workflow/tests/test_direct_render.py",
+    "bytes": 2959,
+    "sha256": "8d390cb13b29287627c46579337ba6fe1c27dc7aaa2b4724e23416ccca0e84fd"
+  },
+  {
+    "path": "ppt-workflow/tests/test_editorial.py",
+    "bytes": 4875,
+    "sha256": "977cd50012178a1026a02b50de882b5c3e931fc572832394ab3bd0ae929fff93"
+  },
+  {
+    "path": "ppt-workflow/tests/test_editorial_design.py",
+    "bytes": 3939,
+    "sha256": "28a9947be25b9b55c9655be4e76f2ee55d44a76548e954e5020278a36cb6fa52"
+  },
+  {
+    "path": "ppt-workflow/tests/test_editorial_frames.py",
+    "bytes": 5239,
+    "sha256": "ef7d61bb44028060b630380e7d96c786c1753b938322d7c1e2acc448967ae1c7"
+  },
+  {
+    "path": "ppt-workflow/tests/test_exhibits.py",
+    "bytes": 1973,
+    "sha256": "e9a889936716527b9cd368b60ca8616dbc2c7a599f554081fbb5a9ce9c2aae12"
+  },
+  {
+    "path": "ppt-workflow/tests/test_icon_library.py",
+    "bytes": 4695,
+    "sha256": "687dc249bad83cf22174c78959bb70296fd75ddedb801e89ea1f87eefe491ecb"
+  },
+  {
+    "path": "ppt-workflow/tests/test_layout_capacity.py",
+    "bytes": 3628,
+    "sha256": "8fe73ef491dd4ae33915089bb2c78b08e6bdf61c8fd874dcf23204f62c2dab7d"
+  },
+  {
+    "path": "ppt-workflow/tests/test_mcp_client.py",
+    "bytes": 1337,
+    "sha256": "9dc3e9d79a77d4e8bb2d072f9aa14c728e1aacd5a49668fa3429cd8ca37cd8dd"
+  },
+  {
+    "path": "ppt-workflow/tests/test_online_assets.py",
+    "bytes": 11533,
+    "sha256": "f2aca3b9fced4c60ebc61a061c9c8e7912bba7a9fb23887e02738f8fa35319f9"
+  },
+  {
+    "path": "ppt-workflow/tests/test_p2.py",
+    "bytes": 11515,
+    "sha256": "0e4fa76046d43c925a4f9d93d67962fc375112b312e77ae57df3695307ed482f"
+  },
+  {
+    "path": "ppt-workflow/tests/test_paired_evidence.py",
+    "bytes": 4828,
+    "sha256": "5dfacdf3daa7196c4b42cb77b36c85d2c5ceb961d084e95919ecd57ad2c2f60f"
+  },
+  {
+    "path": "ppt-workflow/tests/test_production_materials.py",
+    "bytes": 9942,
+    "sha256": "abd9898822a5ba3720b3644fb51efb689c56b6629478403261137e6798313c77"
+  },
+  {
+    "path": "ppt-workflow/tests/test_qa.py",
+    "bytes": 15635,
+    "sha256": "0e406bc36f8cb6fd3c923432dc6bba05a2646cc0bf853d6648940f53a4cb38ec"
+  },
+  {
+    "path": "ppt-workflow/tests/test_quality.py",
+    "bytes": 5413,
+    "sha256": "bf7392e90bf539837669606686d131513f78e61ba3466aef5d0c035bf06499eb"
+  },
+  {
+    "path": "ppt-workflow/tests/test_quality_stages.py",
+    "bytes": 4515,
+    "sha256": "e8b4a4fad9da3557a90f7f305afe833c5d3592400482eb4b22d080385eaae043"
+  },
+  {
+    "path": "ppt-workflow/tests/test_relationships.py",
+    "bytes": 5408,
+    "sha256": "e201096c6c7c8b6a413c78c1aedd74ae97b61f5e0afcb4f17c125dcc105a74a6"
+  },
+  {
+    "path": "ppt-workflow/tests/test_render.py",
+    "bytes": 6975,
+    "sha256": "d1808cbc54ef93957a0cbf426acd00cb9240e09892904a99fc6784077efab8b3"
+  },
+  {
+    "path": "ppt-workflow/tests/test_render_binding.py",
+    "bytes": 1870,
+    "sha256": "38ca38dee9e0506a5ea73ce8393e07233ae7e3a00b2366fb64abc67a521d5677"
+  },
+  {
+    "path": "ppt-workflow/tests/test_scene_modules.py",
+    "bytes": 5176,
+    "sha256": "cac3cd2de469329335a475799a98f300588041489a73c3dfaf1c9d6a35a3eb6c"
+  },
+  {
+    "path": "ppt-workflow/tests/test_stages.py",
+    "bytes": 15279,
+    "sha256": "49c1546f462db67fc644297a325f1059c7c8e397bf6f0d03198d10b24318e03a"
+  },
+  {
+    "path": "ppt-workflow/tests/test_template_resources.py",
+    "bytes": 3527,
+    "sha256": "8517c18c41497311b24bafaac9dd50aeedb1449f2fa3db193b86eb9605483372"
+  },
+  {
+    "path": "ppt-workflow/tests/test_theme_library.py",
+    "bytes": 1157,
+    "sha256": "34d917215b38b95fcf7c6d10afee3ab279ce2d76e1da48ae8d0acd941a768e51"
+  },
+  {
+    "path": "ppt-workflow/tests/test_unified.py",
+    "bytes": 4176,
+    "sha256": "eddcb34d41576cb461b2818637eb073eb249c06b3f19c64ed7abbd0d4ea3999b"
+  },
+  {
+    "path": "ppt-workflow/tests/test_visual_assets.py",
+    "bytes": 3656,
+    "sha256": "f580f5e79ac3e5e9d2a4c88a3b1d23747492c43a2f475b2c8f879cc7784c4e6c"
+  },
+  {
+    "path": "ppt-workflow/tests/test_workflow.py",
+    "bytes": 17858,
+    "sha256": "424d92d2d26250cfc51bce803367732d67076de87055cb52df32642e99a999f7"
+  },
+  {
+    "path": "ppt-workflow/tests/test_wps_bridge.py",
+    "bytes": 2260,
+    "sha256": "1b627d31b73a2c0db67da9baf89f506a65ee7a32a042421b31783821420b9576"
+  },
+  {
+    "path": "ppt-workflow/THIRD_PARTY_NOTICES.md",
+    "bytes": 4736,
+    "sha256": "2e7fc3a0bd220a09dede267a2052baedc5406831b3bedca1e54792f99aec2781"
+  },
+  {
+    "path": "ppt-workflow/使用指南.md",
+    "bytes": 11959,
+    "sha256": "c57f0ee21a719c265474f306ed1bdea60a1598a6f349a07a57b48b12aa26aa00"
+  },
+  {
+    "path": "docs/KNOWN_ISSUES.md",
+    "bytes": 1198,
+    "sha256": "20e3b7d1797e55b79987342f5ceb1d93471022ed50236c88f3f9e87accd486d1"
+  },
+  {
+    "path": "docs/maintenance/deleted-history-20261031.json",
+    "bytes": 888581,
+    "sha256": "046f3a9eaa4061b0c406c1ac35ee3471c4e238ccd4c56580300bcab158e91530"
+  },
+  {
+    "path": "docs/maintenance/old-delivery-archives.json",
+    "bytes": 1988,
+    "sha256": "2672961925c3cf0b42c9bf95309b06a41d99c80cef49a044b9e42cc35ed128b4"
+  },
+  {
+    "path": "docs/maintenance/source-verification.json",
+    "bytes": 1310,
+    "sha256": "727e0350fbab2babaf4ace9e60c0f822a61a178e71132b772ddf7a1ece393e52"
+  },
+  {
+    "path": "docs/maintenance/源码整理记录-20261031.md",
+    "bytes": 1931,
+    "sha256": "79a49df15839d9de98fa59395e4ad19708391027999028193eec66b6beebc43a"
+  },
+  {
+    "path": "docs/research/01-研究报告/PPT技能与自动化工作流_深度研究.md",
+    "bytes": 23266,
+    "sha256": "6d4914a7a55b99d2ddeb45144bf53e29bd695184420350f09533c1025e388c43"
+  },
+  {
+    "path": "docs/research/05-开源项目深度研究/generation-research.md",
+    "bytes": 19741,
+    "sha256": "b4cbea5a322c1cf06c6eb6437c8fe6ec4375789b2f06eb39e67537d1bd16b041"
+  },
+  {
+    "path": "docs/research/05-开源项目深度研究/qa-research.md",
+    "bytes": 21990,
+    "sha256": "ccb4972930aa3ca60c2f0bec32c08142503b5e7125538bd79d31ae40ce12cac2"
+  },
+  {
+    "path": "docs/research/05-开源项目深度研究/README.md",
+    "bytes": 2482,
+    "sha256": "d2ae1121739baffb52dafc2c81dfb46438de7f3bf3f2e8278cea162916bbd9b8"
+  },
+  {
+    "path": "docs/research/05-开源项目深度研究/skills-research.md",
+    "bytes": 17543,
+    "sha256": "f77e63688841e959cb2fc2bd3f257f52aeb82a9bc843f8ad56ed93162c824756"
+  },
+  {
+    "path": "docs/research/05-开源项目深度研究/可执行方案_审核稿.md",
+    "bytes": 28503,
+    "sha256": "ea9e52bbbf4c1155283821140eb3fa812b1aaf4d0cbcd072f514358b904607ec"
+  },
+  {
+    "path": "docs/research/05-开源项目深度研究/本地核查证据/content-audit.md",
+    "bytes": 1013,
+    "sha256": "b43133e3997edffd50cca711df092e853e7f62425248142fc12fd2df4541fdf0"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P0/P0阶段审核.md",
+    "bytes": 3587,
+    "sha256": "f48fc42182adeff908e8250bae5a41151a3c79de9d3e66d005ebd56390004951"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P0/visual-review.md",
+    "bytes": 764,
+    "sha256": "c74d44a1b0c8080424d06e95d79fa3e2728b81a36475bb2f5fab61bcc3631572"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P1/P1阶段审核.md",
+    "bytes": 7699,
+    "sha256": "49dd05e57950317b394001f0f31c03f32bc1a29ab61a2aef04ae57ba7781ef54"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P1/覆盖矩阵.md",
+    "bytes": 1747,
+    "sha256": "e99b3f27b3c4be6b778a6fd309899dee90a8c4c650449f4c713319552bb9876b"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P2/P2阶段审核.md",
+    "bytes": 8260,
+    "sha256": "6569b01bbabeb8729577e222b0898adf231f0464aa4673e253f0ec67792430d5"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P2/组件接口.md",
+    "bytes": 5834,
+    "sha256": "4ab71e7a1b779de6257ca0b52598f2092ca218899721407663f4ecdc9f0b3b14"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P2/视觉审核.md",
+    "bytes": 955,
+    "sha256": "346d0bf0893a141bac24ca4ba81978ba3ed8a2825152b2d6a74b53b77ea91be8"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P2-Figma修订/Figma审核.md",
+    "bytes": 3123,
+    "sha256": "49ef03df975da9319c67ea4e27ae4a063ffd4570bcb7a7431b823c7876502b15"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P2-Figma修订/实施计划.md",
+    "bytes": 1763,
+    "sha256": "148708c91e55debd8936ee65023d7342aa88560b6f1a1bd7b540537c3aa6fe10"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P2-统一模板修订/统一模板审核.md",
+    "bytes": 7299,
+    "sha256": "a8fa0c1aef7720d7310b5d751203b8406fee920c8fea2df606d76a37bcd366c9"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P2-视觉修订/后续工作流修订.md",
+    "bytes": 1811,
+    "sha256": "dfe9a9bba16217c8f910501f2dc044bc8df8703cac5b6b6ebf1e219dad60a194"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P2-视觉修订/视觉修订审核.md",
+    "bytes": 8191,
+    "sha256": "2b8ae081585cb5495b77718b7ee20b4bfc66fad59838b1f37d0c57969d63e971"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P3/P3阶段审核.md",
+    "bytes": 5945,
+    "sha256": "ba507799699f826673b9f6b54988848d53f1e9705e51158149dc6124602fc322"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P3/审核包/P3阶段审核.md",
+    "bytes": 5945,
+    "sha256": "ba507799699f826673b9f6b54988848d53f1e9705e51158149dc6124602fc322"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P3/审核包/ppt-quality-workflow/references/cli.md",
+    "bytes": 3816,
+    "sha256": "23630c82dc871e58b3f54b7c9777a6795d98f44deeae0f151f1236fc271e3195"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P3/审核包/ppt-quality-workflow/references/visual-tools.md",
+    "bytes": 2439,
+    "sha256": "157f458fe724a95ba155377deede29b102327b5f5cb3f89160c6c7f821376831"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P3/审核包/ppt-quality-workflow/SKILL.md",
+    "bytes": 3647,
+    "sha256": "dfa9bd08e1fd3757c4159ff2a69424879e0d7eb90335e1a18c092bcfba6f37cd"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P3-Skill解耦修订/skills/ppt-compose/references/engine-cli.md",
+    "bytes": 1696,
+    "sha256": "b1d5db0f3d13647377a50518fc6f4082b5f4b188b8509c2b703c28ce6314850c"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P3-Skill解耦修订/skills/ppt-compose/SKILL.md",
+    "bytes": 2623,
+    "sha256": "ca0fe931bc6ea1e55970d6f2c67b872922e3c1a6418cf75cf31a2a98b40beb10"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P3-Skill解耦修订/skills/ppt-intake/SKILL.md",
+    "bytes": 2745,
+    "sha256": "1df1f6c0cd9ad5de2a135c5deb87cbfadb3abc97491375c4894131740cea6414"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P3-Skill解耦修订/skills/ppt-outline/SKILL.md",
+    "bytes": 2524,
+    "sha256": "d7c2e5d9397c246f82f692479ac79310a76befc6cb071b1a1cfb5d3b60f6669a"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P3-Skill解耦修订/skills/ppt-polish/SKILL.md",
+    "bytes": 2179,
+    "sha256": "c119ceac412cd899566eba89969ce54d766fcf39344ceefaa9e68227ea0421d7"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P3-Skill解耦修订/skills/ppt-quality-workflow/references/stage-handoffs.md",
+    "bytes": 2733,
+    "sha256": "4915b64e014cd73fd9780557eb8baa1d0ab759d2856ca96da500d4eced2bea6b"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P3-Skill解耦修订/skills/ppt-quality-workflow/SKILL.md",
+    "bytes": 2265,
+    "sha256": "09b1e21c7fd8a5712b536ed99b6e7985618b67c14142c96728d86c7ccdf4cdbc"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P3-Skill解耦修订/skills/ppt-review/references/engine-cli.md",
+    "bytes": 1734,
+    "sha256": "83a030b5737792f4d0a50ae0ad52e8aee6ab2cb053d249811a176d8ef8701560"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P3-Skill解耦修订/skills/ppt-review/SKILL.md",
+    "bytes": 2587,
+    "sha256": "96a5aeb3a92edcea55f02c364e625d4bd3704d7f15d2828feb1e65df483ab68a"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P3-Skill解耦修订/skills/ppt-template/SKILL.md",
+    "bytes": 2436,
+    "sha256": "b7d1fe1900f80ed8fd4885070f5e34e065afedf92d12e511ace07cfbed3312c0"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P3-Skill解耦修订/解耦审核.md",
+    "bytes": 6465,
+    "sha256": "d019055c08c923288bf9269b4bfde61bd9c8d5530942cc8a9936b9df63c60a35"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P4-模板与对照/experiment-source/upstream/automizer-CHANGELOG.md",
+    "bytes": 34179,
+    "sha256": "d60a1bd88cb4e82007f3f278f4f01505d4007cd3dd6396de72b5762d4c312221"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P4-模板与对照/experiment-source/upstream/automizer-README.md",
+    "bytes": 5579,
+    "sha256": "0c0e28fbbd3ac5b1a5206198deec140a0a3fdfaee421363c280cbac31c339f0a"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P4-模板与对照/experiment-source/upstream/pptagent-README.md",
+    "bytes": 18477,
+    "sha256": "24250b7752d9baa93859f109b247bd2a81d8360822270f4eaa857ef05368f202"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P4-模板与对照/experiment-source/upstream/pptagent-skills_pptagent_SKILL.md",
+    "bytes": 3070,
+    "sha256": "0d790792b14807f471614b985471ae6cd2c96b6dc7c536085f037783687e5c79"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P4-模板与对照/P4阶段审核.md",
+    "bytes": 7245,
+    "sha256": "9e803e71beeff60f3e2a88cf59e11d033083b0c1143a9bbc262c78fa8aa9eb59"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P5-交付固化/licenses/node/isarray/README.md",
+    "bytes": 1890,
+    "sha256": "ff138e683771b187f3629c383db72ee7d632009010a36d08e18e8d2a34222ec7"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P5-交付固化/licenses/node/lie/license.md",
+    "bytes": 1084,
+    "sha256": "5c81b0caa98593408b03125efa25efe622341ed87ae55561968828cd887d64a4"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P5-交付固化/licenses/node/process-nextick-args/license.md",
+    "bytes": 1064,
+    "sha256": "ecdccbcf39024f624ded480c01c0b25458e1eca8f26ecf040933865ce56d9a4f"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P5-交付固化/licenses/python/httpcore2-2.13.1/01-LICENSE.md",
+    "bytes": 1599,
+    "sha256": "c4df125c807b0613501e943a5c92496dd11d2c16604ce396097a8dde396304d9"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P5-交付固化/licenses/python/httpx2-2.13.1/01-LICENSE.md",
+    "bytes": 1589,
+    "sha256": "7e7d6dbaf7fe160d39fd6e84fd02c33cab96bcbea34d36998d545bceb4a19c30"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P5-交付固化/licenses/python/idna-3.20/01-LICENSE.md",
+    "bytes": 1541,
+    "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P5-交付固化/licenses/python/starlette-1.8.0/01-LICENSE.md",
+    "bytes": 1518,
+    "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P5-交付固化/licenses/python/uvicorn-0.54.0/01-LICENSE.md",
+    "bytes": 1526,
+    "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P5-交付固化/P5阶段审核.md",
+    "bytes": 6554,
+    "sha256": "58bbdf07cdbd4e5e729ef144fe7318dcd1a451f85e633dbcf2ee8c9243c4831b"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P5-交付固化/THIRD_PARTY_NOTICES.md",
+    "bytes": 2581,
+    "sha256": "71d932aa7402828238d0512231595b541c217d1b0a064c9fe41edb0defd2bdbd"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P5-交付固化/任务验收矩阵.md",
+    "bytes": 1833,
+    "sha256": "223250c06e39724bb38f07ca6a54b25fea718100ddabd3ae5e76f92495ec2e5d"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/P5-交付固化/使用指南.md",
+    "bytes": 8507,
+    "sha256": "6be4afbe07c1393c317e0c425d4a7d10d1a49afa908641fe50c03ba886e5746c"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/README.md",
+    "bytes": 814,
+    "sha256": "f9aa44af52fab8870946e2c7014f4df0733a1fd916c6694059752efe6da231e2"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/WPS-模板与编辑验证-20261017/验证报告.md",
+    "bytes": 3995,
+    "sha256": "bab1454b9fd1c80c4a0de19b5c49ec2ef0fef73a3eb1b5f15cc7208ca460954c"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/WPS元素实测-20261017/测试结论.md",
+    "bytes": 1509,
+    "sha256": "9d071a0e03b362944acd8400dd327450275e9878b7ed9ba5936b4f170b2bf637"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/原生模板接入-20261017/核查与后续步骤.md",
+    "bytes": 2328,
+    "sha256": "6732c8a1f5dbdd8ed7357ac83d38ae86978d9851ee4100079d65dd0b962a835d"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/最终整理-20261017/最终核查报告.md",
+    "bytes": 4953,
+    "sha256": "e55103d6bc5b6f50e92007693654966a42c8ff3480c6c0d37c3d7413fd9f259c"
+  },
+  {
+    "path": "docs/research/06-实施与阶段审核/详细实施计划.md",
+    "bytes": 10778,
+    "sha256": "daca84e2ace7be9cc095b9a659ef4c03ad3e519dd7904522c366e5f7787b416a"
+  },
+  {
+    "path": "docs/research/07-自动化PPT开源生态调研-20261017/00-执行摘要.md",
+    "bytes": 6256,
+    "sha256": "ba487621676822f8f54187b0ac6de35d08d371a503c41efbce01a0cfbc11d268"
+  },
+  {
+    "path": "docs/research/07-自动化PPT开源生态调研-20261017/01-研究报告/自动化PPT开源生态全景_20261017.md",
+    "bytes": 50716,
+    "sha256": "d926bb087f5d2f1818d81ef714ec0d8fb627fdc79e2cf02bd9858013de2d3fca"
+  },
+  {
+    "path": "docs/research/07-自动化PPT开源生态调研-20261017/02-项目卡片/README.md",
+    "bytes": 1481,
+    "sha256": "021615ec1b3a89fdfdbc7739fcfbc52752cf27b28bd1689e7de7b22f4ade2ca2"
+  },
+  {
+    "path": "docs/research/07-自动化PPT开源生态调研-20261017/03-汇报PPT/README.md",
+    "bytes": 2515,
+    "sha256": "c5ff7b4a4389ed8ffabe9f3d5b3853e8f013eb4cc70a9b47817406a6e805cab7"
+  },
+  {
+    "path": "docs/research/07-自动化PPT开源生态调研-20261017/04-核查证据/README.md",
+    "bytes": 1833,
+    "sha256": "499bdc5bce7a1e71b10a52b787d499ae25482901bce326d16c188cc5a5dfd894"
+  },
+  {
+    "path": "docs/research/07-自动化PPT开源生态调研-20261017/05-建议与路线图.md",
+    "bytes": 12093,
+    "sha256": "6a40a74fc905742ddf10a3c31ac952a5dae7f5a5a055fd709cb27911552c7c8a"
+  },
+  {
+    "path": "docs/research/07-自动化PPT开源生态调研-20261017/06-来源清单.md",
+    "bytes": 7937,
+    "sha256": "560c6fc9d122ba12ba94f89975ceb0103fdba756be3c0020fe6c7293821914a1"
+  },
+  {
+    "path": "docs/research/07-自动化PPT开源生态调研-20261017/99-归档/README.md",
+    "bytes": 373,
+    "sha256": "27ffba1b1c07cf48c1a7a05f0be33b980d97ce84225d175cc905ba176184e610"
+  },
+  {
+    "path": "docs/research/07-自动化PPT开源生态调研-20261017/99-归档/原-生态全景-README.md",
+    "bytes": 2785,
+    "sha256": "a79e39892bb59e71e4fe81713d962fc0eb5cd409df08cebc68f385cb8906c0fe"
+  },
+  {
+    "path": "docs/research/07-自动化PPT开源生态调研-20261017/README.md",
+    "bytes": 7485,
+    "sha256": "2cb7b7bc727525a786b0f70c598ddda6847ee7ea60c908afae460ae7e9ecf718"
+  },
+  {
+    "path": "docs/research/08-质量升级研究与方案-20261018/01-真实案例诊断.md",
+    "bytes": 9260,
+    "sha256": "67264a088c3cd4631228d185fe47596de07714a7b3c5d100201a3b71460a3a99"
+  },
+  {
+    "path": "docs/research/08-质量升级研究与方案-20261018/02-开源调研复核.md",
+    "bytes": 5791,
+    "sha256": "efee9819407856f7c488bfa0569ba9842cc8c0a49de9a6ef905b6572bc8621ad"
+  },
+  {
+    "path": "docs/research/08-质量升级研究与方案-20261018/03-质量升级实施方案.md",
+    "bytes": 9459,
+    "sha256": "e1a82bc1d5020c1ea6870f8b0fadda6b2dc0ebe2648e3e121019c216d000d2c8"
+  },
+  {
+    "path": "docs/research/08-质量升级研究与方案-20261018/04-三页对照试验任务书.md",
+    "bytes": 3595,
+    "sha256": "a732c0675cc49aed67e3f036852db1520a4fb12c40675880c61750eb4aa62ca9"
+  },
+  {
+    "path": "docs/research/08-质量升级研究与方案-20261018/README.md",
+    "bytes": 1228,
+    "sha256": "8963ea093122be8f2ae579460be1c8f88bcc59a7a44b5b9a70f2e87a336af7cd"
+  },
+  {
+    "path": "docs/research/09-质量升级自动化实施-20261018/README.md",
+    "bytes": 659,
+    "sha256": "0af34ab443f85595cff91b95a9f021f4afc9d0beacc8d3cbb4554ebb763b1fd4"
+  },
+  {
+    "path": "docs/research/09-质量升级自动化实施-20261018/执行记录.md",
+    "bytes": 4854,
+    "sha256": "be3607989389fe3dc32a0b0e1dbfcb177456bf0b61ec2ecf2605fd4b19f87986"
+  },
+  {
+    "path": "docs/research/09-质量升级自动化实施-20261018/自动化工作流与实施计划.md",
+    "bytes": 9123,
+    "sha256": "fb5cfba4de5427e4e34a17570241958934f72dae6ea71ef73e6b101de48488c2"
+  },
+  {
+    "path": "docs/research/10-项目自动化优化实施-20261018/README.md",
+    "bytes": 923,
+    "sha256": "97d31919f2ffa7f5d39cc11f32ccc8570bf493b4556349f5355fccaae894d1be"
+  },
+  {
+    "path": "docs/research/10-项目自动化优化实施-20261018/实施计划.md",
+    "bytes": 2505,
+    "sha256": "2097ffbb1364bd2d5177ef59d045846510cc20d25f6384d0efd95d2d631cd838"
+  },
+  {
+    "path": "docs/research/10-项目自动化优化实施-20261018/工程验收报告.md",
+    "bytes": 7326,
+    "sha256": "1db74d0f36234c50956d6dd26736d93f2cc3b1cce5ba3d87c5173d9d26f16ba3"
+  },
+  {
+    "path": "docs/research/11-效果验证与项目整理-20261018/README.md",
+    "bytes": 714,
+    "sha256": "d9f86a5e70bca83a8935dcfbfee9f4c10ac9bfe11c8d8798b4b92ca59e46b126"
+  },
+  {
+    "path": "docs/research/11-效果验证与项目整理-20261018/效果验证与整理报告.md",
+    "bytes": 7400,
+    "sha256": "e50ce5ae0550856d5623253d46766532b4cda6cc4ec6e402160a700c3fc77227"
+  },
+  {
+    "path": "docs/research/12-视觉模板深化-20261019/README.md",
+    "bytes": 819,
+    "sha256": "6781c236e852d8bbbfde2c6f1a1c9e41b526c5e69c5c3b86516525d4d79d078a"
+  },
+  {
+    "path": "docs/research/12-视觉模板深化-20261019/实施与验收报告.md",
+    "bytes": 6737,
+    "sha256": "ef8c0b42ceffb6750baa0a5052ece337c7bd7f6602e9b6f8d86f4ae0950504cd"
+  },
+  {
+    "path": "docs/research/12-视觉模板深化-20261019/实施计划.md",
+    "bytes": 1328,
+    "sha256": "8ed2798c3c2bc7194f591f5f85a37a1361c682d2a856bc504993620c89a505fb"
+  },
+  {
+    "path": "docs/research/12-视觉模板深化-20261019/开源研究与迁移.md",
+    "bytes": 3210,
+    "sha256": "e3ea0ca53b4a248c8b0cff7886b2df2a4bae39b4ca8eac836c080aee1666350a"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/README.md",
+    "bytes": 558,
+    "sha256": "10767b0bfe1eda287f86aa81866bb35988a0c18de23a8dbefb5ba0fab97d058c"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-compose/references/chart-v02.md",
+    "bytes": 2100,
+    "sha256": "27de738a44dcea08de080acfa2d6d14ad761ce581f7d46a87ae076c0d3f7a128"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-compose/references/engine-cli.md",
+    "bytes": 2043,
+    "sha256": "1668ea4b62f7b29268fdb3e9ff67a9085593dab6b03eb2705ac1b24293a8b1d2"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-compose/references/scene-images.md",
+    "bytes": 1615,
+    "sha256": "0fe8a0219788542b3950de11c11a6b24f56a5d83a532a9d04f77df44a6f2fa51"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-compose/references/wps-elements.md",
+    "bytes": 2401,
+    "sha256": "84cdfb3f4143e9ccbffd9b1f7bd0d92fd5ffb16cb9e131ef5cc0a09fe993d7f9"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-compose/SKILL.md",
+    "bytes": 4854,
+    "sha256": "7dbd58f5a32fb3c4c8021b240437f251f3223d77c8bac3d367daaf4cd61ab46f"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-outline/references/content-plan.md",
+    "bytes": 1378,
+    "sha256": "d5713757ca4de7ebe1736a5566c1fa047efe601b608be886ddfb0b37817820aa"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-outline/SKILL.md",
+    "bytes": 3003,
+    "sha256": "f6355087f289eb2b499c4217d3ac05a6c56a8b79cb1ffcb8688536c1c1b5ad0e"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-polish/references/layered-visuals.md",
+    "bytes": 888,
+    "sha256": "9adbcb504f87f8db8d69299437c9ab410aec0729020f125a368167c160763f97"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-polish/SKILL.md",
+    "bytes": 3805,
+    "sha256": "a8a0f3354b5963558d19f4f903709d5d9301554dca1cd62595d391e395452928"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-quality-workflow/references/runtime-tools.md",
+    "bytes": 3513,
+    "sha256": "d0569c0b52ea152697370d818d4c9fbc40776d59c320d537e9bc1d85889d22cb"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-quality-workflow/references/stage-handoffs.md",
+    "bytes": 2733,
+    "sha256": "4915b64e014cd73fd9780557eb8baa1d0ab759d2856ca96da500d4eced2bea6b"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-quality-workflow/SKILL.md",
+    "bytes": 4228,
+    "sha256": "8d6a391954448a4b50454feb1fabf967baffe2b44b9ba3808aec22dcfd617ecc"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-review/references/engine-cli.md",
+    "bytes": 1734,
+    "sha256": "83a030b5737792f4d0a50ae0ad52e8aee6ab2cb053d249811a176d8ef8701560"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-review/references/layered-visuals.md",
+    "bytes": 1084,
+    "sha256": "92d30aebe7c0ddf91b63c518297565b8cf833959827fa48ef20532c02eebe277"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-review/references/task-review.md",
+    "bytes": 1230,
+    "sha256": "ace2565e1fa1a6852cfa91174545b1d56d940dd45e3469752a6f460ae5c8f74a"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-review/SKILL.md",
+    "bytes": 3828,
+    "sha256": "896e80deb47914105e6cbcc02f3fa9f3fc47e81c9f30aeb4dd9c54e4f5194bdc"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-template/references/scene-blueprints.md",
+    "bytes": 1303,
+    "sha256": "6cf82f097a262c4258741d39be3be0fe3c066c4eab8be6d3af8b86571406afcb"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-template/references/semantic-layouts.md",
+    "bytes": 1121,
+    "sha256": "ed251fbd61ad74b4836c9f6d08e1f5a51c99c41b7d6d150632cebbde1eb13ddd"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-template/references/visual-composition.md",
+    "bytes": 1928,
+    "sha256": "8e9f2063e30de349f14a14e4c9b71004812671d7f17d4dbec04c4264e144f8f3"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-template/references/wps-template-selection.md",
+    "bytes": 5664,
+    "sha256": "d3a453bc1c61b718bf58b5e70e4272662f2d7d828d20bd579bbd971a2dbd3988"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/图表准备修订-同步前/ppt-template/SKILL.md",
+    "bytes": 5163,
+    "sha256": "c98f9891ed14a4a79f5139e4f277a85ed6643859b47f8c82eed3c4172ae7b831"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/实施计划.md",
+    "bytes": 1250,
+    "sha256": "3c6ae803e730a0c764b8b5571e0f7e955f726c5f040ecee5e6c958d2a6192e62"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/研究与视觉试验报告.md",
+    "bytes": 5604,
+    "sha256": "67121d48a5cbf8cc2df50f502ad5291e301e31849742537f79a416c3941ff08c"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-compose/references/chart-v02.md",
+    "bytes": 2100,
+    "sha256": "27de738a44dcea08de080acfa2d6d14ad761ce581f7d46a87ae076c0d3f7a128"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-compose/references/engine-cli.md",
+    "bytes": 2043,
+    "sha256": "1668ea4b62f7b29268fdb3e9ff67a9085593dab6b03eb2705ac1b24293a8b1d2"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-compose/references/scene-images.md",
+    "bytes": 1615,
+    "sha256": "0fe8a0219788542b3950de11c11a6b24f56a5d83a532a9d04f77df44a6f2fa51"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-compose/references/wps-elements.md",
+    "bytes": 2401,
+    "sha256": "84cdfb3f4143e9ccbffd9b1f7bd0d92fd5ffb16cb9e131ef5cc0a09fe993d7f9"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-compose/SKILL.md",
+    "bytes": 4241,
+    "sha256": "2c712197b9b4b583c112dcc7e080bb01032cd2084d74e3e17c1c294131422366"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-polish/references/layered-visuals.md",
+    "bytes": 888,
+    "sha256": "9adbcb504f87f8db8d69299437c9ab410aec0729020f125a368167c160763f97"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-polish/SKILL.md",
+    "bytes": 3362,
+    "sha256": "cdb3b340e4b14d20d73929e6cd13afa1f89fbf9137f13f0d3abad7ee56b4eaa4"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-quality-workflow/references/runtime-tools.md",
+    "bytes": 3513,
+    "sha256": "d0569c0b52ea152697370d818d4c9fbc40776d59c320d537e9bc1d85889d22cb"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-quality-workflow/references/stage-handoffs.md",
+    "bytes": 2733,
+    "sha256": "4915b64e014cd73fd9780557eb8baa1d0ab759d2856ca96da500d4eced2bea6b"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-quality-workflow/SKILL.md",
+    "bytes": 3810,
+    "sha256": "6d1bd02866423db6af0bebeadd6dc10356cc0548787d9defc4e50abe010dbe43"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-review/references/engine-cli.md",
+    "bytes": 1734,
+    "sha256": "83a030b5737792f4d0a50ae0ad52e8aee6ab2cb053d249811a176d8ef8701560"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-review/references/layered-visuals.md",
+    "bytes": 1084,
+    "sha256": "92d30aebe7c0ddf91b63c518297565b8cf833959827fa48ef20532c02eebe277"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-review/references/task-review.md",
+    "bytes": 1230,
+    "sha256": "ace2565e1fa1a6852cfa91174545b1d56d940dd45e3469752a6f460ae5c8f74a"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-review/SKILL.md",
+    "bytes": 3397,
+    "sha256": "917a86bbd04489c893157e548226f51444d5dfdac1758383d12a89df35eaa84f"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-template/references/scene-blueprints.md",
+    "bytes": 1303,
+    "sha256": "6cf82f097a262c4258741d39be3be0fe3c066c4eab8be6d3af8b86571406afcb"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-template/references/semantic-layouts.md",
+    "bytes": 1121,
+    "sha256": "ed251fbd61ad74b4836c9f6d08e1f5a51c99c41b7d6d150632cebbde1eb13ddd"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-template/references/visual-composition.md",
+    "bytes": 1187,
+    "sha256": "1965f7154f155b4f46214ab8878b5eba0ca9ba4350c8da72e4db6f5d53ca2bf6"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-template/references/wps-template-selection.md",
+    "bytes": 5664,
+    "sha256": "d3a453bc1c61b718bf58b5e70e4272662f2d7d828d20bd579bbd971a2dbd3988"
+  },
+  {
+    "path": "docs/research/13-版式与素材设计研究-20261019/页内排版修订-同步前/ppt-template/SKILL.md",
+    "bytes": 5163,
+    "sha256": "c98f9891ed14a4a79f5139e4f277a85ed6643859b47f8c82eed3c4172ae7b831"
+  },
+  {
+    "path": "docs/research/14-开源图标库接入-20261019/实施与验证报告.md",
+    "bytes": 4618,
+    "sha256": "acd308f223f80ee194c02f8ab5ed41d09b7a9cbc5ebfa190f340f191d5965cdb"
+  },
+  {
+    "path": "docs/research/14-开源图标库接入-20261019/实施计划.md",
+    "bytes": 1007,
+    "sha256": "3cf9dc605ec38f143b15e901795a13dae207ade8cf92c08cd36a2c3f1774229b"
+  },
+  {
+    "path": "docs/research/15-Office导图恢复与验证-20261019/实施与验证报告.md",
+    "bytes": 4568,
+    "sha256": "58576635f92652debf655fd5da33e3b440145f4231b7c32ab62faa000a85a78f"
+  },
+  {
+    "path": "docs/research/16-插画与可编辑模块库-20261019/实施与验证报告.md",
+    "bytes": 5114,
+    "sha256": "bb7f5d76c630cfb59b757ab02f9eb04b11f3df4e9b6f65647d225b33e79585bb"
+  },
+  {
+    "path": "docs/research/16-插画与可编辑模块库-20261019/实施计划.md",
+    "bytes": 1008,
+    "sha256": "f771cef9f749108a28984fee9b918dd922afcd52e85ebe65e8a07a8c9ee95521"
+  },
+  {
+    "path": "docs/research/16-插画与可编辑模块库-20261019/未采用候选/筛选说明.md",
+    "bytes": 130,
+    "sha256": "d1ad60f4b3c39db513c33e98ddd27369c8f9a696b87d78d8315ba7650296ab68"
+  },
+  {
+    "path": "docs/research/17-原生图表视觉配方-20261019/实施与验证报告.md",
+    "bytes": 4129,
+    "sha256": "b863152b08ca1804b7d5a3671c72ade40cb0d57e956a34e9b3abfb012e3b61f4"
+  },
+  {
+    "path": "docs/research/17-原生图表视觉配方-20261019/实施计划.md",
+    "bytes": 1345,
+    "sha256": "ad0b4f0ff64d91e7b335cae15c6c437e60340069f8b36a845c21bbe83f4f0c0c"
+  },
+  {
+    "path": "docs/research/18-在线素材检索与入页-20261019/实施与验证报告.md",
+    "bytes": 5554,
+    "sha256": "811b8139eca86eec1aab2fc1283be82ce2a5b5ab8158b3210e1160c8e4900e88"
+  },
+  {
+    "path": "docs/research/18-在线素材检索与入页-20261019/实施计划.md",
+    "bytes": 986,
+    "sha256": "7cf4a1a5945532e3b957e7ecd2741b1c9d92e0d1e338a5b6d0c0e60bfb3c0300"
+  },
+  {
+    "path": "docs/research/19-大纲驱动与任务素材包-20261019/实施与验证报告.md",
+    "bytes": 3137,
+    "sha256": "2b717e6f20c6faea449f15a84e633b4574c04030a21e7f03b767fead4feafed5"
+  },
+  {
+    "path": "docs/research/20-全链路实测-20261019/实际结果与调整.md",
+    "bytes": 1373,
+    "sha256": "548f096b771fa90f1084f34b08ba18ea51f3408a53627c039b8d8047f02c2edb"
+  },
+  {
+    "path": "docs/research/21-视觉样稿-20261020/设计说明.md",
+    "bytes": 604,
+    "sha256": "2c2881c4ee3815ffc842ec20268c370edf07ed927bea8e23d850b9e00a2f91e0"
+  },
+  {
+    "path": "docs/research/23-PPT-Skill源码深度调研-20261021/00-结论与迁移优先级.md",
+    "bytes": 7129,
+    "sha256": "e8c3c755a8398bc7908b3d5a300630ce5d1b193b2346f7528c75fda384917726"
+  },
+  {
+    "path": "docs/research/23-PPT-Skill源码深度调研-20261021/01-逐项目源码剖析.md",
+    "bytes": 19784,
+    "sha256": "979ce61ddd03b7c76d5cc2642e7206bf00b05fa2253dbd1cc21ad5c8a019c952"
+  },
+  {
+    "path": "docs/research/23-PPT-Skill源码深度调研-20261021/02-本项目差距与迁移设计.md",
+    "bytes": 11737,
+    "sha256": "8269fbacfa7548be4b136a4a8973954f7cf7064983d1fba26311f1b658f24ad9"
+  },
+  {
+    "path": "docs/research/23-PPT-Skill源码深度调研-20261021/03-版本与证据索引.md",
+    "bytes": 10827,
+    "sha256": "07d2c87bf8cdcb9923983cf9021aeb19263215e6b45285565b82985d5678cad3"
+  },
+  {
+    "path": "docs/research/23-PPT-Skill源码深度调研-20261021/README.md",
+    "bytes": 1227,
+    "sha256": "8a456360a8ea7b8fa9aecb11adf062de3711f01ee17e142c009c3c3b7052c81b"
+  },
+  {
+    "path": "docs/research/24-Skill迁移优化实施-20261021/优化工作流.md",
+    "bytes": 4196,
+    "sha256": "814dd309fcefc8bb2bc345362d9ba790d43af622ccdd2856f577a7297d4f87ba"
+  },
+  {
+    "path": "docs/research/24-Skill迁移优化实施-20261021/第一批实施说明.md",
+    "bytes": 2660,
+    "sha256": "2e035ef083dd7c6299c014b62897e6c7b11e33189bc945ad621de69bcc783a46"
+  },
+  {
+    "path": "docs/research/25-布局容量与模板适配-20261022/第二批实施说明.md",
+    "bytes": 3926,
+    "sha256": "35dfcdd82f8192751e41ff1cbe252e5462c6be84809b82832cc6bf73b5cce1e5"
+  },
+  {
+    "path": "docs/research/26-素材风格与常用构图-20261022/第三批实施说明.md",
+    "bytes": 5534,
+    "sha256": "a4f52fd5756383451c38c9dd945b0b38a89aafd38c46ee4a0b2cab5ed0c9143d"
+  },
+  {
+    "path": "docs/research/27-通用制作入口与新题材验证-20261022/优化工作流.md",
+    "bytes": 1321,
+    "sha256": "202fad06bc7496ed5c818908b631f848d822710e0ec3573f72a661f5029f7cac"
+  },
+  {
+    "path": "docs/research/27-通用制作入口与新题材验证-20261022/实施与调用说明.md",
+    "bytes": 3463,
+    "sha256": "530a2cface38aa21cabb6f36e5774ce9342bde18d69f740174849252b26cc492"
+  },
+  {
+    "path": "docs/research/28-完整简报模板与页面节奏-20261022/实施与调用说明.md",
+    "bytes": 2524,
+    "sha256": "bddebb59c8e247909eece97d0daa7419d8a88be239b7937f1d77b1fba851def1"
+  },
+  {
+    "path": "docs/research/29-图片与图表联合表达-20261022/实施与调用说明.md",
+    "bytes": 3255,
+    "sha256": "0d13d9d0e926982646365cdaaf0e64e26596e4faabe0df76f66f75091d034e24"
+  },
+  {
+    "path": "docs/research/30-模板风格分化与同稿对照-20261022/优化工作流.md",
+    "bytes": 1213,
+    "sha256": "17e59a5510caac5a70822edc34776e158721f9ccb5dd8e68ad799a2162dc7676"
+  },
+  {
+    "path": "docs/research/30-模板风格分化与同稿对照-20261022/实施与调用说明.md",
+    "bytes": 2388,
+    "sha256": "8170a2e90ff437c7578eedd35f960b203f5d4c36cfbd8744e69badd336bf6fcc"
+  },
+  {
+    "path": "docs/research/31-高质量PPT设计方法研究-20261022/01-研究结论与项目差距.md",
+    "bytes": 8964,
+    "sha256": "f78756cd743abce9f1fea0e685bcb613e886f6f9cf91ac7530950c0b1cced735"
+  },
+  {
+    "path": "docs/research/31-高质量PPT设计方法研究-20261022/02-原始案例与源码剖析.md",
+    "bytes": 5737,
+    "sha256": "ab5160834620846329f05f4d62426a48db09bbcdb9f604c20fed905543e2bbeb"
+  },
+  {
+    "path": "docs/research/31-高质量PPT设计方法研究-20261022/03-设计优先的制作工作流.md",
+    "bytes": 6069,
+    "sha256": "eea26df500b8e6d82541211db174a550ad2448993185c262f5231aa090d9e84b"
+  },
+  {
+    "path": "docs/research/31-高质量PPT设计方法研究-20261022/DeepSlides-selected/README_zh.md",
+    "bytes": 8832,
+    "sha256": "0c38b40f5d4ca51a87a81426866d01ef3495e9ef300f6dbf558796867c2d8d94"
+  },
+  {
+    "path": "docs/research/31-高质量PPT设计方法研究-20261022/README.md",
+    "bytes": 1410,
+    "sha256": "31b320592da8cdab2cdce9d99b25521cad245f9edb522df195eea28c5b99fe83"
+  },
+  {
+    "path": "docs/research/31-高质量PPT设计方法研究-20261022/来源与阅读范围.md",
+    "bytes": 4151,
+    "sha256": "e242f3153567a88a36d5b97bef08e441a04563b88de5440b31d88ecb1cf75ec7"
+  },
+  {
+    "path": "docs/research/README.md",
+    "bytes": 416,
+    "sha256": "316724d3a652124b71b4496bb3c9c75869523acfa5e2e041033176378478aee4"
+  },
+  {
+    "path": "tools/package_source.py",
+    "bytes": 2801,
+    "sha256": "7cd40fd6bcf2b632627cf60fc5409aac9145cb25ec2552b557438338f5cfc370"
+  }
+]

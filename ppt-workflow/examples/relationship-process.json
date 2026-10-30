@@ -1,0 +1,59 @@
+{
+  "version": "relationship-request/1",
+  "slide_id": "s2",
+  "element_id": "relations2",
+  "rect": {
+    "x": 0.75,
+    "y": 2.38,
+    "w": 11.85,
+    "h": 4.35
+  },
+  "theme": {
+    "font": "Microsoft YaHei",
+    "colors": {
+      "ink": "183341",
+      "accent": "9B3045",
+      "muted": "657783",
+      "surface": "EDE5DF",
+      "background": "F8F5EE",
+      "line": "A6B2B6"
+    }
+  },
+  "relationship": {
+    "kind": "process",
+    "basis": "本项目采用资料整理、素材准备、逐页制作的顺序；每一步给下一步提供产出。",
+    "source_refs": [
+      "workflow"
+    ],
+    "nodes": [
+      {
+        "id": "source",
+        "label": "整理来源",
+        "body": "确认主张、出处与资料缺口",
+        "output": "产出：资料摘录与来源"
+      },
+      {
+        "id": "visual",
+        "label": "准备图表",
+        "body": "先做真实图表与相关配图",
+        "output": "产出：任务素材包"
+      },
+      {
+        "id": "compose",
+        "label": "逐页制作",
+        "body": "按页面任务组织图文信息",
+        "output": "产出：可编辑PPT"
+      }
+    ],
+    "edges": [
+      {
+        "from": "source",
+        "to": "visual"
+      },
+      {
+        "from": "visual",
+        "to": "compose"
+      }
+    ]
+  }
+}

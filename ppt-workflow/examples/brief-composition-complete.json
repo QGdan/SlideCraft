@@ -1,0 +1,61 @@
+{
+  "version": "brief-composition-request/1",
+  "job_id": "complete-campus-20261022-002",
+  "outline": "C:\\Users\\郭卓然\\Desktop\\项目\\PPT-高质量生成研究\\ppt-workflow\\runs\\complete-campus-20261022-002\\outline.json",
+  "materials_pack": "C:\\Users\\郭卓然\\Desktop\\项目\\PPT-高质量生成研究\\ppt-workflow\\runs\\complete-campus-20261022-002\\素材\\manifest.json",
+  "design_system": "C:\\Users\\郭卓然\\Desktop\\项目\\PPT-高质量生成研究\\ppt-workflow\\runs\\complete-campus-20261022-002\\design-system.json",
+  "pages": [
+    {
+      "slide_id": "cover",
+      "visual_id": "frame",
+      "layout": "cover",
+      "kicker": "校园公共服务 · 方案汇报"
+    },
+    {
+      "slide_id": "section",
+      "visual_id": "frame",
+      "layout": "divider",
+      "kicker": "服务方案"
+    },
+    {
+      "slide_id": "scene",
+      "visual_id": "scene",
+      "layout": "image-right",
+      "kicker": "校园公共服务方案",
+      "source_note": "场景为生成示意图，非真实活动照片。",
+      "sections": [
+        {
+          "body_index": 0,
+          "heading": "把服务事项说清楚"
+        },
+        {
+          "body_index": 1,
+          "heading": "让材料支撑后续汇报"
+        }
+      ],
+      "focus": {
+        "x": 0.9,
+        "y": 0.5
+      }
+    },
+    {
+      "slide_id": "compare",
+      "visual_id": "compare",
+      "layout": "comparison",
+      "kicker": "组织方式与条件",
+      "source_note": "来源：自撰候选方案，具体安排依实际条件确定。"
+    },
+    {
+      "slide_id": "data",
+      "visual_id": "data",
+      "layout": "chart_takeaway",
+      "kicker": "同题记录与比较"
+    },
+    {
+      "slide_id": "closing",
+      "visual_id": "frame",
+      "layout": "closing",
+      "kicker": "下一步安排"
+    }
+  ]
+}

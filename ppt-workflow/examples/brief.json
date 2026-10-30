@@ -1,0 +1,27 @@
+{
+  "schema_version": "0.1",
+  "job_id": "contract_demo",
+  "topic": "教学数据平台：接口示意",
+  "audience": "工作流阶段审核",
+  "language": "zh-CN",
+  "delivery_mode": "presented",
+  "slide_count": 8,
+  "aspect_ratio": "16:9",
+  "theme": "academic",
+  "sources": [
+    {
+      "id": "demo_data",
+      "kind": "demo",
+      "locator": "合约示例：示意数据，不代表真实业务结果",
+      "is_demo": true
+    }
+  ],
+  "required_native_types": [
+    "text",
+    "chart",
+    "table"
+  ],
+  "constraints": [
+    "所有数据明确标记为示意数据"
+  ]
+}

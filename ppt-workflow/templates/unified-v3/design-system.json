@@ -1,0 +1,317 @@
+{
+  "id": "ivory-teal-v3",
+  "version": "1.0",
+  "canvas": {
+    "width": 13.333333,
+    "height": 7.5,
+    "unit": "in"
+  },
+  "font": "Microsoft YaHei",
+  "colors": {
+    "background": "F5F3ED",
+    "ink": "162E3B",
+    "muted": "536876",
+    "accent": "117A7E",
+    "soft": "E2EFEB",
+    "rule": "CEDCD8"
+  },
+  "regions": {
+    "kicker": [
+      0.7,
+      0.36,
+      11.9,
+      0.28
+    ],
+    "title": [
+      0.7,
+      0.93,
+      11.9,
+      0.87
+    ],
+    "content": [
+      0.7,
+      2.12,
+      11.9,
+      4.56
+    ],
+    "source": [
+      0.7,
+      7.02,
+      11.1,
+      0.27
+    ],
+    "page": [
+      12.08,
+      7.02,
+      0.52,
+      0.27
+    ]
+  },
+  "font_sizes": {
+    "kicker": 12,
+    "title": 34,
+    "body": 22,
+    "source": 11,
+    "data": 56
+  },
+  "layouts": [
+    {
+      "key": "cover",
+      "name": "Unified 01 Cover",
+      "slots": [
+        {
+          "kind": "body",
+          "rect": [
+            0.8,
+            2.62,
+            6,
+            3.6
+          ],
+          "name": "内容区1"
+        },
+        {
+          "kind": "picture",
+          "rect": [
+            6.85,
+            2.16,
+            5.75,
+            3.24
+          ],
+          "name": "内容区2"
+        }
+      ]
+    },
+    {
+      "key": "takeaway",
+      "name": "Unified 02 Takeaway",
+      "slots": [
+        {
+          "kind": "body",
+          "rect": [
+            0.8,
+            2.66,
+            6,
+            3.6
+          ],
+          "name": "内容区1"
+        },
+        {
+          "kind": "picture",
+          "rect": [
+            7.35,
+            2.14,
+            4.5,
+            4.5
+          ],
+          "name": "内容区2"
+        }
+      ]
+    },
+    {
+      "key": "kpi",
+      "name": "Unified 03 Metrics",
+      "slots": [
+        {
+          "kind": "body",
+          "rect": [
+            0.8,
+            2.58,
+            5.45,
+            2.2
+          ],
+          "name": "内容区1"
+        },
+        {
+          "kind": "body",
+          "rect": [
+            7,
+            2.58,
+            5.45,
+            2.2
+          ],
+          "name": "内容区2"
+        }
+      ]
+    },
+    {
+      "key": "comparison",
+      "name": "Unified 04 Comparison",
+      "slots": [
+        {
+          "kind": "body",
+          "rect": [
+            0.8,
+            2.47,
+            5.4,
+            3.8
+          ],
+          "name": "内容区1"
+        },
+        {
+          "kind": "body",
+          "rect": [
+            7,
+            2.47,
+            5.4,
+            3.8
+          ],
+          "name": "内容区2"
+        }
+      ]
+    },
+    {
+      "key": "chart_takeaway",
+      "name": "Unified 05 Evidence",
+      "slots": [
+        {
+          "kind": "body",
+          "rect": [
+            0.7,
+            2.17,
+            8.7,
+            4.2
+          ],
+          "name": "内容区1"
+        },
+        {
+          "kind": "body",
+          "rect": [
+            9.82,
+            2.88,
+            2.78,
+            3.5
+          ],
+          "name": "内容区2"
+        }
+      ]
+    },
+    {
+      "key": "process",
+      "name": "Unified 06 Process",
+      "slots": [
+        {
+          "kind": "body",
+          "rect": [
+            0.8,
+            2.68,
+            11.8,
+            2.7
+          ],
+          "name": "内容区1"
+        }
+      ]
+    },
+    {
+      "key": "timeline",
+      "name": "Unified 07 Timeline",
+      "slots": [
+        {
+          "kind": "body",
+          "rect": [
+            0.8,
+            2.55,
+            2.65,
+            3.65
+          ],
+          "name": "内容区1"
+        },
+        {
+          "kind": "body",
+          "rect": [
+            3.83,
+            2.55,
+            2.65,
+            3.65
+          ],
+          "name": "内容区2"
+        },
+        {
+          "kind": "body",
+          "rect": [
+            6.859999999999999,
+            2.55,
+            2.65,
+            3.65
+          ],
+          "name": "内容区3"
+        },
+        {
+          "kind": "body",
+          "rect": [
+            9.89,
+            2.55,
+            2.65,
+            3.65
+          ],
+          "name": "内容区4"
+        }
+      ]
+    },
+    {
+      "key": "table",
+      "name": "Unified 08 Table",
+      "slots": [
+        {
+          "kind": "body",
+          "rect": [
+            0.8,
+            2.21,
+            11.75,
+            3.8
+          ],
+          "name": "内容区1"
+        }
+      ]
+    },
+    {
+      "key": "divider",
+      "name": "Unified 09 Section",
+      "slots": [
+        {
+          "kind": "body",
+          "rect": [
+            0.8,
+            2.74,
+            3.5,
+            3.2
+          ],
+          "name": "内容区1"
+        },
+        {
+          "kind": "picture",
+          "rect": [
+            4.65,
+            2.16,
+            7.9,
+            4.45
+          ],
+          "name": "内容区2"
+        }
+      ]
+    },
+    {
+      "key": "closing",
+      "name": "Unified 10 Closing",
+      "slots": [
+        {
+          "kind": "body",
+          "rect": [
+            0.8,
+            2.45,
+            11.6,
+            4.0
+          ],
+          "name": "内容区1"
+        }
+      ]
+    }
+  ],
+  "rules": [
+    "All ten slide backgrounds share the same warm ivory color",
+    "All slide headers and footers use the fixed master positions",
+    "Use only teal for emphasis and muted ink for secondary text",
+    "Artwork stays within its content region",
+    "Text, evidence charts, tables and processes remain native",
+    "Raster material textures are disclosed separately from rebuilt editable graphics"
+  ]
+}

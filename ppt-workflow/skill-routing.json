@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "stages": [
+    {
+      "command": "intake",
+      "skill": "ppt-intake",
+      "label": "需求访谈",
+      "requires": [],
+      "output": "requirements.json"
+    },
+    {
+      "command": "outline",
+      "skill": "ppt-outline",
+      "label": "资料与大纲",
+      "requires": [
+        "intake"
+      ],
+      "output": "content-outline.json"
+    },
+    {
+      "command": "template",
+      "skill": "ppt-template",
+      "label": "模板选择与创建",
+      "requires": [
+        "outline"
+      ],
+      "output": "template-selection.json"
+    },
+    {
+      "command": "compose",
+      "skill": "ppt-compose",
+      "label": "制作与修改",
+      "requires": [
+        "template"
+      ],
+      "output": "composition.json"
+    },
+    {
+      "command": "polish",
+      "skill": "ppt-polish",
+      "label": "美化与润色",
+      "requires": [
+        "compose"
+      ],
+      "output": "polish-report.json"
+    },
+    {
+      "command": "review",
+      "skill": "ppt-review",
+      "label": "效果审核",
+      "requires": [
+        "polish"
+      ],
+      "output": "review-report.json"
+    }
+  ],
+  "utilities": {
+    "capabilities": "ppt-compose",
+    "quality-check": "ppt-review",
+    "doctor": "ppt-quality-workflow",
+    "plan": "ppt-compose",
+    "build": "ppt-compose",
+    "revise": "ppt-compose",
+    "qa": "ppt-review",
+    "deliver": "ppt-review",
+    "benchmark": "ppt-review",
+    "skills": "ppt-quality-workflow",
+    "template-catalog": "ppt-template",
+    "blueprint-build": "ppt-compose",
+    "asset-search": "ppt-template",
+    "asset-prepare": "ppt-compose",
+    "module-search": "ppt-template",
+    "module-prepare": "ppt-compose",
+    "chart-style-catalog": "ppt-template",
+    "chart-prepare": "ppt-compose",
+    "asset-discover": "ppt-template",
+    "asset-fetch": "ppt-compose",
+    "asset-place": "ppt-compose",
+    "material-pack": "ppt-compose",
+    "editorial-build": "ppt-compose",
+    "relationship-prepare": "ppt-compose",
+    "layout-plan": "ppt-template",
+    "page-prepare": "ppt-compose",
+    "asset-plan": "ppt-template",
+    "asset-record": "ppt-compose",
+    "trend-prepare": "ppt-compose",
+    "brief-compose": "ppt-compose",
+    "frame-catalog": "ppt-template",
+    "frame-prepare": "ppt-compose",
+    "compact-chart-prepare": "ppt-compose",
+    "theme-catalog": "ppt-template",
+    "theme-prepare": "ppt-template"
+  }
+}

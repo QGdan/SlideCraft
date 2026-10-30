@@ -1,0 +1,351 @@
+{
+  "version": "blueprint-request/1",
+  "template_id": "campus-editorial-v1",
+  "variant": "ivory",
+  "job_id": "visual-layout-ab",
+  "sources": [
+    {
+      "id": "S1",
+      "kind": "url",
+      "locator": "https://zqb.cyol.com/html/2021-09/13/nw.D110000zgqnb_20210913_1-08.htm",
+      "is_demo": false
+    },
+    {
+      "id": "TEST",
+      "kind": "inline",
+      "locator": "Synthetic fixture",
+      "is_demo": true
+    },
+    {
+      "id": "ART",
+      "kind": "inline",
+      "locator": "Built-in imagegen; hypothetical campus scene; prompt in assets/campus-editorial-v1/provenance.json",
+      "is_demo": true
+    }
+  ],
+  "facts": [
+    {
+      "id": "growth",
+      "source_id": "S1",
+      "value": 67.24,
+      "unit": "%",
+      "scope": "首次求职工作属性",
+      "comparison_group": "first-job",
+      "period": "2021",
+      "metric": "growth",
+      "locator": "工作属性段落",
+      "is_demo": false
+    },
+    {
+      "id": "meaning",
+      "source_id": "S1",
+      "value": 49.07,
+      "unit": "%",
+      "scope": "首次求职工作属性",
+      "comparison_group": "first-job",
+      "period": "2021",
+      "metric": "meaning",
+      "locator": "工作属性段落",
+      "is_demo": false
+    },
+    {
+      "id": "salary",
+      "source_id": "S1",
+      "value": 40.64,
+      "unit": "%",
+      "scope": "首次求职工作属性",
+      "comparison_group": "first-job",
+      "period": "2021",
+      "metric": "salary",
+      "locator": "工作属性段落",
+      "is_demo": false
+    },
+    {
+      "id": "delta",
+      "source_id": "S1",
+      "value": 26.6,
+      "unit": "百分点",
+      "scope": "首次求职工作属性",
+      "comparison_group": "first-job",
+      "period": "2021",
+      "metric": "delta",
+      "locator": "工作属性段落",
+      "is_demo": false,
+      "formula": {
+        "op": "subtract",
+        "inputs": [
+          "growth",
+          "salary"
+        ]
+      }
+    },
+    {
+      "id": "column-a0",
+      "source_id": "TEST",
+      "value": 32,
+      "unit": "分",
+      "scope": "test-column",
+      "period": "synthetic",
+      "metric": "column-a0",
+      "locator": "column-a0",
+      "is_demo": true
+    },
+    {
+      "id": "column-a1",
+      "source_id": "TEST",
+      "value": 46,
+      "unit": "分",
+      "scope": "test-column",
+      "period": "synthetic",
+      "metric": "column-a1",
+      "locator": "column-a1",
+      "is_demo": true
+    },
+    {
+      "id": "column-a2",
+      "source_id": "TEST",
+      "value": 54,
+      "unit": "分",
+      "scope": "test-column",
+      "period": "synthetic",
+      "metric": "column-a2",
+      "locator": "column-a2",
+      "is_demo": true
+    },
+    {
+      "id": "column-a3",
+      "source_id": "TEST",
+      "value": 61,
+      "unit": "分",
+      "scope": "test-column",
+      "period": "synthetic",
+      "metric": "column-a3",
+      "locator": "column-a3",
+      "is_demo": true
+    },
+    {
+      "id": "column-b0",
+      "source_id": "TEST",
+      "value": 41,
+      "unit": "分",
+      "scope": "test-column",
+      "period": "synthetic",
+      "metric": "column-b0",
+      "locator": "column-b0",
+      "is_demo": true
+    },
+    {
+      "id": "column-b1",
+      "source_id": "TEST",
+      "value": 40,
+      "unit": "分",
+      "scope": "test-column",
+      "period": "synthetic",
+      "metric": "column-b1",
+      "locator": "column-b1",
+      "is_demo": true
+    },
+    {
+      "id": "column-b2",
+      "source_id": "TEST",
+      "value": 52,
+      "unit": "分",
+      "scope": "test-column",
+      "period": "synthetic",
+      "metric": "column-b2",
+      "locator": "column-b2",
+      "is_demo": true
+    },
+    {
+      "id": "column-b3",
+      "source_id": "TEST",
+      "value": 58,
+      "unit": "分",
+      "scope": "test-column",
+      "period": "synthetic",
+      "metric": "column-b3",
+      "locator": "column-b3",
+      "is_demo": true
+    },
+    {
+      "id": "line-a0",
+      "source_id": "TEST",
+      "value": 32,
+      "unit": "分",
+      "scope": "test-line",
+      "period": "synthetic",
+      "metric": "line-a0",
+      "locator": "line-a0",
+      "is_demo": true
+    },
+    {
+      "id": "line-a1",
+      "source_id": "TEST",
+      "value": 46,
+      "unit": "分",
+      "scope": "test-line",
+      "period": "synthetic",
+      "metric": "line-a1",
+      "locator": "line-a1",
+      "is_demo": true
+    },
+    {
+      "id": "line-a2",
+      "source_id": "TEST",
+      "value": 54,
+      "unit": "分",
+      "scope": "test-line",
+      "period": "synthetic",
+      "metric": "line-a2",
+      "locator": "line-a2",
+      "is_demo": true
+    },
+    {
+      "id": "line-a3",
+      "source_id": "TEST",
+      "value": 61,
+      "unit": "分",
+      "scope": "test-line",
+      "period": "synthetic",
+      "metric": "line-a3",
+      "locator": "line-a3",
+      "is_demo": true
+    },
+    {
+      "id": "line-b0",
+      "source_id": "TEST",
+      "value": 41,
+      "unit": "分",
+      "scope": "test-line",
+      "period": "synthetic",
+      "metric": "line-b0",
+      "locator": "line-b0",
+      "is_demo": true
+    },
+    {
+      "id": "line-b1",
+      "source_id": "TEST",
+      "value": 40,
+      "unit": "分",
+      "scope": "test-line",
+      "period": "synthetic",
+      "metric": "line-b1",
+      "locator": "line-b1",
+      "is_demo": true
+    },
+    {
+      "id": "line-b2",
+      "source_id": "TEST",
+      "value": 52,
+      "unit": "分",
+      "scope": "test-line",
+      "period": "synthetic",
+      "metric": "line-b2",
+      "locator": "line-b2",
+      "is_demo": true
+    },
+    {
+      "id": "line-b3",
+      "source_id": "TEST",
+      "value": 58,
+      "unit": "分",
+      "scope": "test-line",
+      "period": "synthetic",
+      "metric": "line-b3",
+      "locator": "line-b3",
+      "is_demo": true
+    }
+  ],
+  "assets": [
+    {
+      "id": "campus-scene",
+      "path": "../assets/campus-editorial-v1/campus-service.png",
+      "source_id": "ART",
+      "license_note": "Generated through host imagegen for this project; hypothetical illustration, no third-party logo or template assets; no exclusive-rights claim."
+    }
+  ],
+  "slides": [
+    {
+      "id": "a01",
+      "layout": "photo_process",
+      "fields": {
+        "title": "一份报修指引，\n就是一个可验收的成果",
+        "subtitle": "建议任务：核实学校官方报修流程，\n整理一份他人能实际使用的指引。",
+        "footer": "AI场景示意，非实测；任务尚未实施，不替代专业维修。"
+      },
+      "source_refs": [
+        "ART",
+        "TEST"
+      ],
+      "notes": "工程代表样页，非业务批准件。教学任务尚未实施，不能冒充调查或成果。",
+      "asset_id": "campus-scene",
+      "image_focus": {
+        "x": 1,
+        "y": 0.5
+      },
+      "items": [
+        {
+          "title": "核对流程",
+          "body": "查官方渠道\n确认受理范围",
+          "output": "产出：来源清单"
+        },
+        {
+          "title": "整理指引",
+          "body": "写清入口、步骤\n标明所需信息",
+          "output": "产出：指引初稿"
+        },
+        {
+          "title": "试用修订",
+          "body": "记录使用障碍\n核实后再改进",
+          "output": "产出：修订记录"
+        },
+        {
+          "title": "按标准验收",
+          "body": "操作可完成\n来源与分工可查",
+          "output": "产出：验收清单"
+        }
+      ]
+    },
+    {
+      "id": "b01",
+      "layout": "photo_process_side",
+      "fields": {
+        "title": "一份报修指引，\n就是一个可验收的成果",
+        "subtitle": "建议任务：核实学校官方报修流程，\n整理一份他人能实际使用的指引。",
+        "footer": "AI场景示意，非实测；任务尚未实施，不替代专业维修。"
+      },
+      "source_refs": [
+        "ART",
+        "TEST"
+      ],
+      "notes": "工程代表样页，非业务批准件。教学任务尚未实施，不能冒充调查或成果。",
+      "asset_id": "campus-scene",
+      "image_focus": {
+        "x": 1,
+        "y": 0.5
+      },
+      "items": [
+        {
+          "title": "核对流程",
+          "body": "查官方渠道\n确认受理范围",
+          "output": "产出：来源清单"
+        },
+        {
+          "title": "整理指引",
+          "body": "写清入口、步骤\n标明所需信息",
+          "output": "产出：指引初稿"
+        },
+        {
+          "title": "试用修订",
+          "body": "记录使用障碍\n核实后再改进",
+          "output": "产出：修订记录"
+        },
+        {
+          "title": "按标准验收",
+          "body": "操作可完成\n来源与分工可查",
+          "output": "产出：验收清单"
+        }
+      ]
+    }
+  ]
+}

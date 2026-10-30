@@ -1,0 +1,42 @@
+{
+  "version": "capacity-template/1",
+  "id": "paired-evidence-v1",
+  "name": "场景与比较 · 双证据候选",
+  "status": "candidate_pending_user_review",
+  "builder": "compact-chart-prepare + brief-compose",
+  "canvas": {
+    "width": 13.333,
+    "height": 7.5,
+    "unit": "in"
+  },
+  "font": "Microsoft YaHei",
+  "colors": {
+    "ink": "183341",
+    "accent": "9B3045",
+    "muted": "657783",
+    "background": "F8F5EE",
+    "surface": "EDE5DF",
+    "line": "A6B2B6",
+    "secondary": "8498A2"
+  },
+  "recipes": [
+    "chart_takeaway",
+    "image-chart"
+  ],
+  "capacity_policy": "同页一张图与一个非负横条比较，最多四个短类别、一个系列；正文一行概述，长内容或更多证据换构图。",
+  "documentation": "docs/图片与原生图表联合表达.md",
+  "reference_deck": "runs/paired-evidence-20261022-001/composed/build/candidate.pptx",
+  "design_system": "runs/paired-evidence-20261022-001/design-system.json",
+  "representatives": [
+    {
+      "layout": "chart_takeaway",
+      "preview": "runs/paired-evidence-20261022-001/render/slides/slide-001.png",
+      "sha256": "68e20df18c6cc10ddc9c1b119f4d466843172a1e6710f1d7dc922a2139b586c7"
+    },
+    {
+      "layout": "image-chart",
+      "preview": "runs/paired-evidence-20261022-001/render/slides/slide-002.png",
+      "sha256": "c0d046e883f67b0c0357b797d7f227d9d5e7cfa481bc1de75ba23770e697780b"
+    }
+  ]
+}
